@@ -721,6 +721,62 @@ function renderVendorsTable() {
   document.getElementById('vendors-table-wrap').innerHTML = html;
 }
 
+
+// ===== GitHub Pages 自動載入（網站環境用）=====
+window.addEventListener('DOMContentLoaded', () => { tryAutoLoad(); });
+
+async function tryAutoLoad() {
+  if (location.protocol === 'file:') {
+    console.log('[viewer] 本機開啟，跳過自動載入');
+    return;
+  }
+  try {
+    // 判斷 data/ 路徑（viewer 通常在 scripts/ 下）
+    const path = location.pathname;
+    const base = path.includes('/scripts/')
+      ? path.replace(/\/scripts\/.*$/, '/data')
+      : path.replace(/\/[^\/]*$/, '/data');
+    console.log('[viewer] 自動載入從', base);
+
+    const manifestRes = await fetch(`${base}/manifest.json`);
+    if (!manifestRes.ok) throw new Error('manifest 404');
+    const manifest = await manifestRes.json();
+
+    const progress = document.getElementById('load-progress');
+    progress.classList.remove('hidden');
+    progress.textContent = '正在從網站載入...';
+
+    const files = [];
+    // master files
+    for (const name of ['games', 'vendors', 'platforms']) {
+      try {
+        const r = await fetch(`${base}/master/${name}.json`);
+        if (r.ok) {
+          const text = await r.text();
+          files.push(new File([text], `${name}.json`, { type: 'application/json' }));
+        }
+      } catch (e) { console.warn('master', name, e); }
+    }
+    // weekly files
+    for (const wf of (manifest.weekly || [])) {
+      try {
+        const r = await fetch(`${base}/weekly/${wf}`);
+        if (r.ok) {
+          const text = await r.text();
+          files.push(new File([text], wf, { type: 'application/json' }));
+        }
+      } catch (e) { console.warn('weekly', wf, e); }
+    }
+    if (files.length > 0) {
+      await loadFiles(files);
+    } else {
+      progress.classList.add('hidden');
+    }
+  } catch (err) {
+    console.log('[viewer] 自動載入失敗、保持手動模式:', err.message);
+  }
+}
+
 </script>
 </body>
 </html>
