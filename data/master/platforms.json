@@ -1,0 +1,59 @@
+{
+  "platforms": [
+    {
+      "code": "PT",
+      "fullName": "PT Gaming",
+      "market": "菲律賓",
+      "url": "https://www.ptgaming.ph/",
+      "captureMethod": "截圖+AI 視覺辨識",
+      "needsLogin": true,
+      "lastCapture": "2026-04-30",
+      "status": "正常",
+      "note": "Canvas 渲染，需視覺辨識"
+    },
+    {
+      "code": "BP",
+      "fullName": "BingoPlus",
+      "market": "菲律賓",
+      "url": "https://bingoplus.com/games",
+      "captureMethod": "HTML 直接 JS 抓",
+      "needsLogin": true,
+      "lastCapture": "2026-04-30",
+      "status": "正常",
+      "note": "DOM 完整，最簡單"
+    },
+    {
+      "code": "CP",
+      "fullName": "Casino Plus",
+      "market": "菲律賓",
+      "url": "https://www.casinoplus.com.ph/home/games/Slot%20Games",
+      "captureMethod": "HTML+對照表",
+      "needsLogin": true,
+      "lastCapture": "2026-04-30",
+      "status": "正常",
+      "note": "需建廠家對照表"
+    },
+    {
+      "code": "TCG",
+      "fullName": "Luckyi",
+      "market": "菲律賓",
+      "url": "https://www.luckyi.com/rng",
+      "captureMethod": "HTML+名稱快取",
+      "needsLogin": true,
+      "lastCapture": "2026-04-30",
+      "status": "正常",
+      "note": "有 NEW tab 可用"
+    },
+    {
+      "code": "BAJI",
+      "fullName": "Baji",
+      "market": "孟加拉",
+      "url": "https://baji.live/bd/en/slot",
+      "captureMethod": "HTML+名稱快取",
+      "needsLogin": true,
+      "lastCapture": "2026-04-30",
+      "status": "正常",
+      "note": "有 Recommend / New-Old 排序"
+    }
+  ]
+}

@@ -1,0 +1,312 @@
+{
+  "games": [
+    {
+      "masterId": 1,
+      "normalizedName": "Super Ace",
+      "normalizedVendor": "JILI",
+      "platformAliases": {
+        "PT": "Super Ace (1)",
+        "BP": null,
+        "CP": "Super Ace (2)",
+        "TCG": "JL0033 (1)",
+        "BAJI": "JILI-SLOT-027 (1)"
+      },
+      "firstSeen": "2026-04-30",
+      "note": "★ 4 平台冠軍款"
+    },
+    {
+      "masterId": 2,
+      "normalizedName": "Wild Bounty Showdown",
+      "normalizedVendor": "PG Soft",
+      "platformAliases": {
+        "PT": "Wild Bounty Showdown (3)",
+        "BP": null,
+        "CP": null,
+        "TCG": "PG0113 (3)",
+        "BAJI": "PG-SLOT-105 (2)"
+      },
+      "firstSeen": "2026-04-30",
+      "note": "★ 3 平台 (PT/TCG/BAJI)"
+    },
+    {
+      "masterId": 3,
+      "normalizedName": "Pinata Wins",
+      "normalizedVendor": "PG Soft",
+      "platformAliases": {
+        "PT": "Pinata Wins (2)",
+        "BP": null,
+        "CP": null,
+        "TCG": "PG0144 (2)",
+        "BAJI": null
+      },
+      "firstSeen": "2026-04-30",
+      "note": "PT/TCG"
+    },
+    {
+      "masterId": 4,
+      "normalizedName": "Fortune Gems",
+      "normalizedVendor": "JILI",
+      "platformAliases": {
+        "PT": null,
+        "BP": null,
+        "CP": "Fortune Gems (6)",
+        "TCG": null,
+        "BAJI": "JILI-SLOT-119 (BAJI 12)"
+      },
+      "firstSeen": "2026-04-30",
+      "note": "廠家修正：PG Soft → JILI (W18 確認 CP/BAJI 都是 JILI 版)"
+    },
+    {
+      "masterId": 5,
+      "normalizedName": "Sweet Bonanza 2500",
+      "normalizedVendor": "Pragmatic Play",
+      "platformAliases": {
+        "PT": null,
+        "BP": null,
+        "CP": "Sweet Bonanza 2500 (1)",
+        "TCG": null,
+        "BAJI": "PP-SLOT-714 (1, BAJI New)"
+      },
+      "firstSeen": "2026-04-30",
+      "note": "BAJI New 最新"
+    },
+    {
+      "masterId": 6,
+      "normalizedName": "Golden Genie",
+      "normalizedVendor": "FA CHAI",
+      "platformAliases": {
+        "PT": null,
+        "BP": "Golden Genie (1)",
+        "CP": null,
+        "TCG": null,
+        "BAJI": null
+      },
+      "firstSeen": "2026-04-30",
+      "note": "BP 第 1"
+    },
+    {
+      "masterId": 7,
+      "normalizedName": "Charge Buffalo",
+      "normalizedVendor": "JILI",
+      "platformAliases": {
+        "PT": null,
+        "BP": "Charge Buffalo (3)",
+        "CP": null,
+        "TCG": null,
+        "BAJI": null
+      },
+      "firstSeen": "2026-04-30",
+      "note": "BP 主力"
+    },
+    {
+      "masterId": 8,
+      "normalizedName": "Lucky Fortunes",
+      "normalizedVendor": "FA CHAI",
+      "platformAliases": {
+        "PT": null,
+        "BP": "Lucky Fortunes (2)",
+        "CP": "Lucky Fortunes (12)",
+        "TCG": null,
+        "BAJI": null
+      },
+      "firstSeen": "2026-04-30",
+      "note": "BP+CP"
+    },
+    {
+      "masterId": 9,
+      "normalizedName": "Fortune Garuda 500",
+      "normalizedVendor": "JILI",
+      "platformAliases": {
+        "PT": "Fortune Garuda 500 (5)",
+        "BP": null,
+        "CP": null,
+        "TCG": "(TCG NEW 696)",
+        "BAJI": "JILI-SLOT-193 (4)"
+      },
+      "firstSeen": "2026-04-30",
+      "note": "★ 3 平台 (PT/BAJI/TCG NEW)"
+    },
+    {
+      "masterId": 10,
+      "normalizedName": "Lucky Jaguar 500",
+      "normalizedVendor": "JILI",
+      "platformAliases": {
+        "PT": null,
+        "BP": null,
+        "CP": null,
+        "TCG": "(TCG NEW 664)",
+        "BAJI": "JILI-SLOT-160 (BAJI New 11)"
+      },
+      "firstSeen": "2026-04-30",
+      "note": "TCG NEW + BAJI New 同款新遊戲"
+    },
+    {
+      "masterId": 14,
+      "normalizedName": "Golden Empire",
+      "normalizedVendor": "JILI",
+      "platformAliases": {
+        "PT": "Golden Empire (13)",
+        "BP": null,
+        "CP": "Golden Empire (14)",
+        "TCG": "JL0044 (13)",
+        "BAJI": null
+      },
+      "firstSeen": "2026-04-30",
+      "note": "★ 3 平台 (PT/CP/TCG)"
+    },
+    {
+      "masterId": 15,
+      "normalizedName": "Super Ace Deluxe",
+      "normalizedVendor": "JILI",
+      "platformAliases": {
+        "PT": "Super Ace Deluxe (18)",
+        "BP": null,
+        "CP": "Super Ace Deluxe (5)",
+        "TCG": "JL0162 (5)",
+        "BAJI": "JILI-SLOT-102 (6)"
+      },
+      "firstSeen": "2026-04-30",
+      "note": "★ 4 平台冠軍款"
+    },
+    {
+      "masterId": 17,
+      "normalizedName": "Sugar Rush 1000",
+      "normalizedVendor": "Pragmatic Play",
+      "platformAliases": {
+        "PT": "Sugar Rush 1000 (15)",
+        "BP": null,
+        "CP": null,
+        "TCG": "PP0696 (4)",
+        "BAJI": null
+      },
+      "firstSeen": "2026-04-30",
+      "note": "PT/TCG"
+    },
+    {
+      "masterId": 18,
+      "normalizedName": "Fortune Gems 3",
+      "normalizedVendor": "PG Soft",
+      "platformAliases": {
+        "PT": "Fortune Gems 3 (7)",
+        "BP": null,
+        "CP": null,
+        "TCG": "JL0156 (9)",
+        "BAJI": null
+      },
+      "firstSeen": "2026-04-30",
+      "note": "PT/TCG (注意 TCG 版用 JILI 廠家標)"
+    },
+    {
+      "masterId": 19,
+      "normalizedName": "Sugar Bang Bang 2",
+      "normalizedVendor": "OmniPlay",
+      "platformAliases": {
+        "PT": "Sugar Bang Bang 2 (8)",
+        "BP": null,
+        "CP": null,
+        "TCG": "FC0062 (7)",
+        "BAJI": null
+      },
+      "firstSeen": "2026-04-30",
+      "note": "PT/TCG"
+    },
+    {
+      "masterId": 20,
+      "normalizedName": "Sweet Bonanza 1000",
+      "normalizedVendor": "Pragmatic Play",
+      "platformAliases": {
+        "PT": "Sweet Bonanza 1000 (12)",
+        "BP": null,
+        "CP": null,
+        "TCG": "PP0739 (6)",
+        "BAJI": null
+      },
+      "firstSeen": "2026-04-30",
+      "note": "PT/TCG"
+    },
+    {
+      "masterId": 21,
+      "normalizedName": "Wild Ape #3258",
+      "normalizedVendor": "Pragmatic Play",
+      "platformAliases": {
+        "PT": "Wild Ape #3258 (11)",
+        "BP": null,
+        "CP": null,
+        "TCG": "PG0143 (8)",
+        "BAJI": null
+      },
+      "firstSeen": "2026-04-30",
+      "note": "PT/TCG"
+    },
+    {
+      "masterId": 22,
+      "normalizedName": "Super Ace II",
+      "normalizedVendor": "JILI",
+      "platformAliases": {
+        "PT": "Super Ace II (10)",
+        "BP": null,
+        "CP": null,
+        "TCG": null,
+        "BAJI": "JILI-SLOT-107 (17)"
+      },
+      "firstSeen": "2026-04-30",
+      "note": "PT/BAJI"
+    },
+    {
+      "masterId": 28,
+      "normalizedName": "Poker Win",
+      "normalizedVendor": "JILI/FA CHAI",
+      "platformAliases": {
+        "PT": null,
+        "BP": null,
+        "CP": "Poker Win (11)",
+        "TCG": "FC0060 (11)",
+        "BAJI": null
+      },
+      "firstSeen": "2026-04-30",
+      "note": "CP/TCG（廠家不同：CP=JILI、TCG=FA CHAI，可能不同款）"
+    },
+    {
+      "masterId": 23,
+      "normalizedName": "Fortune Coins",
+      "normalizedVendor": "JILI",
+      "platformAliases": {
+        "PT": null,
+        "BP": null,
+        "CP": "Fortune Coins (13)",
+        "TCG": null,
+        "BAJI": "JILI-SLOT-136 (BAJI 18)"
+      },
+      "firstSeen": "2026-04-30",
+      "note": "★ W18 配對：CP 13 + BAJI 18 為同款（注意：PT 16 Fortune Coins 2 是續集、不同款）"
+    },
+    {
+      "masterId": 24,
+      "normalizedName": "Treasures of Aztec",
+      "normalizedVendor": "PG Soft",
+      "platformAliases": {
+        "PT": null,
+        "BP": null,
+        "CP": null,
+        "TCG": "PG0066 (TCG 17)",
+        "BAJI": "PG-SLOT-058 (BAJI 19)"
+      },
+      "firstSeen": "2026-04-30",
+      "note": "★ W18 配對：TCG 17 + BAJI 19"
+    },
+    {
+      "masterId": 25,
+      "normalizedName": "Fortune Gems III",
+      "normalizedVendor": "JILI",
+      "platformAliases": {
+        "PT": null,
+        "BP": null,
+        "CP": null,
+        "TCG": "JL0156 (TCG 9, 標示為 Fortune Gems 3)",
+        "BAJI": "JILI-SLOT-096 (BAJI 14, 標示為 Fortune Gems III)"
+      },
+      "firstSeen": "2026-04-30",
+      "note": "★ W18 配對：用戶確認 III = 3 為同款"
+    }
+  ]
+}

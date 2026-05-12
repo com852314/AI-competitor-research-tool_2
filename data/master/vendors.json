@@ -1,0 +1,359 @@
+{
+  "vendors": [
+    {
+      "normalizedName": "JILI",
+      "displayPerPlatform": {
+        "PT": "JILI",
+        "BP": "JILI",
+        "CP": "JILI",
+        "TCG": {
+          "urlCode": "JL",
+          "display": "Jili"
+        },
+        "BAJI": {
+          "urlCode": "JILI",
+          "display": "JILI"
+        }
+      },
+      "note": "菲律賓在地廠家"
+    },
+    {
+      "normalizedName": "PG Soft",
+      "displayPerPlatform": {
+        "PT": "PG",
+        "BP": null,
+        "CP": "PG Soft",
+        "TCG": {
+          "urlCode": "PG",
+          "display": "Pocket Games Soft"
+        },
+        "BAJI": {
+          "urlCode": "PG",
+          "display": "PG SOFT"
+        }
+      },
+      "note": "Pocket Games Soft"
+    },
+    {
+      "normalizedName": "Pragmatic Play",
+      "displayPerPlatform": {
+        "PT": "PP",
+        "BP": null,
+        "CP": "PRAGMATIC PLAY",
+        "TCG": {
+          "urlCode": "PP",
+          "display": "PP"
+        },
+        "BAJI": {
+          "urlCode": "PP",
+          "display": "PRAGMATIC PLAY"
+        }
+      },
+      "note": ""
+    },
+    {
+      "normalizedName": "FA CHAI",
+      "displayPerPlatform": {
+        "PT": "FC",
+        "BP": "FACHAI",
+        "CP": "FaChai",
+        "TCG": {
+          "urlCode": "FC",
+          "display": "FA CHAI Gaming"
+        },
+        "BAJI": {
+          "urlCode": "FC",
+          "display": "FA CHAI"
+        }
+      },
+      "note": ""
+    },
+    {
+      "normalizedName": "JDB",
+      "displayPerPlatform": {
+        "PT": "JDB",
+        "BP": null,
+        "CP": "JDB",
+        "TCG": {
+          "urlCode": null,
+          "display": "JDB"
+        },
+        "BAJI": {
+          "urlCode": "JDB",
+          "display": "JDB"
+        }
+      },
+      "note": ""
+    },
+    {
+      "normalizedName": "Spin Master",
+      "displayPerPlatform": {
+        "PT": "SC",
+        "BP": null,
+        "CP": "Spin Master",
+        "TCG": null,
+        "BAJI": null
+      },
+      "note": ""
+    },
+    {
+      "normalizedName": "OmniPlay",
+      "displayPerPlatform": {
+        "PT": "OP",
+        "BP": null,
+        "CP": "OmniPlay",
+        "TCG": null,
+        "BAJI": null
+      },
+      "note": ""
+    },
+    {
+      "normalizedName": "BNG",
+      "displayPerPlatform": {
+        "PT": null,
+        "BP": null,
+        "CP": "BNG",
+        "TCG": null,
+        "BAJI": null
+      },
+      "note": ""
+    },
+    {
+      "normalizedName": "YGGDRASIL",
+      "displayPerPlatform": {
+        "PT": null,
+        "BP": null,
+        "CP": "YGG",
+        "TCG": null,
+        "BAJI": {
+          "urlCode": "YGG",
+          "display": "YGGDRASIL"
+        }
+      },
+      "note": ""
+    },
+    {
+      "normalizedName": "HACKSAW",
+      "displayPerPlatform": {
+        "PT": null,
+        "BP": null,
+        "CP": "HACKSAW",
+        "TCG": null,
+        "BAJI": null
+      },
+      "note": ""
+    },
+    {
+      "normalizedName": "Red Tiger",
+      "displayPerPlatform": {
+        "PT": null,
+        "BP": "REDTIGER",
+        "CP": null,
+        "TCG": null,
+        "BAJI": null
+      },
+      "note": ""
+    },
+    {
+      "normalizedName": "Habanero",
+      "displayPerPlatform": {
+        "PT": null,
+        "BP": "HBN",
+        "CP": null,
+        "TCG": null,
+        "BAJI": null
+      },
+      "note": ""
+    },
+    {
+      "normalizedName": "Playstar",
+      "displayPerPlatform": {
+        "PT": "PS",
+        "BP": "PLAYSTAR",
+        "CP": null,
+        "TCG": null,
+        "BAJI": null
+      },
+      "note": ""
+    },
+    {
+      "normalizedName": "YesBingo",
+      "displayPerPlatform": {
+        "PT": null,
+        "BP": null,
+        "CP": null,
+        "TCG": null,
+        "BAJI": {
+          "urlCode": "YesBingo",
+          "display": "YESBINGO"
+        }
+      },
+      "note": "BAJI 顯示為 YELLOW BAT"
+    },
+    {
+      "normalizedName": "Yellow Bat",
+      "displayPerPlatform": {
+        "PT": "YB",
+        "BP": null,
+        "CP": null,
+        "TCG": null,
+        "BAJI": null
+      },
+      "note": "PT 上看到的標籤"
+    },
+    {
+      "normalizedName": "AceWin",
+      "displayPerPlatform": {
+        "PT": null,
+        "BP": null,
+        "CP": null,
+        "TCG": {
+          "urlCode": null,
+          "display": "AceWin"
+        },
+        "BAJI": {
+          "urlCode": "ACEWIN",
+          "display": "ACEWIN"
+        }
+      },
+      "note": ""
+    },
+    {
+      "normalizedName": "KingMidas",
+      "displayPerPlatform": {
+        "PT": null,
+        "BP": null,
+        "CP": null,
+        "TCG": {
+          "urlCode": null,
+          "display": "KingMidas"
+        },
+        "BAJI": null
+      },
+      "note": ""
+    },
+    {
+      "normalizedName": "Victory Ark",
+      "displayPerPlatform": {
+        "PT": null,
+        "BP": null,
+        "CP": null,
+        "TCG": {
+          "urlCode": null,
+          "display": "Victory Ark"
+        },
+        "BAJI": null
+      },
+      "note": ""
+    },
+    {
+      "normalizedName": "Mega Win",
+      "displayPerPlatform": {
+        "PT": null,
+        "BP": null,
+        "CP": null,
+        "TCG": {
+          "urlCode": null,
+          "display": "Mega Win"
+        },
+        "BAJI": null
+      },
+      "note": ""
+    },
+    {
+      "normalizedName": "LET'S GO!",
+      "displayPerPlatform": {
+        "PT": null,
+        "BP": null,
+        "CP": null,
+        "TCG": null,
+        "BAJI": {
+          "urlCode": "LETSGO",
+          "display": "LET'S GO!"
+        }
+      },
+      "note": "BAJI"
+    },
+    {
+      "normalizedName": "Five G (5G)",
+      "displayPerPlatform": {
+        "PT": null,
+        "BP": null,
+        "CP": null,
+        "TCG": null,
+        "BAJI": {
+          "urlCode": "5G",
+          "display": "FIVE G"
+        }
+      },
+      "note": ""
+    },
+    {
+      "normalizedName": "Octoplay",
+      "displayPerPlatform": {
+        "PT": null,
+        "BP": null,
+        "CP": null,
+        "TCG": null,
+        "BAJI": {
+          "urlCode": "OCTOPLAY",
+          "display": "OCTOPLAY"
+        }
+      },
+      "note": ""
+    },
+    {
+      "normalizedName": "Combo",
+      "displayPerPlatform": {
+        "PT": null,
+        "BP": null,
+        "CP": null,
+        "TCG": null,
+        "BAJI": {
+          "urlCode": "COMBO",
+          "display": "COMBO"
+        }
+      },
+      "note": ""
+    },
+    {
+      "normalizedName": "You Lian",
+      "displayPerPlatform": {
+        "PT": null,
+        "BP": null,
+        "CP": null,
+        "TCG": null,
+        "BAJI": {
+          "urlCode": "YL",
+          "display": "YOU LIAN"
+        }
+      },
+      "note": ""
+    },
+    {
+      "normalizedName": "Lucky365",
+      "displayPerPlatform": {
+        "PT": null,
+        "BP": null,
+        "CP": null,
+        "TCG": null,
+        "BAJI": {
+          "urlCode": "Lucky365",
+          "display": "LUCKY365"
+        }
+      },
+      "note": ""
+    },
+    {
+      "normalizedName": "FunTa Gaming",
+      "displayPerPlatform": {
+        "PT": null,
+        "BP": "FTG",
+        "CP": null,
+        "TCG": null,
+        "BAJI": null
+      },
+      "note": "FTG = FunTa Gaming，BP 出現於 Fortune Telling、Magnificent Thief"
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+# Office 鎖檔
+~$*.docx
+~$*.xlsx
+.~lock.*
+
+# Python 快取
+__pycache__/
+*.pyc
+
+# 舊 Excel 過渡產物（保留在本機、不入 Git）
+archive/
+old/
+
+# AI 對話過程的一次性腳本（不入 Git）
+data/incoming/
+
+# 編輯器
+.vscode/
+.idea/
+*.swp
+.DS_Store
