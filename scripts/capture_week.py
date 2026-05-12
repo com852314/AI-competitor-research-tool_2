@@ -259,6 +259,11 @@ def main():
     save_json(out_path, snapshot)
     print(f"\n✓ 寫入 {out_path.relative_to(PROJECT_DIR)}")
 
+    # === 更新 manifest.json（給 viewer.html 自動載入用）===
+    weekly_files = sorted([f.name for f in WEEKLY_DIR.glob("W*.json")])
+    save_json(DATA_DIR / "manifest.json", {"weekly": weekly_files})
+    print(f"✓ 更新 data/manifest.json（{len(weekly_files)} 週）")
+
     # === 更新 platforms.json lastCapture ===
     for p in platforms["platforms"]:
         if p["code"] in raw["platforms"]:
