@@ -307,6 +307,818 @@
       },
       "firstSeen": "2026-04-30",
       "note": "★ W18 配對：用戶確認 III = 3 為同款"
+    },
+    {
+      "masterId": 29,
+      "normalizedName": "Super Gems",
+      "normalizedVendor": "OmniPlay",
+      "platformAliases": {
+        "PT": "Super Gems",
+        "BP": null,
+        "CP": null,
+        "TCG": null,
+        "BAJI": null
+      },
+      "firstSeen": "2026-05-11",
+      "note": "W2 新發現於 PT"
+    },
+    {
+      "masterId": 30,
+      "normalizedName": "Fortune Gems 500 EXCLUSIVE",
+      "normalizedVendor": "PG Soft",
+      "platformAliases": {
+        "PT": "Fortune Gems 500 EXCLUSIVE",
+        "BP": null,
+        "CP": null,
+        "TCG": null,
+        "BAJI": null
+      },
+      "firstSeen": "2026-05-11",
+      "note": "W2 新發現於 PT"
+    },
+    {
+      "masterId": 31,
+      "normalizedName": "Sugar Bang Bang 2",
+      "normalizedVendor": "FA CHAI",
+      "platformAliases": {
+        "PT": "Sugar Bang Bang 2",
+        "BP": null,
+        "CP": null,
+        "TCG": null,
+        "BAJI": null
+      },
+      "firstSeen": "2026-05-11",
+      "note": "W2 新發現於 PT"
+    },
+    {
+      "masterId": 32,
+      "normalizedName": "SUPER ELEMENTS 2",
+      "normalizedVendor": "FA CHAI",
+      "platformAliases": {
+        "PT": "SUPER ELEMENTS 2",
+        "BP": null,
+        "CP": null,
+        "TCG": null,
+        "BAJI": null
+      },
+      "firstSeen": "2026-05-11",
+      "note": "W2 新發現於 PT"
+    },
+    {
+      "masterId": 33,
+      "normalizedName": "Fortune Coins 2",
+      "normalizedVendor": "JILI",
+      "platformAliases": {
+        "PT": "Fortune Coins 2",
+        "BP": null,
+        "CP": null,
+        "TCG": null,
+        "BAJI": null
+      },
+      "firstSeen": "2026-05-11",
+      "note": "W2 新發現於 PT"
+    },
+    {
+      "masterId": 34,
+      "normalizedName": "Magic Ace 99 EXCLUSIVE",
+      "normalizedVendor": "JILI",
+      "platformAliases": {
+        "PT": "Magic Ace 99 EXCLUSIVE",
+        "BP": null,
+        "CP": null,
+        "TCG": null,
+        "BAJI": null
+      },
+      "firstSeen": "2026-05-11",
+      "note": "W2 新發現於 PT"
+    },
+    {
+      "masterId": 35,
+      "normalizedName": "Poker Win",
+      "normalizedVendor": "FA CHAI",
+      "platformAliases": {
+        "PT": "Poker Win",
+        "BP": null,
+        "CP": null,
+        "TCG": null,
+        "BAJI": null
+      },
+      "firstSeen": "2026-05-11",
+      "note": "W2 新發現於 PT"
+    },
+    {
+      "masterId": 36,
+      "normalizedName": "Sugar Bang Bang Plus",
+      "normalizedVendor": "FA CHAI",
+      "platformAliases": {
+        "PT": "Sugar Bang Bang Plus",
+        "BP": null,
+        "CP": null,
+        "TCG": null,
+        "BAJI": null
+      },
+      "firstSeen": "2026-05-11",
+      "note": "W2 新發現於 PT"
+    },
+    {
+      "masterId": 37,
+      "normalizedName": "Gates of Olympus Super Scatter",
+      "normalizedVendor": "Pragmatic Play",
+      "platformAliases": {
+        "PT": "Gates of Olympus Super Scatter",
+        "BP": null,
+        "CP": null,
+        "TCG": null,
+        "BAJI": null
+      },
+      "firstSeen": "2026-05-11",
+      "note": "W2 新發現於 PT"
+    },
+    {
+      "masterId": 38,
+      "normalizedName": "Legendary Beasts",
+      "normalizedVendor": "Habanero",
+      "platformAliases": {
+        "PT": null,
+        "BP": "Legendary Beasts",
+        "CP": null,
+        "TCG": null,
+        "BAJI": null
+      },
+      "firstSeen": "2026-05-11",
+      "note": "W2 新發現於 BP"
+    },
+    {
+      "masterId": 39,
+      "normalizedName": "Magnificent Thief",
+      "normalizedVendor": "FunTa Gaming",
+      "platformAliases": {
+        "PT": null,
+        "BP": "Magnificent Thief",
+        "CP": null,
+        "TCG": null,
+        "BAJI": null
+      },
+      "firstSeen": "2026-05-11",
+      "note": "W2 新發現於 BP"
+    },
+    {
+      "masterId": 40,
+      "normalizedName": "let it burn",
+      "normalizedVendor": "NetEnt",
+      "platformAliases": {
+        "PT": null,
+        "BP": "let it burn",
+        "CP": null,
+        "TCG": null,
+        "BAJI": null
+      },
+      "firstSeen": "2026-05-11",
+      "note": "W2 新發現於 BP"
+    },
+    {
+      "masterId": 41,
+      "normalizedName": "milkshake xxxtreme",
+      "normalizedVendor": "NetEnt",
+      "platformAliases": {
+        "PT": null,
+        "BP": "milkshake xxxtreme",
+        "CP": null,
+        "TCG": null,
+        "BAJI": null
+      },
+      "firstSeen": "2026-05-11",
+      "note": "W2 新發現於 BP"
+    },
+    {
+      "masterId": 42,
+      "normalizedName": "Pinatas & Ponies",
+      "normalizedVendor": "Red Tiger",
+      "platformAliases": {
+        "PT": null,
+        "BP": "Pinatas & Ponies",
+        "CP": null,
+        "TCG": null,
+        "BAJI": null
+      },
+      "firstSeen": "2026-05-11",
+      "note": "W2 新發現於 BP"
+    },
+    {
+      "masterId": 43,
+      "normalizedName": "Fortune Telling",
+      "normalizedVendor": "FunTa Gaming",
+      "platformAliases": {
+        "PT": null,
+        "BP": "Fortune Telling",
+        "CP": null,
+        "TCG": null,
+        "BAJI": null
+      },
+      "firstSeen": "2026-05-11",
+      "note": "W2 新發現於 BP"
+    },
+    {
+      "masterId": 44,
+      "normalizedName": "Peggy Sweets",
+      "normalizedVendor": "Red Tiger",
+      "platformAliases": {
+        "PT": null,
+        "BP": "Peggy Sweets",
+        "CP": null,
+        "TCG": null,
+        "BAJI": null
+      },
+      "firstSeen": "2026-05-11",
+      "note": "W2 新發現於 BP"
+    },
+    {
+      "masterId": 45,
+      "normalizedName": "superstars",
+      "normalizedVendor": "NetEnt",
+      "platformAliases": {
+        "PT": null,
+        "BP": "superstars",
+        "CP": null,
+        "TCG": null,
+        "BAJI": null
+      },
+      "firstSeen": "2026-05-11",
+      "note": "W2 新發現於 BP"
+    },
+    {
+      "masterId": 46,
+      "normalizedName": "Taco Fury XXXtreme",
+      "normalizedVendor": "NetEnt",
+      "platformAliases": {
+        "PT": null,
+        "BP": "Taco Fury XXXtreme",
+        "CP": null,
+        "TCG": null,
+        "BAJI": null
+      },
+      "firstSeen": "2026-05-11",
+      "note": "W2 新發現於 BP"
+    },
+    {
+      "masterId": 47,
+      "normalizedName": "Twin Spin XXXtreme",
+      "normalizedVendor": "NetEnt",
+      "platformAliases": {
+        "PT": null,
+        "BP": "Twin Spin XXXtreme",
+        "CP": null,
+        "TCG": null,
+        "BAJI": null
+      },
+      "firstSeen": "2026-05-11",
+      "note": "W2 新發現於 BP"
+    },
+    {
+      "masterId": 48,
+      "normalizedName": "wonders of christmas",
+      "normalizedVendor": "NetEnt",
+      "platformAliases": {
+        "PT": null,
+        "BP": "wonders of christmas",
+        "CP": null,
+        "TCG": null,
+        "BAJI": null
+      },
+      "firstSeen": "2026-05-11",
+      "note": "W2 新發現於 BP"
+    },
+    {
+      "masterId": 49,
+      "normalizedName": "Super Rich",
+      "normalizedVendor": "JILI",
+      "platformAliases": {
+        "PT": null,
+        "BP": "Super Rich",
+        "CP": null,
+        "TCG": null,
+        "BAJI": null
+      },
+      "firstSeen": "2026-05-11",
+      "note": "W2 新發現於 BP"
+    },
+    {
+      "masterId": 50,
+      "normalizedName": "Lantern Luck",
+      "normalizedVendor": "Habanero",
+      "platformAliases": {
+        "PT": null,
+        "BP": "Lantern Luck",
+        "CP": null,
+        "TCG": null,
+        "BAJI": null
+      },
+      "firstSeen": "2026-05-11",
+      "note": "W2 新發現於 BP"
+    },
+    {
+      "masterId": 51,
+      "normalizedName": "Laughing Buddha",
+      "normalizedVendor": "Habanero",
+      "platformAliases": {
+        "PT": null,
+        "BP": "Laughing Buddha",
+        "CP": null,
+        "TCG": null,
+        "BAJI": null
+      },
+      "firstSeen": "2026-05-11",
+      "note": "W2 新發現於 BP"
+    },
+    {
+      "masterId": 52,
+      "normalizedName": "Fly!",
+      "normalizedVendor": "Habanero",
+      "platformAliases": {
+        "PT": null,
+        "BP": "Fly!",
+        "CP": null,
+        "TCG": null,
+        "BAJI": null
+      },
+      "firstSeen": "2026-05-11",
+      "note": "W2 新發現於 BP"
+    },
+    {
+      "masterId": 53,
+      "normalizedName": "Medusa",
+      "normalizedVendor": "JILI",
+      "platformAliases": {
+        "PT": null,
+        "BP": "Medusa",
+        "CP": null,
+        "TCG": null,
+        "BAJI": null
+      },
+      "firstSeen": "2026-05-11",
+      "note": "W2 新發現於 BP"
+    },
+    {
+      "masterId": 54,
+      "normalizedName": "TWIN WINS",
+      "normalizedVendor": "JILI",
+      "platformAliases": {
+        "PT": null,
+        "BP": "TWIN WINS",
+        "CP": null,
+        "TCG": null,
+        "BAJI": null
+      },
+      "firstSeen": "2026-05-11",
+      "note": "W2 新發現於 BP"
+    },
+    {
+      "masterId": 55,
+      "normalizedName": "Super Ace 2",
+      "normalizedVendor": "JILI",
+      "platformAliases": {
+        "PT": null,
+        "BP": null,
+        "CP": "Super Ace 2",
+        "TCG": null,
+        "BAJI": null
+      },
+      "firstSeen": "2026-05-11",
+      "note": "W2 新發現於 CP"
+    },
+    {
+      "masterId": 56,
+      "normalizedName": "Super Ace Jackpot",
+      "normalizedVendor": "JILI",
+      "platformAliases": {
+        "PT": null,
+        "BP": null,
+        "CP": "Super Ace Jackpot",
+        "TCG": null,
+        "BAJI": null
+      },
+      "firstSeen": "2026-05-11",
+      "note": "W2 新發現於 CP"
+    },
+    {
+      "masterId": 57,
+      "normalizedName": "Fortune Gems 2",
+      "normalizedVendor": "JILI",
+      "platformAliases": {
+        "PT": null,
+        "BP": null,
+        "CP": "Fortune Gems 2",
+        "TCG": null,
+        "BAJI": null
+      },
+      "firstSeen": "2026-05-11",
+      "note": "W2 新發現於 CP"
+    },
+    {
+      "masterId": 58,
+      "normalizedName": "Sugar Bang Bang",
+      "normalizedVendor": "FA CHAI",
+      "platformAliases": {
+        "PT": null,
+        "BP": null,
+        "CP": "Sugar Bang Bang",
+        "TCG": null,
+        "BAJI": null
+      },
+      "firstSeen": "2026-05-11",
+      "note": "W2 新發現於 CP"
+    },
+    {
+      "masterId": 59,
+      "normalizedName": "Jackpot Fishing",
+      "normalizedVendor": "JILI",
+      "platformAliases": {
+        "PT": null,
+        "BP": null,
+        "CP": "Jackpot Fishing",
+        "TCG": null,
+        "BAJI": null
+      },
+      "firstSeen": "2026-05-11",
+      "note": "W2 新發現於 CP"
+    },
+    {
+      "masterId": 60,
+      "normalizedName": "Mines",
+      "normalizedVendor": "JILI",
+      "platformAliases": {
+        "PT": null,
+        "BP": null,
+        "CP": "Mines",
+        "TCG": null,
+        "BAJI": null
+      },
+      "firstSeen": "2026-05-11",
+      "note": "W2 新發現於 CP"
+    },
+    {
+      "masterId": 61,
+      "normalizedName": "Wanted Dead Or A Wild",
+      "normalizedVendor": "HACKSAW",
+      "platformAliases": {
+        "PT": null,
+        "BP": null,
+        "CP": "Wanted Dead Or A Wild",
+        "TCG": null,
+        "BAJI": null
+      },
+      "firstSeen": "2026-05-11",
+      "note": "W2 新發現於 CP"
+    },
+    {
+      "masterId": 62,
+      "normalizedName": "Cloud Princess",
+      "normalizedVendor": "HACKSAW",
+      "platformAliases": {
+        "PT": null,
+        "BP": null,
+        "CP": "Cloud Princess",
+        "TCG": null,
+        "BAJI": null
+      },
+      "firstSeen": "2026-05-11",
+      "note": "W2 新發現於 CP"
+    },
+    {
+      "masterId": 63,
+      "normalizedName": "Rise Of Ymir",
+      "normalizedVendor": "HACKSAW",
+      "platformAliases": {
+        "PT": null,
+        "BP": null,
+        "CP": "Rise Of Ymir",
+        "TCG": null,
+        "BAJI": null
+      },
+      "firstSeen": "2026-05-11",
+      "note": "W2 新發現於 CP"
+    },
+    {
+      "masterId": 64,
+      "normalizedName": "Mines (2)",
+      "normalizedVendor": "HACKSAW",
+      "platformAliases": {
+        "PT": null,
+        "BP": null,
+        "CP": "Mines (2)",
+        "TCG": null,
+        "BAJI": null
+      },
+      "firstSeen": "2026-05-11",
+      "note": "W2 新發現於 CP"
+    },
+    {
+      "masterId": 65,
+      "normalizedName": "Le Pharaoh",
+      "normalizedVendor": "HACKSAW",
+      "platformAliases": {
+        "PT": null,
+        "BP": null,
+        "CP": "Le Pharaoh",
+        "TCG": null,
+        "BAJI": null
+      },
+      "firstSeen": "2026-05-11",
+      "note": "W2 新發現於 CP"
+    },
+    {
+      "masterId": 66,
+      "normalizedName": "Ze Zeus",
+      "normalizedVendor": "HACKSAW",
+      "platformAliases": {
+        "PT": null,
+        "BP": null,
+        "CP": "Ze Zeus",
+        "TCG": null,
+        "BAJI": null
+      },
+      "firstSeen": "2026-05-11",
+      "note": "W2 新發現於 CP"
+    },
+    {
+      "masterId": 67,
+      "normalizedName": "Wild Ape #3258",
+      "normalizedVendor": "PG Soft",
+      "platformAliases": {
+        "PT": null,
+        "BP": null,
+        "CP": null,
+        "TCG": "Wild Ape #3258",
+        "BAJI": null
+      },
+      "firstSeen": "2026-05-11",
+      "note": "W2 新發現於 TCG"
+    },
+    {
+      "masterId": 68,
+      "normalizedName": "Fortune Gems 3",
+      "normalizedVendor": "JILI",
+      "platformAliases": {
+        "PT": null,
+        "BP": null,
+        "CP": null,
+        "TCG": "Fortune Gems 3",
+        "BAJI": null
+      },
+      "firstSeen": "2026-05-11",
+      "note": "W2 新發現於 TCG"
+    },
+    {
+      "masterId": 69,
+      "normalizedName": "Lucky Neko",
+      "normalizedVendor": "PG Soft",
+      "platformAliases": {
+        "PT": null,
+        "BP": null,
+        "CP": null,
+        "TCG": "Lucky Neko",
+        "BAJI": null
+      },
+      "firstSeen": "2026-05-11",
+      "note": "W2 新發現於 TCG"
+    },
+    {
+      "masterId": 70,
+      "normalizedName": "Sweet Rush Bonanza",
+      "normalizedVendor": "Pragmatic Play",
+      "platformAliases": {
+        "PT": null,
+        "BP": null,
+        "CP": null,
+        "TCG": "Sweet Rush Bonanza",
+        "BAJI": null
+      },
+      "firstSeen": "2026-05-11",
+      "note": "W2 新發現於 TCG"
+    },
+    {
+      "masterId": 71,
+      "normalizedName": "Chinese New Year Moreways",
+      "normalizedVendor": "FA CHAI",
+      "platformAliases": {
+        "PT": null,
+        "BP": null,
+        "CP": null,
+        "TCG": "Chinese New Year Moreways",
+        "BAJI": null
+      },
+      "firstSeen": "2026-05-11",
+      "note": "W2 新發現於 TCG"
+    },
+    {
+      "masterId": 72,
+      "normalizedName": "Wild Bandito",
+      "normalizedVendor": "PG Soft",
+      "platformAliases": {
+        "PT": null,
+        "BP": null,
+        "CP": null,
+        "TCG": "Wild Bandito",
+        "BAJI": null
+      },
+      "firstSeen": "2026-05-11",
+      "note": "W2 新發現於 TCG"
+    },
+    {
+      "masterId": 73,
+      "normalizedName": "Viking Forge",
+      "normalizedVendor": "Pragmatic Play",
+      "platformAliases": {
+        "PT": null,
+        "BP": null,
+        "CP": null,
+        "TCG": "Viking Forge",
+        "BAJI": null
+      },
+      "firstSeen": "2026-05-11",
+      "note": "W2 新發現於 TCG"
+    },
+    {
+      "masterId": 74,
+      "normalizedName": "Anubis Wrath",
+      "normalizedVendor": "PG Soft",
+      "platformAliases": {
+        "PT": null,
+        "BP": null,
+        "CP": null,
+        "TCG": "Anubis Wrath",
+        "BAJI": null
+      },
+      "firstSeen": "2026-05-11",
+      "note": "W2 新發現於 TCG"
+    },
+    {
+      "masterId": 75,
+      "normalizedName": "Fortune Gems 500",
+      "normalizedVendor": "JILI",
+      "platformAliases": {
+        "PT": null,
+        "BP": null,
+        "CP": null,
+        "TCG": null,
+        "BAJI": "Fortune Gems 500"
+      },
+      "firstSeen": "2026-05-11",
+      "note": "W2 新發現於 BAJI"
+    },
+    {
+      "masterId": 76,
+      "normalizedName": "Boxing King",
+      "normalizedVendor": "JILI",
+      "platformAliases": {
+        "PT": null,
+        "BP": null,
+        "CP": null,
+        "TCG": null,
+        "BAJI": "Boxing King"
+      },
+      "firstSeen": "2026-05-11",
+      "note": "W2 新發現於 BAJI"
+    },
+    {
+      "masterId": 77,
+      "normalizedName": "Super Elements",
+      "normalizedVendor": "FA CHAI",
+      "platformAliases": {
+        "PT": null,
+        "BP": null,
+        "CP": null,
+        "TCG": null,
+        "BAJI": "Super Elements"
+      },
+      "firstSeen": "2026-05-11",
+      "note": "W2 新發現於 BAJI"
+    },
+    {
+      "masterId": 78,
+      "normalizedName": "Money Wheel",
+      "normalizedVendor": "JDB",
+      "platformAliases": {
+        "PT": null,
+        "BP": null,
+        "CP": null,
+        "TCG": null,
+        "BAJI": "Money Wheel"
+      },
+      "firstSeen": "2026-05-11",
+      "note": "W2 新發現於 BAJI"
+    },
+    {
+      "masterId": 79,
+      "normalizedName": "100x Super Ace Plus",
+      "normalizedVendor": "Lucky365",
+      "platformAliases": {
+        "PT": null,
+        "BP": null,
+        "CP": null,
+        "TCG": null,
+        "BAJI": "100x Super Ace Plus"
+      },
+      "firstSeen": "2026-05-11",
+      "note": "W2 新發現於 BAJI"
+    },
+    {
+      "masterId": 80,
+      "normalizedName": "CazVip Treasure Raiders",
+      "normalizedVendor": "FA CHAI",
+      "platformAliases": {
+        "PT": null,
+        "BP": null,
+        "CP": null,
+        "TCG": null,
+        "BAJI": "CazVip Treasure Raiders"
+      },
+      "firstSeen": "2026-05-11",
+      "note": "W2 新發現於 BAJI"
+    },
+    {
+      "masterId": 81,
+      "normalizedName": "Money Coming",
+      "normalizedVendor": "JILI",
+      "platformAliases": {
+        "PT": null,
+        "BP": null,
+        "CP": null,
+        "TCG": null,
+        "BAJI": "Money Coming"
+      },
+      "firstSeen": "2026-05-11",
+      "note": "W2 新發現於 BAJI"
+    },
+    {
+      "masterId": 82,
+      "normalizedName": "Super Elements (FA CHAI)",
+      "normalizedVendor": "FA CHAI",
+      "platformAliases": {
+        "PT": null,
+        "BP": null,
+        "CP": null,
+        "TCG": null,
+        "BAJI": "Super Elements (FA CHAI)"
+      },
+      "firstSeen": "2026-05-11",
+      "note": "W2 新發現於 BAJI"
+    },
+    {
+      "masterId": 83,
+      "normalizedName": "Diva's Ace",
+      "normalizedVendor": "YesBingo",
+      "platformAliases": {
+        "PT": null,
+        "BP": null,
+        "CP": null,
+        "TCG": null,
+        "BAJI": "Diva's Ace"
+      },
+      "firstSeen": "2026-05-11",
+      "note": "W2 新發現於 BAJI"
+    },
+    {
+      "masterId": 84,
+      "normalizedName": "Magic Ace Wild Lock",
+      "normalizedVendor": "JDB",
+      "platformAliases": {
+        "PT": null,
+        "BP": null,
+        "CP": null,
+        "TCG": null,
+        "BAJI": "Magic Ace Wild Lock"
+      },
+      "firstSeen": "2026-05-11",
+      "note": "W2 新發現於 BAJI"
+    },
+    {
+      "masterId": 85,
+      "normalizedName": "Inca Queen",
+      "normalizedVendor": "Pragmatic Play",
+      "platformAliases": {
+        "PT": null,
+        "BP": null,
+        "CP": null,
+        "TCG": "Inca Queen",
+        "BAJI": null
+      },
+      "firstSeen": "2026-05-11",
+      "note": "W2 補名稱後新加：TCG 第 20 名"
+    },
+    {
+      "masterId": 86,
+      "normalizedName": "Fortune Ace Super Scatter",
+      "normalizedVendor": "Pragmatic Play",
+      "platformAliases": {
+        "PT": null,
+        "BP": null,
+        "CP": null,
+        "TCG": null,
+        "BAJI": "Fortune Ace Super Scatter"
+      },
+      "firstSeen": "2026-05-11",
+      "note": "W2 補名稱後新加：BAJI 第 20 名"
     }
   ]
 }

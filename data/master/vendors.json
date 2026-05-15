@@ -354,6 +354,143 @@
         "BAJI": null
       },
       "note": "FTG = FunTa Gaming，BP 出現於 Fortune Telling、Magnificent Thief"
+    },
+    {
+      "normalizedName": "NetEnt",
+      "displayPerPlatform": {
+        "PT": null,
+        "BP": "NETENT",
+        "CP": null,
+        "TCG": null,
+        "BAJI": null
+      },
+      "note": "BP 主用"
+    },
+    {
+      "normalizedName": "No Limit City",
+      "displayPerPlatform": {
+        "PT": null,
+        "BP": null,
+        "CP": null,
+        "TCG": {
+          "urlCode": "PH-outs",
+          "display": "No Limit City"
+        },
+        "BAJI": null
+      },
+      "note": "TCG NEW"
+    },
+    {
+      "normalizedName": "Good Fortune Gaming",
+      "displayPerPlatform": {
+        "PT": null,
+        "BP": null,
+        "CP": null,
+        "TCG": {
+          "urlCode": "",
+          "display": "Good Fortune Gaming"
+        },
+        "BAJI": null
+      },
+      "note": "TCG NEW"
+    },
+    {
+      "normalizedName": "World Match",
+      "displayPerPlatform": {
+        "PT": null,
+        "BP": null,
+        "CP": null,
+        "TCG": null,
+        "BAJI": {
+          "urlCode": "",
+          "display": "WORLD MATCH"
+        }
+      },
+      "note": "BAJI New-Old"
+    },
+    {
+      "normalizedName": "RICH88",
+      "displayPerPlatform": {
+        "PT": null,
+        "BP": null,
+        "CP": null,
+        "TCG": null,
+        "BAJI": {
+          "urlCode": "RICH88",
+          "display": "RICH88"
+        }
+      },
+      "note": "BAJI New-Old"
+    },
+    {
+      "normalizedName": "Microgaming",
+      "displayPerPlatform": {
+        "PT": null,
+        "BP": null,
+        "CP": null,
+        "TCG": null,
+        "BAJI": {
+          "urlCode": "MG",
+          "display": "Microgaming"
+        }
+      },
+      "note": "BAJI New-Old"
+    },
+    {
+      "normalizedName": "Spadegaming",
+      "displayPerPlatform": {
+        "PT": null,
+        "BP": null,
+        "CP": null,
+        "TCG": null,
+        "BAJI": {
+          "urlCode": "SG",
+          "display": "Spadegaming"
+        }
+      },
+      "note": "BAJI New-Old"
+    },
+    {
+      "normalizedName": "KingMaker",
+      "displayPerPlatform": {
+        "PT": null,
+        "BP": null,
+        "CP": null,
+        "TCG": null,
+        "BAJI": {
+          "urlCode": "KM",
+          "display": "KingMaker"
+        }
+      },
+      "note": "注意不是 KingMidas"
+    },
+    {
+      "normalizedName": "Microslot",
+      "displayPerPlatform": {
+        "PT": null,
+        "BP": null,
+        "CP": null,
+        "TCG": null,
+        "BAJI": {
+          "urlCode": "MICRO",
+          "display": "Microslot"
+        }
+      },
+      "note": "BAJI New-Old"
+    },
+    {
+      "normalizedName": "Big Time Gaming",
+      "displayPerPlatform": {
+        "PT": null,
+        "BP": null,
+        "CP": null,
+        "TCG": null,
+        "BAJI": {
+          "urlCode": "BTG",
+          "display": "BTG"
+        }
+      },
+      "note": "簡稱 BTG"
     }
   ]
 }
