@@ -46,6 +46,7 @@
   <nav id="tabs" class="hidden mt-4 flex gap-1 border-b border-gray-200 -mb-4">
     <button class="tab-btn active px-4 py-2 text-sm font-medium border-b-2 border-blue-600 text-blue-700" data-tab="snapshot">📊 本週快照</button>
     <button class="tab-btn px-4 py-2 text-sm font-medium border-b-2 border-transparent text-gray-500 hover:text-gray-800" data-tab="cross">🌐 跨平台分析</button>
+    <button class="tab-btn px-4 py-2 text-sm font-medium border-b-2 border-transparent text-gray-500 hover:text-gray-800" data-tab="newgames">📰 新遊戲</button>
     <button class="tab-btn px-4 py-2 text-sm font-medium border-b-2 border-transparent text-gray-500 hover:text-gray-800" data-tab="master">📋 主表瀏覽</button>
     <button class="tab-btn px-4 py-2 text-sm font-medium border-b-2 border-transparent text-gray-500 hover:text-gray-800" data-tab="vendors">🏢 廠家對照</button>
     <button class="tab-btn px-4 py-2 text-sm font-medium border-b-2 border-transparent text-gray-500 hover:text-gray-800" data-tab="trend" disabled title="Phase 2D 將實作">📈 跨週趨勢</button>
@@ -117,6 +118,25 @@
       <div>
         <h2 class="text-xl font-bold mb-3">本週重點觀察</h2>
         <div id="cross-observations" class="bg-blue-50 border border-blue-200 rounded p-4 text-sm"></div>
+      </div>
+    </div>
+  </section>
+  <section id="tab-newgames" class="tab-content hidden">
+    <div class="space-y-6">
+      <div class="bg-blue-50 border border-blue-200 rounded p-3 text-sm">
+        <span id="newgames-summary">載入中...</span>
+      </div>
+      <div>
+        <h2 class="text-xl font-bold mb-3">🇵🇭 TCG NEW 分類（菲律賓）</h2>
+        <div id="newgames-tcg"></div>
+      </div>
+      <div>
+        <h2 class="text-xl font-bold mb-3">🇧🇩 BAJI New-Old（孟加拉）</h2>
+        <div id="newgames-baji"></div>
+      </div>
+      <div>
+        <h2 class="text-xl font-bold mb-3">📊 跨週分析</h2>
+        <div id="newgames-trend"></div>
       </div>
     </div>
   </section>
@@ -335,6 +355,7 @@ function renderActive() {
   const active = document.querySelector('.tab-btn.active')?.dataset.tab;
   if (active === 'snapshot') renderSnapshot();
   else if (active === 'cross') renderCross();
+  else if (active === 'newgames') renderNewGames();
   else if (active === 'master') renderMaster();
   else if (active === 'vendors') renderVendors();
 }
@@ -775,6 +796,137 @@ async function tryAutoLoad() {
   } catch (err) {
     console.log('[viewer] 自動載入失敗、保持手動模式:', err.message);
   }
+}
+
+
+// ===== Render: 新遊戲頁籤 (Phase 2D) =====
+function findMasterByNameVendor(name, vendor) {
+  if (!STATE.master.games) return null;
+  const nameLc = (name || '').toLowerCase();
+  const vendorLc = (vendor || '').toLowerCase();
+  return STATE.master.games.games.find(g =>
+    (g.normalizedName || '').toLowerCase() === nameLc &&
+    (g.normalizedVendor || '').toLowerCase() === vendorLc
+  );
+}
+
+function renderNewGames() {
+  const wk = STATE.weekly[STATE.currentWeek];
+  if (!wk) {
+    document.getElementById('newgames-summary').textContent = '請先選擇週次';
+    return;
+  }
+  const tcg = wk.platforms?.TCG?.newGames || [];
+  const baji = wk.platforms?.BAJI?.newGames || [];
+
+  // 跨平台同款偵測（用名稱小寫比對）
+  const tcgNames = new Set(tcg.map(g => (g.name || '').toLowerCase().trim()));
+  const bajiNames = new Set(baji.map(g => (g.name || '').toLowerCase().trim()));
+  const crossNew = [...tcgNames].filter(n => n && bajiNames.has(n));
+
+  // 摘要
+  document.getElementById('newgames-summary').innerHTML =
+    `W${wk.week} (${wk.captureDate}) 新遊戲清單：TCG NEW <b>${tcg.length}</b> 款、BAJI New-Old <b>${baji.length}</b> 款` +
+    (crossNew.length ? `，其中 <b class="text-orange-600">${crossNew.length}</b> 款跨菲/孟兩個市場（同名）` : '');
+
+  document.getElementById('newgames-tcg').innerHTML = renderNewGamesList(tcg, 'TCG', new Set(crossNew));
+  document.getElementById('newgames-baji').innerHTML = renderNewGamesList(baji, 'BAJI', new Set(crossNew));
+  renderNewGamesTrend();
+}
+
+function renderNewGamesList(games, platform, crossSet) {
+  if (!games.length) {
+    return '<div class="text-gray-400 text-sm py-2">本週無新遊戲資料</div>';
+  }
+  return `
+    <table class="w-full text-sm bg-white border border-gray-200 rounded overflow-hidden">
+      <thead class="bg-gray-50">
+        <tr>
+          <th class="px-2 py-2 text-center text-gray-600 w-12">順序</th>
+          <th class="px-2 py-2 text-left text-gray-600">遊戲名稱</th>
+          <th class="px-2 py-2 text-left text-gray-600">廠家</th>
+          <th class="px-2 py-2 text-left text-gray-600">遊戲 ID</th>
+          <th class="px-2 py-2 text-center text-gray-600">主表配對</th>
+          <th class="px-2 py-2 text-left text-gray-600">備註</th>
+        </tr>
+      </thead>
+      <tbody>
+        ${games.map(g => {
+          const matched = findMasterByNameVendor(g.name, g.vendor);
+          const isCross = crossSet.has((g.name || '').toLowerCase().trim());
+          const star = isCross ? `<span class="text-orange-500 mr-1" title="跨市場同款">★</span>` : '';
+          return `
+            <tr class="border-t border-gray-100 hover:bg-blue-50">
+              <td class="px-2 py-1.5 text-center text-gray-500">${g.order}</td>
+              <td class="px-2 py-1.5 font-medium">${star}${escapeHtml(g.name)}</td>
+              <td class="px-2 py-1.5"><span class="vendor-tag ${vendorClass(g.vendor)}">${escapeHtml(g.vendor || '')}</span></td>
+              <td class="px-2 py-1.5 text-xs font-mono text-gray-500">${escapeHtml(g.gameId || '')}</td>
+              <td class="px-2 py-1.5 text-center text-xs">${matched ? `<span class="text-green-600">✓ ID ${matched.masterId}</span>` : '<span class="text-gray-400">未配</span>'}</td>
+              <td class="px-2 py-1.5 text-xs text-gray-500">${escapeHtml(g.note || '')}</td>
+            </tr>`;
+        }).join('')}
+      </tbody>
+    </table>
+  `;
+}
+
+function renderNewGamesTrend() {
+  const weekKeys = Object.keys(STATE.weekly).sort();
+  const cur = STATE.currentWeek;
+  if (weekKeys.length < 2) {
+    document.getElementById('newgames-trend').innerHTML = '<div class="text-gray-400 text-sm py-3">需要 ≥ 2 週資料才能做跨週分析</div>';
+    return;
+  }
+  const curIdx = weekKeys.indexOf(cur);
+  if (curIdx <= 0) {
+    document.getElementById('newgames-trend').innerHTML = '<div class="text-gray-400 text-sm py-3">這是第一週快照、沒有前週可比</div>';
+    return;
+  }
+  const prevWk = STATE.weekly[weekKeys[curIdx - 1]];
+  const curWk = STATE.weekly[cur];
+
+  const html = ['TCG', 'BAJI'].map(code => {
+    const prevGames = prevWk.platforms?.[code]?.newGames || [];
+    const curGames = curWk.platforms?.[code]?.newGames || [];
+    const prevSet = new Set(prevGames.map(g => g.gameId).filter(Boolean));
+    const curSet = new Set(curGames.map(g => g.gameId).filter(Boolean));
+    const prevNames = new Map(prevGames.filter(g => g.gameId).map(g => [g.gameId, g.name]));
+    const curNames = new Map(curGames.filter(g => g.gameId).map(g => [g.gameId, g.name]));
+
+    const added = [...curSet].filter(x => !prevSet.has(x));
+    const removed = [...prevSet].filter(x => !curSet.has(x));
+    const stayed = [...curSet].filter(x => prevSet.has(x));
+
+    const renderList = (ids, namesMap, color) => {
+      if (!ids.length) return '<div class="text-gray-400 text-xs ml-2">無</div>';
+      return '<ul class="ml-2 text-xs text-gray-700 space-y-0.5">' +
+        ids.slice(0, 10).map(id => `<li>• <span class="${color}">${escapeHtml(namesMap.get(id) || '(未知)')}</span> <code class="text-[10px] text-gray-400">${escapeHtml(id)}</code></li>`).join('') +
+        (ids.length > 10 ? `<li class="text-gray-400">... 還有 ${ids.length - 10} 款</li>` : '') +
+        '</ul>';
+    };
+
+    const market = code === 'BAJI' ? '孟加拉' : '菲律賓';
+    return `
+      <div class="bg-white border border-gray-200 rounded p-4 mb-3">
+        <h3 class="font-bold text-blue-900 mb-3">${code} (${market})</h3>
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+          <div>
+            <div class="text-sm font-semibold text-green-700 mb-1">▲ 本週新進 NEW（${added.length}）</div>
+            ${renderList(added, curNames, 'text-green-700')}
+          </div>
+          <div>
+            <div class="text-sm font-semibold text-red-700 mb-1">▼ 上週有、本週消失（${removed.length}）</div>
+            ${renderList(removed, prevNames, 'text-red-700')}
+          </div>
+          <div>
+            <div class="text-sm font-semibold text-blue-700 mb-1">● 連續兩週都在（${stayed.length}）</div>
+            ${renderList(stayed, curNames, 'text-blue-700')}
+          </div>
+        </div>
+      </div>`;
+  }).join('');
+
+  document.getElementById('newgames-trend').innerHTML = html;
 }
 
 </script>
