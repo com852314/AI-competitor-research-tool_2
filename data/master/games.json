@@ -1119,6 +1119,370 @@
       },
       "firstSeen": "2026-05-11",
       "note": "W2 補名稱後新加：BAJI 第 20 名"
+    },
+    {
+      "masterId": 87,
+      "normalizedName": "Mahjong Wins Super Scatter",
+      "normalizedVendor": "Pragmatic Play",
+      "platformAliases": {
+        "PT": null,
+        "BP": null,
+        "CP": null,
+        "TCG": "Mahjong Wins Super Scatter",
+        "BAJI": null
+      },
+      "firstSeen": "2026-05-22",
+      "note": "W3 新發現於 TCG"
+    },
+    {
+      "masterId": 88,
+      "normalizedName": "Blazing Train",
+      "normalizedVendor": "JILI",
+      "platformAliases": {
+        "PT": "Blazing Train",
+        "BP": null,
+        "CP": null,
+        "TCG": null,
+        "BAJI": null
+      },
+      "firstSeen": "2026-05-22",
+      "note": "W3 新發現於 PT"
+    },
+    {
+      "masterId": 89,
+      "normalizedName": "Champion Dunk",
+      "normalizedVendor": "OmniPlay",
+      "platformAliases": {
+        "PT": "Champion Dunk",
+        "BP": null,
+        "CP": null,
+        "TCG": null,
+        "BAJI": null
+      },
+      "firstSeen": "2026-05-22",
+      "note": "W3 新發現於 PT"
+    },
+    {
+      "masterId": 90,
+      "normalizedName": "Fortune Gems 500 Exclusive",
+      "normalizedVendor": "JILI",
+      "platformAliases": {
+        "PT": "Fortune Gems 500 Exclusive",
+        "BP": null,
+        "CP": null,
+        "TCG": null,
+        "BAJI": null
+      },
+      "firstSeen": "2026-05-22",
+      "note": "W3 新發現於 PT"
+    },
+    {
+      "masterId": 91,
+      "normalizedName": "Golden Idol",
+      "normalizedVendor": "FA CHAI",
+      "platformAliases": {
+        "PT": "Golden Idol",
+        "BP": null,
+        "CP": null,
+        "TCG": null,
+        "BAJI": null
+      },
+      "firstSeen": "2026-05-22",
+      "note": "W3 新發現於 PT"
+    },
+    {
+      "masterId": 92,
+      "normalizedName": "Sexy Joker Deluxe",
+      "normalizedVendor": "Yellow Bat",
+      "platformAliases": {
+        "PT": "Sexy Joker Deluxe",
+        "BP": null,
+        "CP": null,
+        "TCG": null,
+        "BAJI": null
+      },
+      "firstSeen": "2026-05-22",
+      "note": "W3 新發現於 PT"
+    },
+    {
+      "masterId": 93,
+      "normalizedName": "Magic Ace 99 Exclusive",
+      "normalizedVendor": "JDB",
+      "platformAliases": {
+        "PT": "Magic Ace 99 Exclusive",
+        "BP": null,
+        "CP": null,
+        "TCG": null,
+        "BAJI": null
+      },
+      "firstSeen": "2026-05-22",
+      "note": "W3 新發現於 PT"
+    },
+    {
+      "masterId": 94,
+      "normalizedName": "Dragon Boat Festival",
+      "normalizedVendor": "Playstar",
+      "platformAliases": {
+        "PT": null,
+        "BP": "Dragon Boat Festival",
+        "CP": null,
+        "TCG": null,
+        "BAJI": null
+      },
+      "firstSeen": "2026-05-22",
+      "note": "W3 新發現於 BP"
+    },
+    {
+      "masterId": 95,
+      "normalizedName": "China Empress",
+      "normalizedVendor": "Playstar",
+      "platformAliases": {
+        "PT": null,
+        "BP": "China Empress",
+        "CP": null,
+        "TCG": null,
+        "BAJI": null
+      },
+      "firstSeen": "2026-05-22",
+      "note": "W3 新發現於 BP"
+    },
+    {
+      "masterId": 96,
+      "normalizedName": "Lucky Panda",
+      "normalizedVendor": "Playstar",
+      "platformAliases": {
+        "PT": null,
+        "BP": "Lucky Panda",
+        "CP": null,
+        "TCG": null,
+        "BAJI": null
+      },
+      "firstSeen": "2026-05-22",
+      "note": "W3 新發現於 BP"
+    },
+    {
+      "masterId": 97,
+      "normalizedName": "Who's The Boss",
+      "normalizedVendor": "Playstar",
+      "platformAliases": {
+        "PT": null,
+        "BP": "Who's The Boss",
+        "CP": null,
+        "TCG": null,
+        "BAJI": null
+      },
+      "firstSeen": "2026-05-22",
+      "note": "W3 新發現於 BP"
+    },
+    {
+      "masterId": 98,
+      "normalizedName": "Kung Hei",
+      "normalizedVendor": "Playstar",
+      "platformAliases": {
+        "PT": null,
+        "BP": "Kung Hei",
+        "CP": null,
+        "TCG": null,
+        "BAJI": null
+      },
+      "firstSeen": "2026-05-22",
+      "note": "W3 新發現於 BP"
+    },
+    {
+      "masterId": 99,
+      "normalizedName": "Buster's Bones",
+      "normalizedVendor": "NetEnt",
+      "platformAliases": {
+        "PT": null,
+        "BP": "Buster's Bones",
+        "CP": null,
+        "TCG": null,
+        "BAJI": null
+      },
+      "firstSeen": "2026-05-22",
+      "note": "W3 新發現於 BP"
+    },
+    {
+      "masterId": 100,
+      "normalizedName": "Fa Fa Monkey",
+      "normalizedVendor": "Playstar",
+      "platformAliases": {
+        "PT": null,
+        "BP": "Fa Fa Monkey",
+        "CP": null,
+        "TCG": null,
+        "BAJI": null
+      },
+      "firstSeen": "2026-05-22",
+      "note": "W3 新發現於 BP"
+    },
+    {
+      "masterId": 101,
+      "normalizedName": "Double Happiness",
+      "normalizedVendor": "Playstar",
+      "platformAliases": {
+        "PT": null,
+        "BP": "Double Happiness",
+        "CP": null,
+        "TCG": null,
+        "BAJI": null
+      },
+      "firstSeen": "2026-05-22",
+      "note": "W3 新發現於 BP"
+    },
+    {
+      "masterId": 102,
+      "normalizedName": "Athena",
+      "normalizedVendor": "Playstar",
+      "platformAliases": {
+        "PT": null,
+        "BP": "Athena",
+        "CP": null,
+        "TCG": null,
+        "BAJI": null
+      },
+      "firstSeen": "2026-05-22",
+      "note": "W3 新發現於 BP"
+    },
+    {
+      "masterId": 103,
+      "normalizedName": "Glorious Kingdom",
+      "normalizedVendor": "Playstar",
+      "platformAliases": {
+        "PT": null,
+        "BP": "Glorious Kingdom",
+        "CP": null,
+        "TCG": null,
+        "BAJI": null
+      },
+      "firstSeen": "2026-05-22",
+      "note": "W3 新發現於 BP"
+    },
+    {
+      "masterId": 104,
+      "normalizedName": "Fortune God",
+      "normalizedVendor": "Playstar",
+      "platformAliases": {
+        "PT": null,
+        "BP": "Fortune God",
+        "CP": null,
+        "TCG": null,
+        "BAJI": null
+      },
+      "firstSeen": "2026-05-22",
+      "note": "W3 新發現於 BP"
+    },
+    {
+      "masterId": 105,
+      "normalizedName": "Werewolf",
+      "normalizedVendor": "Playstar",
+      "platformAliases": {
+        "PT": null,
+        "BP": "Werewolf",
+        "CP": null,
+        "TCG": null,
+        "BAJI": null
+      },
+      "firstSeen": "2026-05-22",
+      "note": "W3 新發現於 BP"
+    },
+    {
+      "masterId": 106,
+      "normalizedName": "Face Off",
+      "normalizedVendor": "Playstar",
+      "platformAliases": {
+        "PT": null,
+        "BP": "Face Off",
+        "CP": null,
+        "TCG": null,
+        "BAJI": null
+      },
+      "firstSeen": "2026-05-22",
+      "note": "W3 新發現於 BP"
+    },
+    {
+      "masterId": 107,
+      "normalizedName": "Mines",
+      "normalizedVendor": "HACKSAW",
+      "platformAliases": {
+        "PT": null,
+        "BP": null,
+        "CP": "Mines",
+        "TCG": null,
+        "BAJI": null
+      },
+      "firstSeen": "2026-05-22",
+      "note": "W3 新發現於 CP"
+    },
+    {
+      "masterId": 108,
+      "normalizedName": "Super Ace Plus",
+      "normalizedVendor": "Lucky365",
+      "platformAliases": {
+        "PT": null,
+        "BP": null,
+        "CP": null,
+        "TCG": null,
+        "BAJI": "Super Ace Plus"
+      },
+      "firstSeen": "2026-05-22",
+      "note": "W3 新發現於 BAJI"
+    },
+    {
+      "masterId": 109,
+      "normalizedName": "Treasure Raiders",
+      "normalizedVendor": "FA CHAI",
+      "platformAliases": {
+        "PT": null,
+        "BP": null,
+        "CP": null,
+        "TCG": null,
+        "BAJI": "Treasure Raiders"
+      },
+      "firstSeen": "2026-05-22",
+      "note": "W3 新發現於 BAJI"
+    },
+    {
+      "masterId": 110,
+      "normalizedName": "Diva's Ace",
+      "normalizedVendor": "Yellow Bat",
+      "platformAliases": {
+        "PT": null,
+        "BP": null,
+        "CP": null,
+        "TCG": null,
+        "BAJI": "Diva's Ace"
+      },
+      "firstSeen": "2026-05-22",
+      "note": "W3 新發現於 BAJI"
+    },
+    {
+      "masterId": 111,
+      "normalizedName": "Money Coming Expand Bets",
+      "normalizedVendor": "JILI",
+      "platformAliases": {
+        "PT": null,
+        "BP": null,
+        "CP": null,
+        "TCG": null,
+        "BAJI": "Money Coming Expand Bets"
+      },
+      "firstSeen": "2026-05-22",
+      "note": "W3 新發現於 BAJI"
+    },
+    {
+      "masterId": 112,
+      "normalizedName": "Circus Joker",
+      "normalizedVendor": "JILI",
+      "platformAliases": {
+        "PT": null,
+        "BP": null,
+        "CP": null,
+        "TCG": null,
+        "BAJI": "Circus Joker"
+      },
+      "firstSeen": "2026-05-22",
+      "note": "W3 新發現於 BAJI"
     }
   ]
 }
