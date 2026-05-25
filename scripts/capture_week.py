@@ -228,7 +228,7 @@ def main():
         new_games_section = None
         if "newGames" in plat_raw and plat_raw["newGames"] is not None:
             new_games_section = []
-            for i, g in enumerate(plat_raw["newGames"], start=1):
+            for i, g in enumerate(plat_raw["newGames"][:20], start=1):
                 name = (g.get("name") or "").strip()
                 vendor = (g.get("vendor") or "").strip()
                 new_games_section.append({
