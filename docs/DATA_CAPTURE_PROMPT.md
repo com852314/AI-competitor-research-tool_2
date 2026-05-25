@@ -23,8 +23,8 @@
 | PT | PT Gaming | 菲律賓 | Top 20 排行（截圖辨識） |
 | BP | BingoPlus | 菲律賓 | Top 20 排行 |
 | CP | Casino Plus | 菲律賓 | Top 20 排行（**無廠家資訊，見下方規則**） |
-| TCG | Luckyi | 菲律賓 | Top 20 排行 ＋ NEW 分類新遊戲清單 |
-| BAJI | Baji | 孟加拉 | Top 20 排行 ＋ New-Old 排序新遊戲清單 |
+| TCG | Luckyi | 菲律賓 | Top 20 排行 ＋ NEW 分類新遊戲清單（**最多 20 筆**） |
+| BAJI | Baji | 孟加拉 | Top 20 排行 ＋ New-Old 排序新遊戲清單（**最多 20 筆**） |
 
 ---
 
@@ -39,8 +39,8 @@
     "PT":   { "rankings": [ ...20 筆... ] },
     "BP":   { "rankings": [ ...20 筆... ] },
     "CP":   { "rankings": [ ...20 筆... ] },
-    "TCG":  { "rankings": [ ...20 筆... ], "newGames": [ ...N 筆... ] },
-    "BAJI": { "rankings": [ ...20 筆... ], "newGames": [ ...N 筆... ] }
+    "TCG":  { "rankings": [ ...20 筆... ], "newGames": [ ...最多 20 筆... ] },
+    "BAJI": { "rankings": [ ...20 筆... ], "newGames": [ ...最多 20 筆... ] }
   }
 }
 ```
@@ -181,7 +181,7 @@ CP 平台的排行頁面沒有廠家資訊。處理方式：
 
 - 最後輸出一個 JSON 代碼區塊，內容是完整的 `raw_input.json`
 - 每個平台都要有 20 筆 rankings（不夠 20 筆要回報）
-- TCG 和 BAJI 要有 newGames（沒有資料則填 `null`）
+- TCG 和 BAJI 要有 newGames（沒有資料則填 `null`），**最多收錄 20 筆，超過只取前 20**
 - 輸出後說「raw_input.json 整理完成，請存檔後執行 capture_week.py」，任務結束
 
 ---
