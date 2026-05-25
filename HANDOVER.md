@@ -19,18 +19,19 @@
 
 ### 已完成
 - ✅ JSON-first 架構（取代 Excel）
-- ✅ 主表系統：games.json（80 款）/ vendors.json（36 個）/ platforms.json（5 個）
+- ✅ 主表系統：games.json（106 款）/ vendors.json（36 個）/ platforms.json（5 個）
 - ✅ `scripts/capture_week.py`：自動算下週次 + 配對主表 ID + 更新 manifest
 - ✅ W1 快照（2026-04-30）
 - ✅ W2 快照（2026-05-11）：5 平台 Top 20 + TCG/BAJI 新遊戲 + 18 款遊戲補名 + 10 新廠家
+- ✅ W3 快照（2026-05-22）：5 平台 Top 20 + TCG 20 新遊戲 + BAJI 24 新遊戲 + 主表新增 25 款
 - ✅ index.html viewer：snapshot / cross / newgames (2D) / master / vendors / **trend (2E)** 6 個頁籤
 - ✅ GitHub Pages 部署、自動載入 manifest
 - ✅ **Phase 2E 跨週趨勢頁籤**（2026-05-18 完成）：排名折線圖 + 常勝軍 + 進出榜 + 廠家市占 Stacked Bar
 - ✅ 週執行 SOP v5（本文件第 10 節）
-- ✅ 資料收集提示詞（`docs/DATA_CAPTURE_PROMPT.md`）
+- ✅ 資料收集提示詞（`docs/DATA_CAPTURE_PROMPT.md`）：含頁面操作規則、新遊戲 20 筆上限
 
 ### 待辦
-- ⏳ W3 抓取（下一週執行）
+- ⏳ W4 抓取（下週執行）
 - ⏳ 未來：SOP v5 流程累積更多週後，可考慮 Phase 3（自動排程、更多分析維度）
 
 ---
@@ -39,13 +40,13 @@
 
 無阻塞性問題。目前系統完整可運作。
 
-下一步是 **W3 抓取**（按第 10 節 SOP v5 執行）。
+下一步是 **W4 抓取**（按第 10 節 SOP v5 執行）。
 
 ---
 
 ## 4. 當前正在處理的問題
 
-無。Phase 2E 已完工驗收並 push（2026-05-18）。
+無。W3 已完工並 push（2026-05-25）。
 
 ---
 
@@ -61,11 +62,17 @@
 - 規則：**先查主表**，主表沒有 → 廠家留空 / 標「(待補)」，**不猜**
 - 已踩過坑：Sugar Bang Bang = FA CHAI（不是 OmniPlay）、Cloud Princess = HACKSAW（不是 PG Soft）
 
-### 抓資料 SOP（v4）
+### 抓資料 SOP（v5）
 分批進行，避免 token 爆掉：
 1. 第一批：PT / BP / CP（3 個菲律賓 Top 20）
-2. 第二批：TCG / BAJI（Top 20 + 新遊戲清單）
+2. 第二批：TCG / BAJI（Top 20 + 新遊戲清單，**新遊戲最多 20 筆**）
 3. 第三批：跑 `capture_week.py raw_input.json` + 補名 + 補廠家
+
+### Cowork 資料收集規則（DATA_CAPTURE_PROMPT.md）
+- **可在頁面內滾動**，但不可自行切換到其他分頁或分類
+- 發現頁面內容與預期不符（分類錯誤、平台不對）→ 立即回報使用者，等確認後再繼續
+- 任何不確定的情況先詢問，不自行判斷
+- 新遊戲清單超過 20 筆只取前 20（腳本也有 `[:20]` 保護）
 
 ### 廠家命名
 - `normalizedName`：主表標準名（如 `FA CHAI`）
