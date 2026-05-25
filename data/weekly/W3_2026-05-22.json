@@ -934,7 +934,7 @@
         },
         {
           "order": 4,
-          "name": "(待辨識)",
+          "name": "Flaming Bells Hold and Win",
           "vendor": "Booongo",
           "rawVendor": "BNG",
           "gameId": "874",
@@ -952,7 +952,7 @@
         },
         {
           "order": 6,
-          "name": "(待辨識)",
+          "name": "Coin Tornado",
           "vendor": "Booongo",
           "rawVendor": "BNG",
           "gameId": "856",
@@ -997,7 +997,7 @@
         },
         {
           "order": 11,
-          "name": "(待辨識)",
+          "name": "x1000 Golden Penny 2",
           "vendor": "Booongo",
           "rawVendor": "BNG",
           "gameId": "948",
@@ -1033,7 +1033,7 @@
         },
         {
           "order": 15,
-          "name": "Pirate",
+          "name": "Pirate King",
           "vendor": "Good Fortune Gaming",
           "rawVendor": "GOOD FORTUNE GAMING",
           "gameId": "270018",
@@ -1042,7 +1042,7 @@
         },
         {
           "order": 16,
-          "name": "Inca",
+          "name": "Inca Queen",
           "vendor": "Pragmatic Play",
           "rawVendor": "PRAGMATIC PLAY",
           "gameId": "vs20thunder",
@@ -1051,7 +1051,7 @@
         },
         {
           "order": 17,
-          "name": "Tombstone",
+          "name": "Tombstone Slaughter",
           "vendor": "No Limit City",
           "rawVendor": "NOLIMIT CITY",
           "gameId": "PH-tombstonehterdx1",
@@ -1060,7 +1060,7 @@
         },
         {
           "order": 18,
-          "name": "Bunny",
+          "name": "Bunny VIP Night",
           "vendor": "KingMidas",
           "rawVendor": "KING MIDAS",
           "gameId": "bg-bunny-girl",
@@ -1069,7 +1069,7 @@
         },
         {
           "order": 19,
-          "name": "Mahjong",
+          "name": "Mahjong Win 2",
           "vendor": "Good Fortune Gaming",
           "rawVendor": "GOOD FORTUNE GAMING",
           "gameId": "81002",
@@ -1078,210 +1078,12 @@
         },
         {
           "order": 20,
-          "name": "Redbeard",
+          "name": "Redbeard Treasures",
           "vendor": "KingMidas",
           "rawVendor": "KING MIDAS",
           "gameId": "km-redbeard-treasures",
           "isFirstSeen": true,
           "note": ""
-        },
-        {
-          "order": 21,
-          "name": "Limbo+",
-          "vendor": "Pragmatic Play",
-          "rawVendor": "PRAGMATIC PLAY",
-          "gameId": "ar1limboplus",
-          "isFirstSeen": true,
-          "note": ""
-        },
-        {
-          "order": 22,
-          "name": "(待辨識)",
-          "vendor": "No Limit City",
-          "rawVendor": "NOLIMIT CITY",
-          "gameId": "PH-possesseddx10000",
-          "isFirstSeen": true,
-          "note": "捲動位置以下，待確認"
-        },
-        {
-          "order": 23,
-          "name": "(待辨識)",
-          "vendor": "Good Fortune Gaming",
-          "rawVendor": "GOOD FORTUNE GAMING",
-          "gameId": "81001",
-          "isFirstSeen": true,
-          "note": "待確認"
-        },
-        {
-          "order": 24,
-          "name": "(待辨識)",
-          "vendor": "No Limit City",
-          "rawVendor": "NOLIMIT CITY",
-          "gameId": "PH-whackeddx1000000",
-          "isFirstSeen": true,
-          "note": "待確認"
-        },
-        {
-          "order": 25,
-          "name": "(待辨識)",
-          "vendor": "No Limit City",
-          "rawVendor": "NOLIMIT CITY",
-          "gameId": "PH-ment_xb_luckyi_0",
-          "isFirstSeen": true,
-          "note": "待確認"
-        },
-        {
-          "order": 26,
-          "name": "(待辨識)",
-          "vendor": "KingMidas",
-          "rawVendor": "KING MIDAS",
-          "gameId": "golden-fortune-horse",
-          "isFirstSeen": true,
-          "note": "待確認"
-        },
-        {
-          "order": 27,
-          "name": "(待辨識)",
-          "vendor": "No Limit City",
-          "rawVendor": "NOLIMIT CITY",
-          "gameId": "PH-disturbeddx10000",
-          "isFirstSeen": true,
-          "note": "待確認"
-        },
-        {
-          "order": 28,
-          "name": "(待辨識)",
-          "vendor": "KingMidas",
-          "rawVendor": "KING MIDAS",
-          "gameId": "km-the-big-the-fat-and-the-ugly",
-          "isFirstSeen": true,
-          "note": "待確認"
-        },
-        {
-          "order": 29,
-          "name": "(待辨識)",
-          "vendor": "Good Fortune Gaming",
-          "rawVendor": "GOOD FORTUNE GAMING",
-          "gameId": "230016",
-          "isFirstSeen": true,
-          "note": "待確認"
-        },
-        {
-          "order": 30,
-          "name": "(待辨識)",
-          "vendor": "KingMidas",
-          "rawVendor": "KING MIDAS",
-          "gameId": "km-magic-pearls",
-          "isFirstSeen": true,
-          "note": "待確認"
-        },
-        {
-          "order": 31,
-          "name": "(待辨識)",
-          "vendor": "Booongo",
-          "rawVendor": "BNG",
-          "gameId": "913",
-          "isFirstSeen": true,
-          "note": "待確認"
-        },
-        {
-          "order": 32,
-          "name": "(待辨識)",
-          "vendor": "Good Fortune Gaming",
-          "rawVendor": "GOOD FORTUNE GAMING",
-          "gameId": "50056",
-          "isFirstSeen": true,
-          "note": "待確認"
-        },
-        {
-          "order": 33,
-          "name": "(待辨識)",
-          "vendor": "No Limit City",
-          "rawVendor": "NOLIMIT CITY",
-          "gameId": "PH-roadkilldx100000",
-          "isFirstSeen": true,
-          "note": "待確認"
-        },
-        {
-          "order": 34,
-          "name": "(待辨識)",
-          "vendor": "Good Fortune Gaming",
-          "rawVendor": "GOOD FORTUNE GAMING",
-          "gameId": "50058",
-          "isFirstSeen": true,
-          "note": "待確認"
-        },
-        {
-          "order": 35,
-          "name": "(待辨識)",
-          "vendor": "Pragmatic Play",
-          "rawVendor": "PRAGMATIC PLAY",
-          "gameId": "vs20slightwdm",
-          "isFirstSeen": true,
-          "note": "待確認"
-        },
-        {
-          "order": 36,
-          "name": "(待辨識)",
-          "vendor": "Booongo",
-          "rawVendor": "BNG",
-          "gameId": "878",
-          "isFirstSeen": true,
-          "note": "待確認"
-        },
-        {
-          "order": 37,
-          "name": "(待辨識)",
-          "vendor": "No Limit City",
-          "rawVendor": "NOLIMIT CITY",
-          "gameId": "PH-outs_xb_luckyi_0",
-          "isFirstSeen": true,
-          "note": "待確認"
-        },
-        {
-          "order": 38,
-          "name": "(待辨識)",
-          "vendor": "Good Fortune Gaming",
-          "rawVendor": "GOOD FORTUNE GAMING",
-          "gameId": "90054",
-          "isFirstSeen": true,
-          "note": "待確認"
-        },
-        {
-          "order": 39,
-          "name": "(待辨識)",
-          "vendor": "KingMidas",
-          "rawVendor": "KING MIDAS",
-          "gameId": "lucky-tiger",
-          "isFirstSeen": true,
-          "note": "待確認"
-        },
-        {
-          "order": 40,
-          "name": "(待辨識)",
-          "vendor": "Good Fortune Gaming",
-          "rawVendor": "GOOD FORTUNE GAMING",
-          "gameId": "270024",
-          "isFirstSeen": true,
-          "note": "待確認"
-        },
-        {
-          "order": 41,
-          "name": "(待辨識)",
-          "vendor": "KingMidas",
-          "rawVendor": "KING MIDAS",
-          "gameId": "km-white-elephant",
-          "isFirstSeen": true,
-          "note": "待確認"
-        },
-        {
-          "order": 42,
-          "name": "(待辨識)",
-          "vendor": "KingMidas",
-          "rawVendor": "KING MIDAS",
-          "gameId": "km-break-the-bank",
-          "isFirstSeen": true,
-          "note": "待確認"
         }
       ]
     },
