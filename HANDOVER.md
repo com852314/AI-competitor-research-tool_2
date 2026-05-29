@@ -83,6 +83,12 @@
 - 抓到只看到 gameId、沒有名稱的遊戲 → name 欄填 `(待辨識)`
 - 用戶提供名稱對應表後，跑 `outputs/patch_wN.py` 批次補名 + 主表新增
 
+### newGames gameId 必填
+- TCG / BAJI newGames 的 `gameId` 欄位**必須填入**（ID 或 URL 代碼），不可留空
+- gameId 是跨週比對的依據；若 gameId 全空，viewer 的「連續兩週都在 / 新進 / 消失」分析會失效
+- Viewer 已加 fallback（gameId 空時改用名稱比對），但仍應盡量確保 gameId 有值
+- 已踩過坑：W4 BAJI newGames 全部 gameId 為空，導致跨週分析無法運作
+
 ---
 
 ## 6. 已知限制

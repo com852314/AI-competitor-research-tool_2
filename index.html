@@ -956,10 +956,12 @@ function renderNewGamesTrend() {
   const html = ['TCG', 'BAJI'].map(code => {
     const prevGames = prevWk.platforms?.[code]?.newGames || [];
     const curGames = curWk.platforms?.[code]?.newGames || [];
-    const prevSet = new Set(prevGames.map(g => g.gameId).filter(Boolean));
-    const curSet = new Set(curGames.map(g => g.gameId).filter(Boolean));
-    const prevNames = new Map(prevGames.filter(g => g.gameId).map(g => [g.gameId, g.name]));
-    const curNames = new Map(curGames.filter(g => g.gameId).map(g => [g.gameId, g.name]));
+    // gameId 優先；若為空則用名稱小寫作為比對 key
+    const gameKey = g => (g.gameId && g.gameId.trim()) || (g.name || '').toLowerCase().trim();
+    const prevSet = new Set(prevGames.map(gameKey).filter(Boolean));
+    const curSet = new Set(curGames.map(gameKey).filter(Boolean));
+    const prevNames = new Map(prevGames.map(g => [gameKey(g), g.name]).filter(([k]) => k));
+    const curNames = new Map(curGames.map(g => [gameKey(g), g.name]).filter(([k]) => k));
 
     const added = [...curSet].filter(x => !prevSet.has(x));
     const removed = [...prevSet].filter(x => !curSet.has(x));
