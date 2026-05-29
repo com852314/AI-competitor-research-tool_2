@@ -1,0 +1,1498 @@
+{
+  "week": 4,
+  "captureDate": "2026-05-28",
+  "platforms": {
+    "PT": {
+      "market": "菲律賓",
+      "rankings": [
+        {
+          "rank": 1,
+          "name": "Super Ace",
+          "vendor": "JILI",
+          "rawVendor": "JL",
+          "masterId": 1,
+          "isNewToTop20": false,
+          "lastWeekRank": 1,
+          "rankChange": 0,
+          "note": ""
+        },
+        {
+          "rank": 2,
+          "name": "Pinata Wins",
+          "vendor": "PG Soft",
+          "rawVendor": "PG",
+          "masterId": 3,
+          "isNewToTop20": false,
+          "lastWeekRank": 8,
+          "rankChange": 6,
+          "note": ""
+        },
+        {
+          "rank": 3,
+          "name": "Wild Bounty Showdown",
+          "vendor": "PG Soft",
+          "rawVendor": "PG",
+          "masterId": 2,
+          "isNewToTop20": false,
+          "lastWeekRank": 2,
+          "rankChange": -1,
+          "note": ""
+        },
+        {
+          "rank": 4,
+          "name": "Fortune Garuda 500",
+          "vendor": "JILI",
+          "rawVendor": "JL",
+          "masterId": 9,
+          "isNewToTop20": false,
+          "lastWeekRank": 9,
+          "rankChange": 5,
+          "note": ""
+        },
+        {
+          "rank": 5,
+          "name": "Super Gems",
+          "vendor": "OmniPlay",
+          "rawVendor": "OP",
+          "masterId": 29,
+          "isNewToTop20": false,
+          "lastWeekRank": 3,
+          "rankChange": -2,
+          "note": ""
+        },
+        {
+          "rank": 6,
+          "name": "Fortune Gems 500 EXCLUSIVE",
+          "vendor": "JILI",
+          "rawVendor": "JL",
+          "masterId": 90,
+          "isNewToTop20": false,
+          "lastWeekRank": 10,
+          "rankChange": 4,
+          "note": "PT 獨家"
+        },
+        {
+          "rank": 7,
+          "name": "GOLDEN IDOL",
+          "vendor": "FA CHAI",
+          "rawVendor": "FC",
+          "masterId": 91,
+          "isNewToTop20": false,
+          "lastWeekRank": 11,
+          "rankChange": 4,
+          "note": ""
+        },
+        {
+          "rank": 8,
+          "name": "Sang'gre Jackpot",
+          "vendor": "Spark Game",
+          "rawVendor": "SG",
+          "masterId": 113,
+          "isNewToTop20": true,
+          "lastWeekRank": null,
+          "rankChange": null,
+          "note": "SG = Spark Game"
+        },
+        {
+          "rank": 9,
+          "name": "High Noon",
+          "vendor": "JILI",
+          "rawVendor": "JL",
+          "masterId": 114,
+          "isNewToTop20": true,
+          "lastWeekRank": null,
+          "rankChange": null,
+          "note": ""
+        },
+        {
+          "rank": 10,
+          "name": "Sweet Bonanza 2500",
+          "vendor": "Pragmatic Play",
+          "rawVendor": "PP",
+          "masterId": 5,
+          "isNewToTop20": true,
+          "lastWeekRank": null,
+          "rankChange": null,
+          "note": ""
+        },
+        {
+          "rank": 11,
+          "name": "3 Super Ace",
+          "vendor": "JILI",
+          "rawVendor": "JL",
+          "masterId": 115,
+          "isNewToTop20": true,
+          "lastWeekRank": null,
+          "rankChange": null,
+          "note": ""
+        },
+        {
+          "rank": 12,
+          "name": "Sugar Bang Bang 2",
+          "vendor": "FA CHAI",
+          "rawVendor": "FC",
+          "masterId": 31,
+          "isNewToTop20": false,
+          "lastWeekRank": 6,
+          "rankChange": -6,
+          "note": ""
+        },
+        {
+          "rank": 13,
+          "name": "Fortune Gems 3",
+          "vendor": "JILI",
+          "rawVendor": "JL",
+          "masterId": 68,
+          "isNewToTop20": false,
+          "lastWeekRank": 13,
+          "rankChange": 0,
+          "note": ""
+        },
+        {
+          "rank": 14,
+          "name": "Wild Ape #3258",
+          "vendor": "PG Soft",
+          "rawVendor": "PG",
+          "masterId": 67,
+          "isNewToTop20": false,
+          "lastWeekRank": 14,
+          "rankChange": 0,
+          "note": ""
+        },
+        {
+          "rank": 15,
+          "name": "SUPER ELEMENTS 2",
+          "vendor": "FA CHAI",
+          "rawVendor": "FC",
+          "masterId": 32,
+          "isNewToTop20": false,
+          "lastWeekRank": 7,
+          "rankChange": -8,
+          "note": ""
+        },
+        {
+          "rank": 16,
+          "name": "Super Ace II",
+          "vendor": "JILI",
+          "rawVendor": "JL",
+          "masterId": 22,
+          "isNewToTop20": false,
+          "lastWeekRank": 15,
+          "rankChange": -1,
+          "note": ""
+        },
+        {
+          "rank": 17,
+          "name": "Sugar Rush 1000",
+          "vendor": "Pragmatic Play",
+          "rawVendor": "PP",
+          "masterId": 17,
+          "isNewToTop20": false,
+          "lastWeekRank": 16,
+          "rankChange": -1,
+          "note": ""
+        },
+        {
+          "rank": 18,
+          "name": "Magic Ace 99 EXCLUSIVE",
+          "vendor": "JDB",
+          "rawVendor": "JDB",
+          "masterId": 93,
+          "isNewToTop20": false,
+          "lastWeekRank": 19,
+          "rankChange": 1,
+          "note": "PT 獨家"
+        },
+        {
+          "rank": 19,
+          "name": "Sweet Bonanza 1000",
+          "vendor": "Pragmatic Play",
+          "rawVendor": "PP",
+          "masterId": 20,
+          "isNewToTop20": false,
+          "lastWeekRank": 18,
+          "rankChange": -1,
+          "note": ""
+        },
+        {
+          "rank": 20,
+          "name": "Golden Empire",
+          "vendor": "JILI",
+          "rawVendor": "JL",
+          "masterId": 14,
+          "isNewToTop20": false,
+          "lastWeekRank": 17,
+          "rankChange": -3,
+          "note": ""
+        }
+      ],
+      "newGames": null
+    },
+    "BP": {
+      "market": "菲律賓",
+      "rankings": [
+        {
+          "rank": 1,
+          "name": "Charge Buffalo",
+          "vendor": "JILI",
+          "rawVendor": "JILI",
+          "masterId": 7,
+          "isNewToTop20": false,
+          "lastWeekRank": 1,
+          "rankChange": 0,
+          "note": ""
+        },
+        {
+          "rank": 2,
+          "name": "Golden Genie",
+          "vendor": "FA CHAI",
+          "rawVendor": "FACHAI",
+          "masterId": 6,
+          "isNewToTop20": false,
+          "lastWeekRank": 3,
+          "rankChange": 1,
+          "note": ""
+        },
+        {
+          "rank": 3,
+          "name": "Lucky Fortunes",
+          "vendor": "FA CHAI",
+          "rawVendor": "FACHAI",
+          "masterId": 8,
+          "isNewToTop20": false,
+          "lastWeekRank": 2,
+          "rankChange": -1,
+          "note": ""
+        },
+        {
+          "rank": 4,
+          "name": "Lucky Panda",
+          "vendor": "Playstar",
+          "rawVendor": "PLAYSTAR",
+          "masterId": 96,
+          "isNewToTop20": false,
+          "lastWeekRank": 7,
+          "rankChange": 3,
+          "note": ""
+        },
+        {
+          "rank": 5,
+          "name": "Who's The Boss",
+          "vendor": "Playstar",
+          "rawVendor": "PLAYSTAR",
+          "masterId": 97,
+          "isNewToTop20": false,
+          "lastWeekRank": 8,
+          "rankChange": 3,
+          "note": ""
+        },
+        {
+          "rank": 6,
+          "name": "Kung Hei",
+          "vendor": "Playstar",
+          "rawVendor": "PLAYSTAR",
+          "masterId": 98,
+          "isNewToTop20": false,
+          "lastWeekRank": 9,
+          "rankChange": 3,
+          "note": ""
+        },
+        {
+          "rank": 7,
+          "name": "Crab Trap",
+          "vendor": "NetEnt",
+          "rawVendor": "NETENT",
+          "masterId": 116,
+          "isNewToTop20": true,
+          "lastWeekRank": null,
+          "rankChange": null,
+          "note": ""
+        },
+        {
+          "rank": 8,
+          "name": "Fa Fa Monkey",
+          "vendor": "Playstar",
+          "rawVendor": "PLAYSTAR",
+          "masterId": 100,
+          "isNewToTop20": false,
+          "lastWeekRank": 11,
+          "rankChange": 3,
+          "note": ""
+        },
+        {
+          "rank": 9,
+          "name": "Double Happiness",
+          "vendor": "Playstar",
+          "rawVendor": "PLAYSTAR",
+          "masterId": 101,
+          "isNewToTop20": false,
+          "lastWeekRank": 12,
+          "rankChange": 3,
+          "note": ""
+        },
+        {
+          "rank": 10,
+          "name": "Mystic Fortune Deluxe",
+          "vendor": "Habanero",
+          "rawVendor": "HBN",
+          "masterId": 117,
+          "isNewToTop20": true,
+          "lastWeekRank": null,
+          "rankChange": null,
+          "note": ""
+        },
+        {
+          "rank": 11,
+          "name": "Athena",
+          "vendor": "Playstar",
+          "rawVendor": "PLAYSTAR",
+          "masterId": 102,
+          "isNewToTop20": false,
+          "lastWeekRank": 13,
+          "rankChange": 2,
+          "note": ""
+        },
+        {
+          "rank": 12,
+          "name": "Glorious Kingdom",
+          "vendor": "Playstar",
+          "rawVendor": "PLAYSTAR",
+          "masterId": 103,
+          "isNewToTop20": false,
+          "lastWeekRank": 14,
+          "rankChange": 2,
+          "note": ""
+        },
+        {
+          "rank": 13,
+          "name": "Fortune God",
+          "vendor": "Playstar",
+          "rawVendor": "PLAYSTAR",
+          "masterId": 104,
+          "isNewToTop20": false,
+          "lastWeekRank": 15,
+          "rankChange": 2,
+          "note": ""
+        },
+        {
+          "rank": 14,
+          "name": "Werewolf",
+          "vendor": "Playstar",
+          "rawVendor": "PLAYSTAR",
+          "masterId": 105,
+          "isNewToTop20": false,
+          "lastWeekRank": 19,
+          "rankChange": 5,
+          "note": ""
+        },
+        {
+          "rank": 15,
+          "name": "Lantern Luck",
+          "vendor": "Habanero",
+          "rawVendor": "HBN",
+          "masterId": 50,
+          "isNewToTop20": false,
+          "lastWeekRank": 16,
+          "rankChange": 1,
+          "note": ""
+        },
+        {
+          "rank": 16,
+          "name": "Laughing Buddha",
+          "vendor": "Habanero",
+          "rawVendor": "HBN",
+          "masterId": 51,
+          "isNewToTop20": false,
+          "lastWeekRank": 17,
+          "rankChange": 1,
+          "note": ""
+        },
+        {
+          "rank": 17,
+          "name": "China Empress",
+          "vendor": "Playstar",
+          "rawVendor": "PLAYSTAR",
+          "masterId": 95,
+          "isNewToTop20": false,
+          "lastWeekRank": 6,
+          "rankChange": -11,
+          "note": ""
+        },
+        {
+          "rank": 18,
+          "name": "Legendary Beasts",
+          "vendor": "Habanero",
+          "rawVendor": "HBN",
+          "masterId": 38,
+          "isNewToTop20": false,
+          "lastWeekRank": 18,
+          "rankChange": 0,
+          "note": ""
+        },
+        {
+          "rank": 19,
+          "name": "Face Off",
+          "vendor": "Playstar",
+          "rawVendor": "PLAYSTAR",
+          "masterId": 106,
+          "isNewToTop20": false,
+          "lastWeekRank": 20,
+          "rankChange": 1,
+          "note": ""
+        },
+        {
+          "rank": 20,
+          "name": "Elephant",
+          "vendor": "Playstar",
+          "rawVendor": "PLAYSTAR",
+          "masterId": 118,
+          "isNewToTop20": true,
+          "lastWeekRank": null,
+          "rankChange": null,
+          "note": ""
+        }
+      ],
+      "newGames": null
+    },
+    "CP": {
+      "market": "菲律賓",
+      "rankings": [
+        {
+          "rank": 1,
+          "name": "Sweet Bonanza 2500",
+          "vendor": "Pragmatic Play",
+          "rawVendor": "PRAGMATIC PLAY",
+          "masterId": 5,
+          "isNewToTop20": false,
+          "lastWeekRank": 1,
+          "rankChange": 0,
+          "note": ""
+        },
+        {
+          "rank": 2,
+          "name": "Super Ace",
+          "vendor": "JILI",
+          "rawVendor": "JILI",
+          "masterId": 1,
+          "isNewToTop20": false,
+          "lastWeekRank": 2,
+          "rankChange": 0,
+          "note": ""
+        },
+        {
+          "rank": 3,
+          "name": "Super Ace 2",
+          "vendor": "JILI",
+          "rawVendor": "JILI",
+          "masterId": 55,
+          "isNewToTop20": false,
+          "lastWeekRank": 3,
+          "rankChange": 0,
+          "note": ""
+        },
+        {
+          "rank": 4,
+          "name": "Super Ace Jackpot",
+          "vendor": "JILI",
+          "rawVendor": "JILI",
+          "masterId": 56,
+          "isNewToTop20": false,
+          "lastWeekRank": 4,
+          "rankChange": 0,
+          "note": ""
+        },
+        {
+          "rank": 5,
+          "name": "Super Ace Deluxe",
+          "vendor": "JILI",
+          "rawVendor": "JILI",
+          "masterId": 15,
+          "isNewToTop20": false,
+          "lastWeekRank": 5,
+          "rankChange": 0,
+          "note": ""
+        },
+        {
+          "rank": 6,
+          "name": "Fortune Gems",
+          "vendor": "JILI",
+          "rawVendor": "JILI",
+          "masterId": 4,
+          "isNewToTop20": false,
+          "lastWeekRank": 6,
+          "rankChange": 0,
+          "note": ""
+        },
+        {
+          "rank": 7,
+          "name": "Fortune Gems 2",
+          "vendor": "JILI",
+          "rawVendor": "JILI",
+          "masterId": 57,
+          "isNewToTop20": false,
+          "lastWeekRank": 7,
+          "rankChange": 0,
+          "note": ""
+        },
+        {
+          "rank": 8,
+          "name": "Sugar Bang Bang",
+          "vendor": "FA CHAI",
+          "rawVendor": "FaChai",
+          "masterId": 58,
+          "isNewToTop20": false,
+          "lastWeekRank": 8,
+          "rankChange": 0,
+          "note": ""
+        },
+        {
+          "rank": 9,
+          "name": "Jackpot Fishing",
+          "vendor": "JILI",
+          "rawVendor": "JILI",
+          "masterId": 59,
+          "isNewToTop20": false,
+          "lastWeekRank": 9,
+          "rankChange": 0,
+          "note": ""
+        },
+        {
+          "rank": 10,
+          "name": "Mines",
+          "vendor": "JILI",
+          "rawVendor": "JILI",
+          "masterId": 60,
+          "isNewToTop20": false,
+          "lastWeekRank": 10,
+          "rankChange": 0,
+          "note": ""
+        },
+        {
+          "rank": 11,
+          "name": "Poker Win",
+          "vendor": "FA CHAI",
+          "rawVendor": "FaChai",
+          "masterId": 35,
+          "isNewToTop20": false,
+          "lastWeekRank": 11,
+          "rankChange": 0,
+          "note": ""
+        },
+        {
+          "rank": 12,
+          "name": "Lucky Fortunes",
+          "vendor": "FA CHAI",
+          "rawVendor": "FaChai",
+          "masterId": 8,
+          "isNewToTop20": false,
+          "lastWeekRank": 12,
+          "rankChange": 0,
+          "note": ""
+        },
+        {
+          "rank": 13,
+          "name": "Fortune Coins",
+          "vendor": "JILI",
+          "rawVendor": "JILI",
+          "masterId": 23,
+          "isNewToTop20": false,
+          "lastWeekRank": 13,
+          "rankChange": 0,
+          "note": ""
+        },
+        {
+          "rank": 14,
+          "name": "Golden Empire",
+          "vendor": "JILI",
+          "rawVendor": "JILI",
+          "masterId": 14,
+          "isNewToTop20": false,
+          "lastWeekRank": 14,
+          "rankChange": 0,
+          "note": ""
+        },
+        {
+          "rank": 15,
+          "name": "Wanted Dead Or A Wild",
+          "vendor": "HACKSAW",
+          "rawVendor": "HACKSAW",
+          "masterId": 61,
+          "isNewToTop20": false,
+          "lastWeekRank": 15,
+          "rankChange": 0,
+          "note": ""
+        },
+        {
+          "rank": 16,
+          "name": "Cloud Princess",
+          "vendor": "HACKSAW",
+          "rawVendor": "HACKSAW",
+          "masterId": 62,
+          "isNewToTop20": false,
+          "lastWeekRank": 16,
+          "rankChange": 0,
+          "note": ""
+        },
+        {
+          "rank": 17,
+          "name": "Rise Of Ymir",
+          "vendor": "HACKSAW",
+          "rawVendor": "HACKSAW",
+          "masterId": 63,
+          "isNewToTop20": false,
+          "lastWeekRank": 17,
+          "rankChange": 0,
+          "note": "待補廠家（依W3推測HACKSAW）"
+        },
+        {
+          "rank": 18,
+          "name": "Mines Dare2Win",
+          "vendor": "HACKSAW",
+          "rawVendor": "HACKSAW",
+          "masterId": 123,
+          "isNewToTop20": true,
+          "lastWeekRank": null,
+          "rankChange": null,
+          "note": "待補廠家"
+        },
+        {
+          "rank": 19,
+          "name": "Le Pharaoh",
+          "vendor": "HACKSAW",
+          "rawVendor": "HACKSAW",
+          "masterId": 65,
+          "isNewToTop20": false,
+          "lastWeekRank": 19,
+          "rankChange": 0,
+          "note": "待補廠家（依W3推測HACKSAW）"
+        },
+        {
+          "rank": 20,
+          "name": "Ze Zeus",
+          "vendor": "HACKSAW",
+          "rawVendor": "HACKSAW",
+          "masterId": 66,
+          "isNewToTop20": false,
+          "lastWeekRank": 20,
+          "rankChange": 0,
+          "note": "待補廠家（依W3推測HACKSAW）"
+        }
+      ],
+      "newGames": null
+    },
+    "TCG": {
+      "market": "菲律賓",
+      "rankings": [
+        {
+          "rank": 1,
+          "name": "Super Ace",
+          "vendor": "JILI",
+          "rawVendor": "Jili",
+          "masterId": 1,
+          "isNewToTop20": false,
+          "lastWeekRank": 1,
+          "rankChange": 0,
+          "note": ""
+        },
+        {
+          "rank": 2,
+          "name": "Piñata Wins",
+          "vendor": "PG Soft",
+          "rawVendor": "Pocket Games Soft",
+          "masterId": 119,
+          "isNewToTop20": true,
+          "lastWeekRank": null,
+          "rankChange": null,
+          "note": ""
+        },
+        {
+          "rank": 3,
+          "name": "Wild Bounty Showdown",
+          "vendor": "PG Soft",
+          "rawVendor": "Pocket Games Soft",
+          "masterId": 2,
+          "isNewToTop20": false,
+          "lastWeekRank": 3,
+          "rankChange": 0,
+          "note": ""
+        },
+        {
+          "rank": 4,
+          "name": "Sweet Bonanza 1000",
+          "vendor": "Pragmatic Play",
+          "rawVendor": "PP",
+          "masterId": 20,
+          "isNewToTop20": false,
+          "lastWeekRank": 5,
+          "rankChange": 1,
+          "note": ""
+        },
+        {
+          "rank": 5,
+          "name": "Super Ace Deluxe",
+          "vendor": "JILI",
+          "rawVendor": "Jili",
+          "masterId": 15,
+          "isNewToTop20": false,
+          "lastWeekRank": 4,
+          "rankChange": -1,
+          "note": ""
+        },
+        {
+          "rank": 6,
+          "name": "Sugar Rush 1000",
+          "vendor": "Pragmatic Play",
+          "rawVendor": "PP",
+          "masterId": 17,
+          "isNewToTop20": false,
+          "lastWeekRank": 6,
+          "rankChange": 0,
+          "note": ""
+        },
+        {
+          "rank": 7,
+          "name": "Wild Ape #3258",
+          "vendor": "PG Soft",
+          "rawVendor": "Pocket Games Soft",
+          "masterId": 67,
+          "isNewToTop20": false,
+          "lastWeekRank": 8,
+          "rankChange": 1,
+          "note": ""
+        },
+        {
+          "rank": 8,
+          "name": "Sugar Bang Bang 2",
+          "vendor": "FA CHAI",
+          "rawVendor": "FA CHAI Gaming",
+          "masterId": 31,
+          "isNewToTop20": false,
+          "lastWeekRank": 7,
+          "rankChange": -1,
+          "note": ""
+        },
+        {
+          "rank": 9,
+          "name": "Fortune Gems 3",
+          "vendor": "JILI",
+          "rawVendor": "Jili",
+          "masterId": 68,
+          "isNewToTop20": false,
+          "lastWeekRank": 9,
+          "rankChange": 0,
+          "note": ""
+        },
+        {
+          "rank": 10,
+          "name": "Gates of Olympus Super Scatter",
+          "vendor": "Pragmatic Play",
+          "rawVendor": "PP",
+          "masterId": 37,
+          "isNewToTop20": false,
+          "lastWeekRank": 10,
+          "rankChange": 0,
+          "note": ""
+        },
+        {
+          "rank": 11,
+          "name": "Sweet Rush Bonanza",
+          "vendor": "Pragmatic Play",
+          "rawVendor": "PP",
+          "masterId": 70,
+          "isNewToTop20": false,
+          "lastWeekRank": 16,
+          "rankChange": 5,
+          "note": ""
+        },
+        {
+          "rank": 12,
+          "name": "Chinese New Year Moreways",
+          "vendor": "FA CHAI",
+          "rawVendor": "FA CHAI Gaming",
+          "masterId": 71,
+          "isNewToTop20": false,
+          "lastWeekRank": 12,
+          "rankChange": 0,
+          "note": ""
+        },
+        {
+          "rank": 13,
+          "name": "Lucky Neko",
+          "vendor": "PG Soft",
+          "rawVendor": "Pocket Games Soft",
+          "masterId": 69,
+          "isNewToTop20": false,
+          "lastWeekRank": 11,
+          "rankChange": -2,
+          "note": ""
+        },
+        {
+          "rank": 14,
+          "name": "Wild Bandito",
+          "vendor": "PG Soft",
+          "rawVendor": "Pocket Games Soft",
+          "masterId": 72,
+          "isNewToTop20": false,
+          "lastWeekRank": 14,
+          "rankChange": 0,
+          "note": ""
+        },
+        {
+          "rank": 15,
+          "name": "Poker Win",
+          "vendor": "FA CHAI",
+          "rawVendor": "FA CHAI Gaming",
+          "masterId": 35,
+          "isNewToTop20": false,
+          "lastWeekRank": 13,
+          "rankChange": -2,
+          "note": ""
+        },
+        {
+          "rank": 16,
+          "name": "Golden Empire",
+          "vendor": "JILI",
+          "rawVendor": "Jili",
+          "masterId": 14,
+          "isNewToTop20": false,
+          "lastWeekRank": 15,
+          "rankChange": -1,
+          "note": ""
+        },
+        {
+          "rank": 17,
+          "name": "Viking Forge™",
+          "vendor": "Pragmatic Play",
+          "rawVendor": "PP",
+          "masterId": 120,
+          "isNewToTop20": true,
+          "lastWeekRank": null,
+          "rankChange": null,
+          "note": ""
+        },
+        {
+          "rank": 18,
+          "name": "Treasures of Aztec",
+          "vendor": "PG Soft",
+          "rawVendor": "Pocket Games Soft",
+          "masterId": 24,
+          "isNewToTop20": false,
+          "lastWeekRank": 19,
+          "rankChange": 1,
+          "note": ""
+        },
+        {
+          "rank": 19,
+          "name": "Anubis Wrath",
+          "vendor": "PG Soft",
+          "rawVendor": "Pocket Games Soft",
+          "masterId": 74,
+          "isNewToTop20": false,
+          "lastWeekRank": 18,
+          "rankChange": -1,
+          "note": ""
+        },
+        {
+          "rank": 20,
+          "name": "Mahjong Wins Super Scatter",
+          "vendor": "Pragmatic Play",
+          "rawVendor": "PP",
+          "masterId": 87,
+          "isNewToTop20": false,
+          "lastWeekRank": 20,
+          "rankChange": 0,
+          "note": ""
+        }
+      ],
+      "newGames": [
+        {
+          "order": 1,
+          "name": "Sweet Bonanza 2500",
+          "vendor": "Pragmatic Play",
+          "rawVendor": "PP",
+          "gameId": "vs20swbon2500",
+          "isFirstSeen": true,
+          "note": ""
+        },
+        {
+          "order": 2,
+          "name": "Reel Royale Showdown",
+          "vendor": "PG Soft",
+          "rawVendor": "Pocket Games Soft",
+          "gameId": "PG2058347",
+          "isFirstSeen": true,
+          "note": ""
+        },
+        {
+          "order": 3,
+          "name": "Great Ghosts!",
+          "vendor": "Pragmatic Play",
+          "rawVendor": "PP",
+          "gameId": "vs50grghsts",
+          "isFirstSeen": true,
+          "note": ""
+        },
+        {
+          "order": 4,
+          "name": "Mighty Mania",
+          "vendor": "PG Soft",
+          "rawVendor": "Pocket Games Soft",
+          "gameId": "PG2081892",
+          "isFirstSeen": true,
+          "note": ""
+        },
+        {
+          "order": 5,
+          "name": "HeartBreakers",
+          "vendor": "Pragmatic Play",
+          "rawVendor": "PP",
+          "gameId": "vs20prizegrow",
+          "isFirstSeen": true,
+          "note": ""
+        },
+        {
+          "order": 6,
+          "name": "Triple Pot Plinko Hercules",
+          "vendor": "Pragmatic Play",
+          "rawVendor": "PP",
+          "gameId": "vswaysplnk3p",
+          "isFirstSeen": true,
+          "note": ""
+        },
+        {
+          "order": 7,
+          "name": "Coin Tornado",
+          "vendor": "BNG",
+          "rawVendor": "BNG",
+          "gameId": "BNG856",
+          "isFirstSeen": true,
+          "note": ""
+        },
+        {
+          "order": 8,
+          "name": "Flaming Bells Hold and Win",
+          "vendor": "BNG",
+          "rawVendor": "BNG",
+          "gameId": "BNG874",
+          "isFirstSeen": true,
+          "note": ""
+        },
+        {
+          "order": 9,
+          "name": "Big Bass Trophy Catch",
+          "vendor": "Pragmatic Play",
+          "rawVendor": "PP",
+          "gameId": "vs10bbtrphfshn",
+          "isFirstSeen": true,
+          "note": ""
+        },
+        {
+          "order": 10,
+          "name": "x1000 Golden Penny 2",
+          "vendor": "BNG",
+          "rawVendor": "BNG",
+          "gameId": "BNG948",
+          "isFirstSeen": true,
+          "note": ""
+        },
+        {
+          "order": 11,
+          "name": "3 Super Hungry Pandas",
+          "vendor": "BNG",
+          "rawVendor": "BNG",
+          "gameId": "BNG950",
+          "isFirstSeen": true,
+          "note": ""
+        },
+        {
+          "order": 12,
+          "name": "Coin Strike XXL Hold and Win 3x5",
+          "vendor": "BNG",
+          "rawVendor": "BNG",
+          "gameId": "BNG949",
+          "isFirstSeen": true,
+          "note": ""
+        },
+        {
+          "order": 13,
+          "name": "Super 3 Coin Volcanoes",
+          "vendor": "BNG",
+          "rawVendor": "BNG",
+          "gameId": "BNG913",
+          "isFirstSeen": true,
+          "note": ""
+        },
+        {
+          "order": 14,
+          "name": "Dragon Pots Megaways",
+          "vendor": "Pragmatic Play",
+          "rawVendor": "PP",
+          "gameId": "vswaysdragden",
+          "isFirstSeen": true,
+          "note": ""
+        },
+        {
+          "order": 15,
+          "name": "Limbo+",
+          "vendor": "Pragmatic Play",
+          "rawVendor": "PP",
+          "gameId": "ar1limboplus",
+          "isFirstSeen": true,
+          "note": ""
+        },
+        {
+          "order": 16,
+          "name": "Inca Queen",
+          "vendor": "Pragmatic Play",
+          "rawVendor": "PP",
+          "gameId": "vs20thunder",
+          "isFirstSeen": true,
+          "note": ""
+        },
+        {
+          "order": 17,
+          "name": "More Energy Coins Hold and Win 5x4",
+          "vendor": "BNG",
+          "rawVendor": "BNG",
+          "gameId": "BNG878",
+          "isFirstSeen": true,
+          "note": ""
+        },
+        {
+          "order": 18,
+          "name": "Launch to Riches",
+          "vendor": "Pragmatic Play",
+          "rawVendor": "PP",
+          "gameId": "vswaysrocktrls",
+          "isFirstSeen": true,
+          "note": ""
+        },
+        {
+          "order": 19,
+          "name": "Idol Pop Fever",
+          "vendor": "Pragmatic Play",
+          "rawVendor": "PP",
+          "gameId": "vs20slightwdm",
+          "isFirstSeen": true,
+          "note": ""
+        },
+        {
+          "order": 20,
+          "name": "Mr. Null's Wicked Wares",
+          "vendor": "Pragmatic Play",
+          "rawVendor": "PP",
+          "gameId": "vswaysmrcursc",
+          "isFirstSeen": true,
+          "note": ""
+        }
+      ]
+    },
+    "BAJI": {
+      "market": "孟加拉",
+      "rankings": [
+        {
+          "rank": 1,
+          "name": "Super Ace",
+          "vendor": "JILI",
+          "rawVendor": "JILI",
+          "masterId": 1,
+          "isNewToTop20": false,
+          "lastWeekRank": 1,
+          "rankChange": 0,
+          "note": ""
+        },
+        {
+          "rank": 2,
+          "name": "Wild Bounty Showdown",
+          "vendor": "PG Soft",
+          "rawVendor": "PG Soft",
+          "masterId": 2,
+          "isNewToTop20": false,
+          "lastWeekRank": 2,
+          "rankChange": 0,
+          "note": ""
+        },
+        {
+          "rank": 3,
+          "name": "Fortune Gems 500",
+          "vendor": "JILI",
+          "rawVendor": "JILI",
+          "masterId": 75,
+          "isNewToTop20": false,
+          "lastWeekRank": 3,
+          "rankChange": 0,
+          "note": ""
+        },
+        {
+          "rank": 4,
+          "name": "Fortune Garuda 500",
+          "vendor": "JILI",
+          "rawVendor": "JILI",
+          "masterId": 9,
+          "isNewToTop20": false,
+          "lastWeekRank": 4,
+          "rankChange": 0,
+          "note": ""
+        },
+        {
+          "rank": 5,
+          "name": "Boxing King",
+          "vendor": "JILI",
+          "rawVendor": "JILI",
+          "masterId": 76,
+          "isNewToTop20": false,
+          "lastWeekRank": 5,
+          "rankChange": 0,
+          "note": ""
+        },
+        {
+          "rank": 6,
+          "name": "Super Ace Deluxe",
+          "vendor": "JILI",
+          "rawVendor": "JILI",
+          "masterId": 15,
+          "isNewToTop20": false,
+          "lastWeekRank": 6,
+          "rankChange": 0,
+          "note": ""
+        },
+        {
+          "rank": 7,
+          "name": "Super Elements (bj)",
+          "vendor": "FA CHAI",
+          "rawVendor": "Fa Chai",
+          "masterId": 121,
+          "isNewToTop20": true,
+          "lastWeekRank": null,
+          "rankChange": null,
+          "note": "BAJI 合作款"
+        },
+        {
+          "rank": 8,
+          "name": "BJ Money Wheel",
+          "vendor": "JDB",
+          "rawVendor": "JDB",
+          "masterId": 122,
+          "isNewToTop20": true,
+          "lastWeekRank": null,
+          "rankChange": null,
+          "note": "BAJI 合作款"
+        },
+        {
+          "rank": 9,
+          "name": "Super Ace Plus",
+          "vendor": "Lucky365",
+          "rawVendor": "LUCKY365",
+          "masterId": 108,
+          "isNewToTop20": false,
+          "lastWeekRank": 9,
+          "rankChange": 0,
+          "note": ""
+        },
+        {
+          "rank": 10,
+          "name": "Treasure Raiders",
+          "vendor": "FA CHAI",
+          "rawVendor": "Fa Chai",
+          "masterId": 109,
+          "isNewToTop20": false,
+          "lastWeekRank": 10,
+          "rankChange": 0,
+          "note": "CazVip 合作款"
+        },
+        {
+          "rank": 11,
+          "name": "Money Coming",
+          "vendor": "JILI",
+          "rawVendor": "JILI",
+          "masterId": 81,
+          "isNewToTop20": false,
+          "lastWeekRank": 11,
+          "rankChange": 0,
+          "note": ""
+        },
+        {
+          "rank": 12,
+          "name": "Fortune Gems",
+          "vendor": "JILI",
+          "rawVendor": "JILI",
+          "masterId": 4,
+          "isNewToTop20": false,
+          "lastWeekRank": 12,
+          "rankChange": 0,
+          "note": ""
+        },
+        {
+          "rank": 13,
+          "name": "Super Elements",
+          "vendor": "FA CHAI",
+          "rawVendor": "Fa Chai",
+          "masterId": 77,
+          "isNewToTop20": false,
+          "lastWeekRank": 13,
+          "rankChange": 0,
+          "note": ""
+        },
+        {
+          "rank": 14,
+          "name": "Fortune Gems III",
+          "vendor": "JILI",
+          "rawVendor": "JILI",
+          "masterId": 25,
+          "isNewToTop20": false,
+          "lastWeekRank": 14,
+          "rankChange": 0,
+          "note": ""
+        },
+        {
+          "rank": 15,
+          "name": "Diva's Ace",
+          "vendor": "Yellow Bat",
+          "rawVendor": "YELLOW BAT",
+          "masterId": 110,
+          "isNewToTop20": false,
+          "lastWeekRank": 15,
+          "rankChange": 0,
+          "note": ""
+        },
+        {
+          "rank": 16,
+          "name": "Magic Ace Wild Lock",
+          "vendor": "JDB",
+          "rawVendor": "JDB",
+          "masterId": 84,
+          "isNewToTop20": false,
+          "lastWeekRank": 16,
+          "rankChange": 0,
+          "note": ""
+        },
+        {
+          "rank": 17,
+          "name": "Money Coming Expand Bets",
+          "vendor": "JILI",
+          "rawVendor": "JILI",
+          "masterId": 111,
+          "isNewToTop20": false,
+          "lastWeekRank": 17,
+          "rankChange": 0,
+          "note": ""
+        },
+        {
+          "rank": 18,
+          "name": "Circus Joker",
+          "vendor": "JILI",
+          "rawVendor": "JILI",
+          "masterId": 112,
+          "isNewToTop20": false,
+          "lastWeekRank": 18,
+          "rankChange": 0,
+          "note": ""
+        },
+        {
+          "rank": 19,
+          "name": "Treasures of Aztec",
+          "vendor": "PG Soft",
+          "rawVendor": "PG Soft",
+          "masterId": 24,
+          "isNewToTop20": false,
+          "lastWeekRank": 19,
+          "rankChange": 0,
+          "note": ""
+        },
+        {
+          "rank": 20,
+          "name": "Fortune Ace Super Scatter",
+          "vendor": "Pragmatic Play",
+          "rawVendor": "PRAGMATIC PLAY",
+          "masterId": 86,
+          "isNewToTop20": false,
+          "lastWeekRank": 20,
+          "rankChange": 0,
+          "note": ""
+        }
+      ],
+      "newGames": [
+        {
+          "order": 1,
+          "name": "Le Digger",
+          "vendor": "HACKSAW",
+          "rawVendor": "HACKSAW",
+          "gameId": "",
+          "isFirstSeen": true,
+          "note": ""
+        },
+        {
+          "order": 2,
+          "name": "Dynasty of Death",
+          "vendor": "HACKSAW",
+          "rawVendor": "HACKSAW",
+          "gameId": "",
+          "isFirstSeen": true,
+          "note": ""
+        },
+        {
+          "order": 3,
+          "name": "Peek & Pounce",
+          "vendor": "HACKSAW",
+          "rawVendor": "HACKSAW",
+          "gameId": "",
+          "isFirstSeen": true,
+          "note": ""
+        },
+        {
+          "order": 4,
+          "name": "Druid's Drop",
+          "vendor": "YGGDRASIL",
+          "rawVendor": "YGGDRASIL",
+          "gameId": "",
+          "isFirstSeen": true,
+          "note": ""
+        },
+        {
+          "order": 5,
+          "name": "Gemstone Jam",
+          "vendor": "YGGDRASIL",
+          "rawVendor": "YGGDRASIL",
+          "gameId": "",
+          "isFirstSeen": true,
+          "note": ""
+        },
+        {
+          "order": 6,
+          "name": "Millionaire Megapots",
+          "vendor": "Big Time Gaming",
+          "rawVendor": "BIGTIME GAMING",
+          "gameId": "",
+          "isFirstSeen": true,
+          "note": ""
+        },
+        {
+          "order": 7,
+          "name": "Launch to Riches",
+          "vendor": "Pragmatic Play",
+          "rawVendor": "PRAGMATIC PLAY",
+          "gameId": "",
+          "isFirstSeen": true,
+          "note": ""
+        },
+        {
+          "order": 8,
+          "name": "Mr. Null's Wicked Wares",
+          "vendor": "Pragmatic Play",
+          "rawVendor": "PRAGMATIC PLAY",
+          "gameId": "",
+          "isFirstSeen": true,
+          "note": ""
+        },
+        {
+          "order": 9,
+          "name": "Golden Goal",
+          "vendor": "JDB",
+          "rawVendor": "JDB",
+          "gameId": "",
+          "isFirstSeen": true,
+          "note": ""
+        },
+        {
+          "order": 10,
+          "name": "Junkyard Kings II",
+          "vendor": "HACKSAW",
+          "rawVendor": "HACKSAW",
+          "gameId": "",
+          "isFirstSeen": true,
+          "note": ""
+        },
+        {
+          "order": 11,
+          "name": "Marlin Masters & Atlantis",
+          "vendor": "HACKSAW",
+          "rawVendor": "HACKSAW",
+          "gameId": "",
+          "isFirstSeen": true,
+          "note": ""
+        },
+        {
+          "order": 12,
+          "name": "Rise of Samurai IV",
+          "vendor": "Pragmatic Play",
+          "rawVendor": "PRAGMATIC PLAY",
+          "gameId": "",
+          "isFirstSeen": true,
+          "note": ""
+        },
+        {
+          "order": 13,
+          "name": "Sexy Joker Deluxe",
+          "vendor": "Yellow Bat",
+          "rawVendor": "YELLOW BAT",
+          "gameId": "",
+          "isFirstSeen": true,
+          "note": ""
+        },
+        {
+          "order": 14,
+          "name": "Golden Aztec Mega",
+          "vendor": "Yellow Bat",
+          "rawVendor": "YELLOW BAT",
+          "gameId": "",
+          "isFirstSeen": true,
+          "note": ""
+        },
+        {
+          "order": 15,
+          "name": "Royal Ace",
+          "vendor": "Yellow Bat",
+          "rawVendor": "YELLOW BAT",
+          "gameId": "",
+          "isFirstSeen": true,
+          "note": ""
+        },
+        {
+          "order": 16,
+          "name": "100 Blazing Clover",
+          "vendor": "JILI",
+          "rawVendor": "JILI",
+          "gameId": "",
+          "isFirstSeen": true,
+          "note": ""
+        },
+        {
+          "order": 17,
+          "name": "Robo Lab",
+          "vendor": "Red Tiger",
+          "rawVendor": "RED TIGER",
+          "gameId": "",
+          "isFirstSeen": true,
+          "note": ""
+        },
+        {
+          "order": 18,
+          "name": "Bandit Gambit",
+          "vendor": "Red Tiger",
+          "rawVendor": "RED TIGER",
+          "gameId": "",
+          "isFirstSeen": true,
+          "note": ""
+        },
+        {
+          "order": 19,
+          "name": "Rumble Mutts",
+          "vendor": "Red Tiger",
+          "rawVendor": "RED TIGER",
+          "gameId": "",
+          "isFirstSeen": true,
+          "note": ""
+        },
+        {
+          "order": 20,
+          "name": "Dojo Meow",
+          "vendor": "AceWin",
+          "rawVendor": "ACEWIN",
+          "gameId": "",
+          "isFirstSeen": true,
+          "note": ""
+        }
+      ]
+    }
+  }
+}

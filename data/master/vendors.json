@@ -491,6 +491,17 @@
         }
       },
       "note": "簡稱 BTG"
+    },
+    {
+      "normalizedName": "Spark Game",
+      "displayPerPlatform": {
+        "PT": "Spark Game",
+        "BP": null,
+        "CP": null,
+        "TCG": null,
+        "BAJI": null
+      },
+      "note": "W4 新發現於 PT"
     }
   ]
 }

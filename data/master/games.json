@@ -1483,6 +1483,160 @@
       },
       "firstSeen": "2026-05-22",
       "note": "W3 新發現於 BAJI"
+    },
+    {
+      "masterId": 113,
+      "normalizedName": "Sang'gre Jackpot",
+      "normalizedVendor": "Spark Game",
+      "platformAliases": {
+        "PT": "Sang'gre Jackpot",
+        "BP": null,
+        "CP": null,
+        "TCG": null,
+        "BAJI": null
+      },
+      "firstSeen": "2026-05-28",
+      "note": "W4 新發現於 PT"
+    },
+    {
+      "masterId": 114,
+      "normalizedName": "High Noon",
+      "normalizedVendor": "JILI",
+      "platformAliases": {
+        "PT": "High Noon",
+        "BP": null,
+        "CP": null,
+        "TCG": null,
+        "BAJI": null
+      },
+      "firstSeen": "2026-05-28",
+      "note": "W4 新發現於 PT"
+    },
+    {
+      "masterId": 115,
+      "normalizedName": "3 Super Ace",
+      "normalizedVendor": "JILI",
+      "platformAliases": {
+        "PT": "3 Super Ace",
+        "BP": null,
+        "CP": null,
+        "TCG": null,
+        "BAJI": null
+      },
+      "firstSeen": "2026-05-28",
+      "note": "W4 新發現於 PT"
+    },
+    {
+      "masterId": 116,
+      "normalizedName": "Crab Trap",
+      "normalizedVendor": "NetEnt",
+      "platformAliases": {
+        "PT": null,
+        "BP": "Crab Trap",
+        "CP": null,
+        "TCG": null,
+        "BAJI": null
+      },
+      "firstSeen": "2026-05-28",
+      "note": "W4 新發現於 BP"
+    },
+    {
+      "masterId": 117,
+      "normalizedName": "Mystic Fortune Deluxe",
+      "normalizedVendor": "Habanero",
+      "platformAliases": {
+        "PT": null,
+        "BP": "Mystic Fortune Deluxe",
+        "CP": null,
+        "TCG": null,
+        "BAJI": null
+      },
+      "firstSeen": "2026-05-28",
+      "note": "W4 新發現於 BP"
+    },
+    {
+      "masterId": 118,
+      "normalizedName": "Elephant",
+      "normalizedVendor": "Playstar",
+      "platformAliases": {
+        "PT": null,
+        "BP": "Elephant",
+        "CP": null,
+        "TCG": null,
+        "BAJI": null
+      },
+      "firstSeen": "2026-05-28",
+      "note": "W4 新發現於 BP"
+    },
+    {
+      "masterId": 119,
+      "normalizedName": "Piñata Wins",
+      "normalizedVendor": "PG Soft",
+      "platformAliases": {
+        "PT": null,
+        "BP": null,
+        "CP": null,
+        "TCG": "Piñata Wins",
+        "BAJI": null
+      },
+      "firstSeen": "2026-05-28",
+      "note": "W4 新發現於 TCG"
+    },
+    {
+      "masterId": 120,
+      "normalizedName": "Viking Forge™",
+      "normalizedVendor": "Pragmatic Play",
+      "platformAliases": {
+        "PT": null,
+        "BP": null,
+        "CP": null,
+        "TCG": "Viking Forge™",
+        "BAJI": null
+      },
+      "firstSeen": "2026-05-28",
+      "note": "W4 新發現於 TCG"
+    },
+    {
+      "masterId": 121,
+      "normalizedName": "Super Elements (bj)",
+      "normalizedVendor": "FA CHAI",
+      "platformAliases": {
+        "PT": null,
+        "BP": null,
+        "CP": null,
+        "TCG": null,
+        "BAJI": "Super Elements (bj)"
+      },
+      "firstSeen": "2026-05-28",
+      "note": "W4 新發現於 BAJI"
+    },
+    {
+      "masterId": 122,
+      "normalizedName": "BJ Money Wheel",
+      "normalizedVendor": "JDB",
+      "platformAliases": {
+        "PT": null,
+        "BP": null,
+        "CP": null,
+        "TCG": null,
+        "BAJI": "BJ Money Wheel"
+      },
+      "firstSeen": "2026-05-28",
+      "note": "W4 新發現於 BAJI"
+    },
+    {
+      "masterId": 123,
+      "normalizedName": "Mines Dare2Win",
+      "normalizedVendor": "HACKSAW",
+      "platformAliases": {
+        "PT": null,
+        "BP": null,
+        "CP": "Mines Dare2Win",
+        "TCG": null,
+        "BAJI": null
+      },
+      "firstSeen": "2026-05-28",
+      "note": "W4 新發現於 CP"
     }
   ]
 }
