@@ -7,7 +7,7 @@
       "url": "https://www.ptgaming.ph/",
       "captureMethod": "截圖+AI 視覺辨識",
       "needsLogin": true,
-      "lastCapture": "2026-05-11",
+      "lastCapture": "2026-05-28",
       "status": "active",
       "note": "Canvas 渲染，需視覺辨識"
     },
@@ -18,7 +18,7 @@
       "url": "https://bingoplus.com/games",
       "captureMethod": "HTML 直接 JS 抓",
       "needsLogin": true,
-      "lastCapture": "2026-05-11",
+      "lastCapture": "2026-05-28",
       "status": "active",
       "note": "DOM 完整，最簡單"
     },
@@ -29,7 +29,7 @@
       "url": "https://www.casinoplus.com.ph/home/games/Slot%20Games",
       "captureMethod": "HTML+對照表",
       "needsLogin": true,
-      "lastCapture": "2026-05-11",
+      "lastCapture": "2026-05-28",
       "status": "active",
       "note": "需建廠家對照表"
     },
@@ -40,7 +40,7 @@
       "url": "https://www.luckyi.com/rng",
       "captureMethod": "HTML+名稱快取",
       "needsLogin": true,
-      "lastCapture": "2026-05-11",
+      "lastCapture": "2026-05-28",
       "status": "active",
       "note": "有 NEW tab 可用"
     },
@@ -51,7 +51,7 @@
       "url": "https://baji.live/bd/en/slot",
       "captureMethod": "HTML+名稱快取",
       "needsLogin": true,
-      "lastCapture": "2026-05-11",
+      "lastCapture": "2026-05-28",
       "status": "active",
       "note": "有 Recommend / New-Old 排序"
     }

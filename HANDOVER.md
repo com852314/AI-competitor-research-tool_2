@@ -63,10 +63,10 @@
 - 已踩過坑：Sugar Bang Bang = FA CHAI（不是 OmniPlay）、Cloud Princess = HACKSAW（不是 PG Soft）
 
 ### 抓資料 SOP（v5）
-分批進行，避免 token 爆掉：
-1. 第一批：PT / BP / CP（3 個菲律賓 Top 20）
-2. 第二批：TCG / BAJI（Top 20 + 新遊戲清單，**新遊戲最多 20 筆**）
-3. 第三批：跑 `capture_week.py raw_input.json` + 補名 + 補廠家
+逐平台收集，每平台完成即回報確認，避免 context 超限導致資料遺失：
+1. PT → BP → CP → TCG 排行 → TCG NEW → BAJI Recommend → BAJI New-Old
+2. 每個平台確認後再繼續下一個
+3. 全部完成 → 輸出 `raw_input.json` → 跑 `capture_week.py` + 補名 + 補廠家
 
 ### Cowork 資料收集規則（DATA_CAPTURE_PROMPT.md）
 - **可在頁面內滾動**，但不可自行切換到其他分頁或分類
@@ -88,6 +88,51 @@
 - gameId 是跨週比對的依據；若 gameId 全空，viewer 的「連續兩週都在 / 新進 / 消失」分析會失效
 - Viewer 已加 fallback（gameId 空時改用名稱比對），但仍應盡量確保 gameId 有值
 - 已踩過坑：W4 BAJI newGames 全部 gameId 為空，導致跨週分析無法運作
+
+### TCG NEW 遊戲 DOM 抓取技術（比截圖穩定）
+
+圖片載入失敗時，改用 DevTools console 執行：
+
+```javascript
+// 前 20 個結果即為 NEW 清單（依排列順序）
+Array.from(document.querySelectorAll('img'))
+  .filter(img => img.src.includes('TCG_GAME_ICONS'))
+  .slice(0, 20)
+  .map(img => img.src)
+```
+
+URL 結構：`https://images.7087053.com/TCG_GAME_ICONS/LUCKY/{廠家代碼}/EN/{gameCode}.png`
+
+| URL 路徑 | vendor normalizedName |
+|---|---|
+| PP | Pragmatic Play |
+| PG | PG Soft |
+| BNG | BNG |
+| FC | FA CHAI |
+| JL | JILI |
+| PT | Playtech |
+
+圖片載入失敗時：`name` 填 `(待辨識)`，`gameId` 填 URL 中的 `{gameCode}`，`vendor` 從路徑推斷。
+
+### BAJI 頁面導覽說明
+
+**Recommend Top 20：**
+- 頁面：`https://baji.live/bd/en/slot?vendor=all`（預設排序即為 Recommend）
+- 遊戲名稱嵌在縮圖圖片中，無法用 JS 讀文字節點，須截圖辨識
+- 廠家在側欄展開後可見（點擊左側 Slots 選單展開）
+- 側欄廠家標籤「YELLOW BAT」= master 表的 `Yellow Bat`
+
+**New-Old 新遊戲：**
+- 由用戶手動切換到 New 分類頁面
+- 截圖讀取前 20 筆；gameId 若頁面上看不到，在 note 欄說明（`gameId` 留空字串）
+- 已踩過坑：W4 全部 gameId 空 → 跨週分析失效，盡量想辦法找 ID
+
+### BP PLAYSTAR 廠家說明
+
+BP Top 20 大量出現 PLAYSTAR 是正常現象，屬 BP 平台廠家標籤體系。
+
+- master normalizedName：`Playstar`
+- rawVendor 填：`PLAYSTAR`
 
 ---
 
@@ -247,12 +292,11 @@
 
 ### 步驟一：開新 cowork session 收資料
 
-1. 開一個**全新的 cowork 對話**
+1. 開一個**全新的 cowork 對話**（確認該 session 有 MCP browser 工具）
 2. 把 `docs/DATA_CAPTURE_PROMPT.md` **全文貼到第一則訊息**
-3. 分兩批提供資料：
-   - **第一批**：PT 截圖 → BP HTML → CP HTML（cowork 整理前三平台）
-   - **第二批**：TCG 排行 + NEW 清單 HTML → BAJI 排行 + New-Old HTML
-4. 確認所有平台都有 20 筆後，要求 cowork 輸出完整 `raw_input.json`
+3. Cowork AI 用 MCP 開啟瀏覽器視窗（空白新分頁），所有頁面由使用者自行依序開啟
+4. **逐平台收集**：每個平台收完，cowork 立即貼出清單讓使用者確認，確認後再繼續下一個
+5. 7 個平台全部確認後，要求 cowork 輸出完整 `raw_input.json`
 
 ### 步驟二：存檔並執行腳本
 
