@@ -910,7 +910,7 @@
           "name": "Reel Royale Showdown",
           "vendor": "PG Soft",
           "rawVendor": "Pocket Games Soft",
-          "gameId": "2058347",
+          "gameId": "PG2058347",
           "isFirstSeen": true,
           "note": "圖片無法載入"
         },
@@ -919,7 +919,7 @@
           "name": "Mighty Mania",
           "vendor": "PG Soft",
           "rawVendor": "Pocket Games Soft",
-          "gameId": "2081892",
+          "gameId": "PG2081892",
           "isFirstSeen": true,
           "note": "圖片無法載入"
         },
@@ -955,7 +955,7 @@
           "name": "Wild Bounty Queen",
           "vendor": "Victory Ark",
           "rawVendor": "Victory Ark",
-          "gameId": "1008",
+          "gameId": "VA1008",
           "isFirstSeen": true,
           "note": "廠家不在對照表"
         },
@@ -973,7 +973,7 @@
           "name": "Coin Tornado",
           "vendor": "BNG",
           "rawVendor": "BNG",
-          "gameId": "856",
+          "gameId": "BNG856",
           "isFirstSeen": true,
           "note": ""
         },
@@ -982,7 +982,7 @@
           "name": "x1000 Golden Penny 2",
           "vendor": "BNG",
           "rawVendor": "BNG",
-          "gameId": "948",
+          "gameId": "BNG948",
           "isFirstSeen": true,
           "note": ""
         },
@@ -991,7 +991,7 @@
           "name": "3 Super Hungry Pandas",
           "vendor": "BNG",
           "rawVendor": "BNG",
-          "gameId": "950",
+          "gameId": "BNG950",
           "isFirstSeen": true,
           "note": ""
         },
@@ -1000,7 +1000,7 @@
           "name": "Coin Strike XXL Hold and Win 3x5",
           "vendor": "BNG",
           "rawVendor": "BNG",
-          "gameId": "949",
+          "gameId": "BNG949",
           "isFirstSeen": true,
           "note": ""
         },
@@ -1009,7 +1009,7 @@
           "name": "Flaming Bells Hold and Win",
           "vendor": "BNG",
           "rawVendor": "BNG",
-          "gameId": "874",
+          "gameId": "BNG874",
           "isFirstSeen": true,
           "note": ""
         },
@@ -1018,7 +1018,7 @@
           "name": "Super 3 Coin Volcanoes",
           "vendor": "BNG",
           "rawVendor": "BNG",
-          "gameId": "913",
+          "gameId": "BNG913",
           "isFirstSeen": true,
           "note": ""
         },
@@ -1027,7 +1027,7 @@
           "name": "MeowRiches",
           "vendor": "Victory Ark",
           "rawVendor": "Victory Ark",
-          "gameId": "486",
+          "gameId": "VA486",
           "isFirstSeen": true,
           "note": "廠家不在對照表"
         },
@@ -1054,7 +1054,7 @@
           "name": "More Energy Coins Hold and Win 5x4",
           "vendor": "BNG",
           "rawVendor": "BNG",
-          "gameId": "878",
+          "gameId": "BNG878",
           "isFirstSeen": true,
           "note": ""
         },

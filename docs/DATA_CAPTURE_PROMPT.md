@@ -186,6 +186,14 @@ Array.from(document.querySelectorAll('img'))
 
 URL 中 `{gameCode}` 即為 gameId，廠家從路徑推斷（PP=Pragmatic Play、PG=PG Soft、BNG=BNG、FC=FA CHAI、JL=JILI、PT=Playtech）。看不到名稱時 `name` 填 `(待辨識)`。
 
+**gameId 填寫規則：**
+- 字母型 ID（如 `vswaysplnk3p`、`PH-rainbowjackpots0`）→ 直接填，不加前綴
+- 純數字 ID → **加廠家 URL 代碼前綴**，避免不同廠家撞號：
+  - PG Soft → `PG` + 數字（如 `PG2058347`）
+  - BNG → `BNG` + 數字（如 `BNG856`）
+  - Victory Ark → `VA` + 數字（如 `VA1008`）
+  - 其他純數字廠家 → 用 URL 路徑中的廠家代碼 + 數字
+
 ### 只看當前頁面，不自行切換（重申）
 
 你沒有瀏覽器。你只能讀取使用者貼給你的內容。
