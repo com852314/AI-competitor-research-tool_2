@@ -502,6 +502,76 @@
         "BAJI": null
       },
       "note": "W4 新發現於 PT"
+    },
+    {
+      "normalizedName": "5G Games",
+      "displayPerPlatform": {
+        "PT": "5G",
+        "BP": null,
+        "CP": null,
+        "TCG": null,
+        "BAJI": {
+          "urlCode": "5G",
+          "display": "5G"
+        }
+      },
+      "note": "W5 新發現於 PT / BAJI"
+    },
+    {
+      "normalizedName": "ACEWIN",
+      "displayPerPlatform": {
+        "PT": null,
+        "BP": null,
+        "CP": null,
+        "TCG": null,
+        "BAJI": {
+          "urlCode": "ACEWIN",
+          "display": "ACEWIN"
+        }
+      },
+      "note": "W5 新發現於 BAJI"
+    },
+    {
+      "normalizedName": "CREATIVE GAMING",
+      "displayPerPlatform": {
+        "PT": null,
+        "BP": null,
+        "CP": null,
+        "TCG": null,
+        "BAJI": {
+          "urlCode": "CREATIVE GAMING",
+          "display": "CREATIVE GAMING"
+        }
+      },
+      "note": "W5 新發現於 BAJI"
+    },
+    {
+      "normalizedName": "Dragoonsoft",
+      "displayPerPlatform": {
+        "PT": null,
+        "BP": null,
+        "CP": null,
+        "TCG": null,
+        "BAJI": {
+          "urlCode": "DRAGOONSOFT",
+          "display": "DRAGOONSOFT"
+        }
+      },
+      "note": "W5 新發現於 BAJI newGames"
+    },
+    {
+      "normalizedName": "Play'n GO",
+      "displayPerPlatform": {
+        "PT": null,
+        "BP": null,
+        "CP": null,
+        "TCG": null,
+        "BAJI": {
+          "urlCode": "PLAYNGO",
+          "display": "PLAY'N GO"
+        }
+      },
+      "note": "W5 新發現於 BAJI newGames"
     }
   ]
 }

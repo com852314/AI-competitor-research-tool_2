@@ -1637,6 +1637,734 @@
       },
       "firstSeen": "2026-05-28",
       "note": "W4 新發現於 CP"
+    },
+    {
+      "masterId": 124,
+      "normalizedName": "Pinata 1000",
+      "normalizedVendor": "5G Games",
+      "platformAliases": {
+        "PT": "Pinata 1000",
+        "BP": null,
+        "CP": null,
+        "TCG": null,
+        "BAJI": null
+      },
+      "firstSeen": "2026-06-08",
+      "note": "W5 新發現於 PT"
+    },
+    {
+      "masterId": 125,
+      "normalizedName": "DJ Tiger x1000",
+      "normalizedVendor": "BNG",
+      "platformAliases": {
+        "PT": "DJ Tiger x1000",
+        "BP": null,
+        "CP": null,
+        "TCG": null,
+        "BAJI": null
+      },
+      "firstSeen": "2026-06-08",
+      "note": "W5 新發現於 PT"
+    },
+    {
+      "masterId": 126,
+      "normalizedName": "DJ Boom Boom",
+      "normalizedVendor": "FA CHAI",
+      "platformAliases": {
+        "PT": "DJ Boom Boom",
+        "BP": null,
+        "CP": null,
+        "TCG": null,
+        "BAJI": null
+      },
+      "firstSeen": "2026-06-08",
+      "note": "W5 新發現於 PT"
+    },
+    {
+      "masterId": 127,
+      "normalizedName": "Super Boom",
+      "normalizedVendor": "Playstar",
+      "platformAliases": {
+        "PT": null,
+        "BP": "Super Boom",
+        "CP": null,
+        "TCG": null,
+        "BAJI": null
+      },
+      "firstSeen": "2026-06-08",
+      "note": "W5 新發現於 BP"
+    },
+    {
+      "masterId": 128,
+      "normalizedName": "Challenge·Mayan Calendar",
+      "normalizedVendor": "Playstar",
+      "platformAliases": {
+        "PT": null,
+        "BP": "Challenge·Mayan Calendar",
+        "CP": null,
+        "TCG": null,
+        "BAJI": null
+      },
+      "firstSeen": "2026-06-08",
+      "note": "W5 新發現於 BP"
+    },
+    {
+      "masterId": 129,
+      "normalizedName": "Zuma",
+      "normalizedVendor": "Playstar",
+      "platformAliases": {
+        "PT": null,
+        "BP": "Zuma",
+        "CP": null,
+        "TCG": null,
+        "BAJI": null
+      },
+      "firstSeen": "2026-06-08",
+      "note": "W5 新發現於 BP"
+    },
+    {
+      "masterId": 130,
+      "normalizedName": "Challenge · Fu Lu Shou Xi",
+      "normalizedVendor": "Playstar",
+      "platformAliases": {
+        "PT": null,
+        "BP": "Challenge · Fu Lu Shou Xi",
+        "CP": null,
+        "TCG": null,
+        "BAJI": null
+      },
+      "firstSeen": "2026-06-08",
+      "note": "W5 新發現於 BP"
+    },
+    {
+      "masterId": 131,
+      "normalizedName": "Tuk Tuk Thailand",
+      "normalizedVendor": "Habanero",
+      "platformAliases": {
+        "PT": null,
+        "BP": "Tuk Tuk Thailand",
+        "CP": null,
+        "TCG": null,
+        "BAJI": null
+      },
+      "firstSeen": "2026-06-08",
+      "note": "W5 新發現於 BP"
+    },
+    {
+      "masterId": 132,
+      "normalizedName": "Golden Week",
+      "normalizedVendor": "Playstar",
+      "platformAliases": {
+        "PT": null,
+        "BP": "Golden Week",
+        "CP": null,
+        "TCG": null,
+        "BAJI": null
+      },
+      "firstSeen": "2026-06-08",
+      "note": "W5 新發現於 BP"
+    },
+    {
+      "masterId": 133,
+      "normalizedName": "Kungfu",
+      "normalizedVendor": "Playstar",
+      "platformAliases": {
+        "PT": null,
+        "BP": "Kungfu",
+        "CP": null,
+        "TCG": null,
+        "BAJI": null
+      },
+      "firstSeen": "2026-06-08",
+      "note": "W5 新發現於 BP"
+    },
+    {
+      "masterId": 134,
+      "normalizedName": "Wu Xia",
+      "normalizedVendor": "Playstar",
+      "platformAliases": {
+        "PT": null,
+        "BP": "Wu Xia",
+        "CP": null,
+        "TCG": null,
+        "BAJI": null
+      },
+      "firstSeen": "2026-06-08",
+      "note": "W5 新發現於 BP"
+    },
+    {
+      "masterId": 135,
+      "normalizedName": "Hand Of God",
+      "normalizedVendor": "Playstar",
+      "platformAliases": {
+        "PT": null,
+        "BP": "Hand Of God",
+        "CP": null,
+        "TCG": null,
+        "BAJI": null
+      },
+      "firstSeen": "2026-06-08",
+      "note": "W5 新發現於 BP"
+    },
+    {
+      "masterId": 136,
+      "normalizedName": "Rat Of Wealth",
+      "normalizedVendor": "Playstar",
+      "platformAliases": {
+        "PT": null,
+        "BP": "Rat Of Wealth",
+        "CP": null,
+        "TCG": null,
+        "BAJI": null
+      },
+      "firstSeen": "2026-06-08",
+      "note": "W5 新發現於 BP"
+    },
+    {
+      "masterId": 137,
+      "normalizedName": "Master Haha",
+      "normalizedVendor": "Playstar",
+      "platformAliases": {
+        "PT": null,
+        "BP": "Master Haha",
+        "CP": null,
+        "TCG": null,
+        "BAJI": null
+      },
+      "firstSeen": "2026-06-08",
+      "note": "W5 新發現於 BP"
+    },
+    {
+      "masterId": 138,
+      "normalizedName": "Taiko Beats",
+      "normalizedVendor": "Habanero",
+      "platformAliases": {
+        "PT": null,
+        "BP": "Taiko Beats",
+        "CP": null,
+        "TCG": null,
+        "BAJI": null
+      },
+      "firstSeen": "2026-06-08",
+      "note": "W5 新發現於 BP"
+    },
+    {
+      "masterId": 139,
+      "normalizedName": "Da Fu Gui",
+      "normalizedVendor": "Playstar",
+      "platformAliases": {
+        "PT": null,
+        "BP": "Da Fu Gui",
+        "CP": null,
+        "TCG": null,
+        "BAJI": null
+      },
+      "firstSeen": "2026-06-08",
+      "note": "W5 新發現於 BP"
+    },
+    {
+      "masterId": 140,
+      "normalizedName": "Fish Prawn Crab",
+      "normalizedVendor": "Playstar",
+      "platformAliases": {
+        "PT": null,
+        "BP": "Fish Prawn Crab",
+        "CP": null,
+        "TCG": null,
+        "BAJI": null
+      },
+      "firstSeen": "2026-06-08",
+      "note": "W5 新發現於 BP"
+    },
+    {
+      "masterId": 141,
+      "normalizedName": "Space Goonz",
+      "normalizedVendor": "Habanero",
+      "platformAliases": {
+        "PT": null,
+        "BP": "Space Goonz",
+        "CP": null,
+        "TCG": null,
+        "BAJI": null
+      },
+      "firstSeen": "2026-06-08",
+      "note": "W5 新發現於 BP"
+    },
+    {
+      "masterId": 142,
+      "normalizedName": "Money Meow",
+      "normalizedVendor": "Playstar",
+      "platformAliases": {
+        "PT": null,
+        "BP": "Money Meow",
+        "CP": null,
+        "TCG": null,
+        "BAJI": null
+      },
+      "firstSeen": "2026-06-08",
+      "note": "W5 新發現於 BP"
+    },
+    {
+      "masterId": 143,
+      "normalizedName": "Aladdin",
+      "normalizedVendor": "CREATIVE GAMING",
+      "platformAliases": {
+        "PT": null,
+        "BP": null,
+        "CP": null,
+        "TCG": null,
+        "BAJI": "Aladdin"
+      },
+      "firstSeen": "2026-06-08",
+      "note": "W5 新發現於 BAJI"
+    },
+    {
+      "masterId": 144,
+      "normalizedName": "Cashking",
+      "normalizedVendor": "ACEWIN",
+      "platformAliases": {
+        "PT": null,
+        "BP": null,
+        "CP": null,
+        "TCG": null,
+        "BAJI": "Cashking"
+      },
+      "firstSeen": "2026-06-08",
+      "note": "W5 新發現於 BAJI"
+    },
+    {
+      "masterId": 145,
+      "normalizedName": "50 Lions",
+      "normalizedVendor": "CREATIVE GAMING",
+      "platformAliases": {
+        "PT": null,
+        "BP": null,
+        "CP": null,
+        "TCG": null,
+        "BAJI": "50 Lions"
+      },
+      "firstSeen": "2026-06-08",
+      "note": "W5 新發現於 BAJI"
+    },
+    {
+      "masterId": 146,
+      "normalizedName": "Super Acewin",
+      "normalizedVendor": "ACEWIN",
+      "platformAliases": {
+        "PT": null,
+        "BP": null,
+        "CP": null,
+        "TCG": null,
+        "BAJI": "Super Acewin"
+      },
+      "firstSeen": "2026-06-08",
+      "note": "W5 新發現於 BAJI"
+    },
+    {
+      "masterId": 147,
+      "normalizedName": "Fist Champion",
+      "normalizedVendor": "ACEWIN",
+      "platformAliases": {
+        "PT": null,
+        "BP": null,
+        "CP": null,
+        "TCG": null,
+        "BAJI": "Fist Champion"
+      },
+      "firstSeen": "2026-06-08",
+      "note": "W5 新發現於 BAJI"
+    },
+    {
+      "masterId": 148,
+      "normalizedName": "Zombie Hunter",
+      "normalizedVendor": "CREATIVE GAMING",
+      "platformAliases": {
+        "PT": null,
+        "BP": null,
+        "CP": null,
+        "TCG": null,
+        "BAJI": "Zombie Hunter"
+      },
+      "firstSeen": "2026-06-08",
+      "note": "W5 新發現於 BAJI"
+    },
+    {
+      "masterId": 149,
+      "normalizedName": "Mummy Mia",
+      "normalizedVendor": "ACEWIN",
+      "platformAliases": {
+        "PT": null,
+        "BP": null,
+        "CP": null,
+        "TCG": null,
+        "BAJI": "Mummy Mia"
+      },
+      "firstSeen": "2026-06-08",
+      "note": "W5 新發現於 BAJI"
+    },
+    {
+      "masterId": 150,
+      "normalizedName": "Ninja Warrior",
+      "normalizedVendor": "CREATIVE GAMING",
+      "platformAliases": {
+        "PT": null,
+        "BP": null,
+        "CP": null,
+        "TCG": null,
+        "BAJI": "Ninja Warrior"
+      },
+      "firstSeen": "2026-06-08",
+      "note": "W5 新發現於 BAJI"
+    },
+    {
+      "masterId": 151,
+      "normalizedName": "Diamond Slot",
+      "normalizedVendor": "CREATIVE GAMING",
+      "platformAliases": {
+        "PT": null,
+        "BP": null,
+        "CP": null,
+        "TCG": null,
+        "BAJI": "Diamond Slot"
+      },
+      "firstSeen": "2026-06-08",
+      "note": "W5 新發現於 BAJI"
+    },
+    {
+      "masterId": 152,
+      "normalizedName": "Fortune 4 Ever Dragon",
+      "normalizedVendor": "ACEWIN",
+      "platformAliases": {
+        "PT": null,
+        "BP": null,
+        "CP": null,
+        "TCG": null,
+        "BAJI": "Fortune 4 Ever Dragon"
+      },
+      "firstSeen": "2026-06-08",
+      "note": "W5 新發現於 BAJI"
+    },
+    {
+      "masterId": 153,
+      "normalizedName": "Lil' Green",
+      "normalizedVendor": "ACEWIN",
+      "platformAliases": {
+        "PT": null,
+        "BP": null,
+        "CP": null,
+        "TCG": null,
+        "BAJI": "Lil' Green"
+      },
+      "firstSeen": "2026-06-08",
+      "note": "W5 新發現於 BAJI"
+    },
+    {
+      "masterId": 154,
+      "normalizedName": "Money Farm 3",
+      "normalizedVendor": "CREATIVE GAMING",
+      "platformAliases": {
+        "PT": null,
+        "BP": null,
+        "CP": null,
+        "TCG": null,
+        "BAJI": "Money Farm 3"
+      },
+      "firstSeen": "2026-06-08",
+      "note": "W5 新發現於 BAJI"
+    },
+    {
+      "masterId": 155,
+      "normalizedName": "Lucky Pig",
+      "normalizedVendor": "CREATIVE GAMING",
+      "platformAliases": {
+        "PT": null,
+        "BP": null,
+        "CP": null,
+        "TCG": null,
+        "BAJI": "Lucky Pig"
+      },
+      "firstSeen": "2026-06-08",
+      "note": "W5 新發現於 BAJI"
+    },
+    {
+      "masterId": 156,
+      "normalizedName": "Reel Royale Showdown",
+      "normalizedVendor": "PG Soft",
+      "platformAliases": {
+        "PT": null,
+        "BP": null,
+        "CP": null,
+        "TCG": "2058347",
+        "BAJI": null
+      },
+      "firstSeen": "2026-06-08",
+      "note": "W5 新發現於 TCG newGames"
+    },
+    {
+      "masterId": 157,
+      "normalizedName": "Mighty Mania",
+      "normalizedVendor": "PG Soft",
+      "platformAliases": {
+        "PT": null,
+        "BP": null,
+        "CP": null,
+        "TCG": "2081892",
+        "BAJI": null
+      },
+      "firstSeen": "2026-06-08",
+      "note": "W5 新發現於 TCG newGames"
+    },
+    {
+      "masterId": 158,
+      "normalizedName": "Triple Pot Plinko Hercules",
+      "normalizedVendor": "Pragmatic Play",
+      "platformAliases": {
+        "PT": null,
+        "BP": null,
+        "CP": null,
+        "TCG": "vswaysplnk3p",
+        "BAJI": null
+      },
+      "firstSeen": "2026-06-08",
+      "note": "W5 新發現於 TCG newGames"
+    },
+    {
+      "masterId": 159,
+      "normalizedName": "HeartBreakers",
+      "normalizedVendor": "Pragmatic Play",
+      "platformAliases": {
+        "PT": null,
+        "BP": null,
+        "CP": null,
+        "TCG": "vs20prizegrow",
+        "BAJI": null
+      },
+      "firstSeen": "2026-06-08",
+      "note": "W5 新發現於 TCG newGames"
+    },
+    {
+      "masterId": 160,
+      "normalizedName": "Candy Rush",
+      "normalizedVendor": "Pragmatic Play",
+      "platformAliases": {
+        "PT": null,
+        "BP": null,
+        "CP": null,
+        "TCG": "vs20candyia",
+        "BAJI": null
+      },
+      "firstSeen": "2026-06-08",
+      "note": "W5 新發現於 TCG newGames"
+    },
+    {
+      "masterId": 161,
+      "normalizedName": "Wild Bounty Queen",
+      "normalizedVendor": "Victory Ark",
+      "platformAliases": {
+        "PT": null,
+        "BP": null,
+        "CP": null,
+        "TCG": "1008",
+        "BAJI": null
+      },
+      "firstSeen": "2026-06-08",
+      "note": "W5 新發現於 TCG newGames"
+    },
+    {
+      "masterId": 162,
+      "normalizedName": "The Big Dog House",
+      "normalizedVendor": "Pragmatic Play",
+      "platformAliases": {
+        "PT": null,
+        "BP": null,
+        "CP": null,
+        "TCG": "vs20bgdoghouse",
+        "BAJI": null
+      },
+      "firstSeen": "2026-06-08",
+      "note": "W5 新發現於 TCG newGames"
+    },
+    {
+      "masterId": 163,
+      "normalizedName": "Coin Tornado",
+      "normalizedVendor": "BNG",
+      "platformAliases": {
+        "PT": null,
+        "BP": null,
+        "CP": null,
+        "TCG": "856",
+        "BAJI": null
+      },
+      "firstSeen": "2026-06-08",
+      "note": "W5 新發現於 TCG newGames"
+    },
+    {
+      "masterId": 164,
+      "normalizedName": "x1000 Golden Penny 2",
+      "normalizedVendor": "BNG",
+      "platformAliases": {
+        "PT": null,
+        "BP": null,
+        "CP": null,
+        "TCG": "948",
+        "BAJI": null
+      },
+      "firstSeen": "2026-06-08",
+      "note": "W5 新發現於 TCG newGames"
+    },
+    {
+      "masterId": 165,
+      "normalizedName": "3 Super Hungry Pandas",
+      "normalizedVendor": "BNG",
+      "platformAliases": {
+        "PT": null,
+        "BP": null,
+        "CP": null,
+        "TCG": "950",
+        "BAJI": null
+      },
+      "firstSeen": "2026-06-08",
+      "note": "W5 新發現於 TCG newGames"
+    },
+    {
+      "masterId": 166,
+      "normalizedName": "Coin Strike XXL Hold and Win 3x5",
+      "normalizedVendor": "BNG",
+      "platformAliases": {
+        "PT": null,
+        "BP": null,
+        "CP": null,
+        "TCG": "949",
+        "BAJI": null
+      },
+      "firstSeen": "2026-06-08",
+      "note": "W5 新發現於 TCG newGames"
+    },
+    {
+      "masterId": 167,
+      "normalizedName": "Flaming Bells Hold and Win",
+      "normalizedVendor": "BNG",
+      "platformAliases": {
+        "PT": null,
+        "BP": null,
+        "CP": null,
+        "TCG": "874",
+        "BAJI": null
+      },
+      "firstSeen": "2026-06-08",
+      "note": "W5 新發現於 TCG newGames"
+    },
+    {
+      "masterId": 168,
+      "normalizedName": "Super 3 Coin Volcanoes",
+      "normalizedVendor": "BNG",
+      "platformAliases": {
+        "PT": null,
+        "BP": null,
+        "CP": null,
+        "TCG": "913",
+        "BAJI": null
+      },
+      "firstSeen": "2026-06-08",
+      "note": "W5 新發現於 TCG newGames"
+    },
+    {
+      "masterId": 169,
+      "normalizedName": "MeowRiches",
+      "normalizedVendor": "Victory Ark",
+      "platformAliases": {
+        "PT": null,
+        "BP": null,
+        "CP": null,
+        "TCG": "486",
+        "BAJI": null
+      },
+      "firstSeen": "2026-06-08",
+      "note": "W5 新發現於 TCG newGames"
+    },
+    {
+      "masterId": 170,
+      "normalizedName": "Dragon's Gate Bonus Choice",
+      "normalizedVendor": "Pragmatic Play",
+      "platformAliases": {
+        "PT": null,
+        "BP": null,
+        "CP": null,
+        "TCG": "vs50dragatebch",
+        "BAJI": null
+      },
+      "firstSeen": "2026-06-08",
+      "note": "W5 新發現於 TCG newGames"
+    },
+    {
+      "masterId": 171,
+      "normalizedName": "Rainbow Jackpots",
+      "normalizedVendor": "Red Tiger",
+      "platformAliases": {
+        "PT": null,
+        "BP": null,
+        "CP": null,
+        "TCG": "PH-rainbowjackpots0",
+        "BAJI": null
+      },
+      "firstSeen": "2026-06-08",
+      "note": "W5 新發現於 TCG newGames"
+    },
+    {
+      "masterId": 172,
+      "normalizedName": "More Energy Coins Hold and Win 5x4",
+      "normalizedVendor": "BNG",
+      "platformAliases": {
+        "PT": null,
+        "BP": null,
+        "CP": null,
+        "TCG": "878",
+        "BAJI": null
+      },
+      "firstSeen": "2026-06-08",
+      "note": "W5 新發現於 TCG newGames"
+    },
+    {
+      "masterId": 173,
+      "normalizedName": "Jingle Bells",
+      "normalizedVendor": "Red Tiger",
+      "platformAliases": {
+        "PT": null,
+        "BP": null,
+        "CP": null,
+        "TCG": "PH-jinglebells00000",
+        "BAJI": null
+      },
+      "firstSeen": "2026-06-08",
+      "note": "W5 新發現於 TCG newGames"
+    },
+    {
+      "masterId": 174,
+      "normalizedName": "Mr. Null's Wicked Wares",
+      "normalizedVendor": "Pragmatic Play",
+      "platformAliases": {
+        "PT": null,
+        "BP": null,
+        "CP": null,
+        "TCG": "vswaysmrcursc",
+        "BAJI": null
+      },
+      "firstSeen": "2026-06-08",
+      "note": "W5 新發現於 TCG newGames"
+    },
+    {
+      "masterId": 175,
+      "normalizedName": "Launch to Riches",
+      "normalizedVendor": "Pragmatic Play",
+      "platformAliases": {
+        "PT": null,
+        "BP": null,
+        "CP": null,
+        "TCG": "vswaysrocktrls",
+        "BAJI": null
+      },
+      "firstSeen": "2026-06-08",
+      "note": "W5 新發現於 TCG newGames"
     }
   ]
 }
