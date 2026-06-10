@@ -51,6 +51,7 @@
     <button class="tab-btn px-4 py-2 text-sm font-medium border-b-2 border-transparent text-gray-500 hover:text-gray-800" data-tab="master">📋 主表瀏覽</button>
     <button class="tab-btn px-4 py-2 text-sm font-medium border-b-2 border-transparent text-gray-500 hover:text-gray-800" data-tab="vendors">🏢 廠家對照</button>
     <button class="tab-btn px-4 py-2 text-sm font-medium border-b-2 border-transparent text-gray-500 hover:text-gray-800" data-tab="trend">📈 跨週趨勢</button>
+    <button class="tab-btn px-4 py-2 text-sm font-medium border-b-2 border-transparent text-gray-500 hover:text-gray-800" data-tab="attributes">🔬 遊戲屬性</button>
   </nav>
 </header>
 
@@ -1312,6 +1313,323 @@ function renderVendorShareTrend() {
   });
 }
 
+
+// ===== 遊戲屬性分析 Tab（Mock 版） =====
+(function () {
+  // ── Mock 資料 ──────────────────────────────────────────────────
+  const MOCK = {
+    total: 149,
+    withData: 112,
+    avgRtp: 96.4,
+
+    volatility: {
+      "High":     52,
+      "Med-High": 28,
+      "Med":      35,
+      "Low-Med":  18,
+      "Low":       6,
+      "N/A":      13,
+    },
+
+    waysLines: {
+      "Multiways (≥1024)": 58,
+      "Ways (243–729)":    24,
+      "Lines (20–50)":     28,
+      "Lines (5–15)":      16,
+      "Cluster pays":      12,
+      "其他 / 未知":        11,
+    },
+
+    rtpBuckets: {
+      "< 94%":      4,
+      "94–95%":    12,
+      "95–96%":    24,
+      "96–97%":    46,
+      "97–98%":    21,
+      "> 98%":      5,
+    },
+
+    topThemes: [
+      ["Asian",        58],
+      ["Classic",      44],
+      ["Card",         22],
+      ["Fantasy",      19],
+      ["Fruit",        17],
+      ["Animal",       15],
+      ["Mythology",    13],
+      ["Adventure",    12],
+      ["Wild West",     9],
+      ["Egyptian",      8],
+      ["Nature",        8],
+      ["Horror",        6],
+      ["Sports",        5],
+      ["Christmas",     4],
+      ["Space",         3],
+    ],
+
+    topFeatures: [
+      ["Wild",                   140],
+      ["Free Spins",             128],
+      ["Scatter symbols",        122],
+      ["Multiplier",             108],
+      ["Free Spins Multiplier",   82],
+      ["Buy Feature",             44],
+      ["Cascading / Avalanche",   40],
+      ["Expanding wild",          36],
+      ["Sticky Wild",             28],
+      ["Bonus Game",              24],
+      ["Tumble",                  22],
+      ["RTP range",               18],
+      ["Respins",                 16],
+      ["Jackpot",                 14],
+      ["Hold & Win",              12],
+    ],
+
+    vendorVol: {
+      labels: ["JILI", "PG Soft", "Pragmatic Play", "FA CHAI", "HACKSAW", "Habanero", "JDB", "BNG"],
+      high:     [12, 18, 14,  4, 10,  6,  4,  5],
+      medHigh:  [ 8,  5,  6,  3,  0,  4,  2,  3],
+      med:      [10,  2,  8,  8,  0,  5,  4,  2],
+      lowMed:   [ 4,  0,  2,  2,  0,  2,  2,  1],
+      low:      [ 2,  0,  1,  0,  0,  1,  0,  0],
+    },
+  };
+
+  const VOL_COLORS = {
+    "High":     "#ef4444",
+    "Med-High": "#f97316",
+    "Med":      "#eab308",
+    "Low-Med":  "#22c55e",
+    "Low":      "#3b82f6",
+    "N/A":      "#d1d5db",
+  };
+
+  let _attrRendered = false;
+
+  function renderAttributesTab() {
+    if (_attrRendered) return;
+    _attrRendered = true;
+
+    // 摘要卡片
+    document.getElementById("attr-coverage-num").textContent =
+      MOCK.withData + " / " + MOCK.total + " 款";
+    document.getElementById("attr-avg-rtp").textContent = MOCK.avgRtp.toFixed(1) + "%";
+    const topVol = Object.entries(MOCK.volatility).sort((a,b)=>b[1]-a[1])[0];
+    document.getElementById("attr-top-volatility").textContent =
+      topVol[0] + " (" + topVol[1] + " 款)";
+
+    // 波動度 Pie
+    new Chart(document.getElementById("attr-vol-canvas"), {
+      type: "pie",
+      data: {
+        labels: Object.keys(MOCK.volatility),
+        datasets: [{
+          data: Object.values(MOCK.volatility),
+          backgroundColor: Object.keys(MOCK.volatility).map(k => VOL_COLORS[k] || "#9ca3af"),
+          borderWidth: 1,
+        }]
+      },
+      options: {
+        responsive: true, maintainAspectRatio: false,
+        plugins: { legend: { position: "right", labels: { font: { size: 11 } } } }
+      }
+    });
+
+    // Ways/Lines Doughnut
+    new Chart(document.getElementById("attr-ways-canvas"), {
+      type: "doughnut",
+      data: {
+        labels: Object.keys(MOCK.waysLines),
+        datasets: [{
+          data: Object.values(MOCK.waysLines),
+          backgroundColor: ["#6366f1","#8b5cf6","#3b82f6","#60a5fa","#34d399","#d1d5db"],
+          borderWidth: 1,
+        }]
+      },
+      options: {
+        responsive: true, maintainAspectRatio: false,
+        plugins: { legend: { position: "right", labels: { font: { size: 11 } } } }
+      }
+    });
+
+    // RTP 分布 Bar
+    new Chart(document.getElementById("attr-rtp-canvas"), {
+      type: "bar",
+      data: {
+        labels: Object.keys(MOCK.rtpBuckets),
+        datasets: [{
+          label: "款數",
+          data: Object.values(MOCK.rtpBuckets),
+          backgroundColor: "#60a5fa",
+          borderRadius: 4,
+        }]
+      },
+      options: {
+        responsive: true, maintainAspectRatio: false,
+        plugins: { legend: { display: false } },
+        scales: {
+          y: { beginAtZero: true, ticks: { stepSize: 10 } },
+          x: { grid: { display: false } }
+        }
+      }
+    });
+
+    // 熱門主題 Horizontal Bar
+    const themesSorted = [...MOCK.topThemes].sort((a,b) => a[1] - b[1]);
+    new Chart(document.getElementById("attr-theme-canvas"), {
+      type: "bar",
+      data: {
+        labels: themesSorted.map(d => d[0]),
+        datasets: [{
+          label: "款數",
+          data: themesSorted.map(d => d[1]),
+          backgroundColor: "#f59e0b",
+          borderRadius: 3,
+        }]
+      },
+      options: {
+        indexAxis: "y",
+        responsive: true, maintainAspectRatio: false,
+        plugins: { legend: { display: false } },
+        scales: {
+          x: { beginAtZero: true },
+          y: { ticks: { font: { size: 11 } } }
+        }
+      }
+    });
+
+    // 熱門功能 Horizontal Bar
+    const featSorted = [...MOCK.topFeatures].sort((a,b) => a[1] - b[1]);
+    new Chart(document.getElementById("attr-feature-canvas"), {
+      type: "bar",
+      data: {
+        labels: featSorted.map(d => d[0]),
+        datasets: [{
+          label: "款數",
+          data: featSorted.map(d => d[1]),
+          backgroundColor: "#10b981",
+          borderRadius: 3,
+        }]
+      },
+      options: {
+        indexAxis: "y",
+        responsive: true, maintainAspectRatio: false,
+        plugins: { legend: { display: false } },
+        scales: {
+          x: { beginAtZero: true },
+          y: { ticks: { font: { size: 11 } } }
+        }
+      }
+    });
+
+    // 廠家 × 波動度 Stacked Bar
+    const vv = MOCK.vendorVol;
+    new Chart(document.getElementById("attr-vendor-vol-canvas"), {
+      type: "bar",
+      data: {
+        labels: vv.labels,
+        datasets: [
+          { label: "High",     data: vv.high,    backgroundColor: "#ef4444" },
+          { label: "Med-High", data: vv.medHigh, backgroundColor: "#f97316" },
+          { label: "Med",      data: vv.med,     backgroundColor: "#eab308" },
+          { label: "Low-Med",  data: vv.lowMed,  backgroundColor: "#22c55e" },
+          { label: "Low",      data: vv.low,     backgroundColor: "#3b82f6" },
+        ]
+      },
+      options: {
+        responsive: true, maintainAspectRatio: false,
+        plugins: { legend: { position: "bottom", labels: { font: { size: 11 } } } },
+        scales: {
+          x: { stacked: true, grid: { display: false } },
+          y: { stacked: true, beginAtZero: true }
+        }
+      }
+    });
+  }
+
+  // Tab 切換時觸發
+  document.addEventListener("DOMContentLoaded", () => {
+    document.querySelectorAll(".tab-btn").forEach(btn => {
+      btn.addEventListener("click", () => {
+        if (btn.dataset.tab === "attributes") renderAttributesTab();
+      });
+    });
+  });
+})();
+
 </script>
+
+  <!-- Attributes Tab (mock) -->
+  <section id="tab-attributes" class="tab-content hidden">
+    <div class="max-w-6xl mx-auto space-y-6">
+
+      <!-- 摘要卡片 -->
+      <div class="grid grid-cols-3 gap-4">
+        <div class="bg-white rounded border border-gray-200 p-4 text-center">
+          <div class="text-3xl font-bold text-blue-600" id="attr-coverage-num">—</div>
+          <div class="text-sm text-gray-500 mt-1">已有屬性資料（Mock）</div>
+        </div>
+        <div class="bg-white rounded border border-gray-200 p-4 text-center">
+          <div class="text-3xl font-bold text-green-600" id="attr-avg-rtp">—</div>
+          <div class="text-sm text-gray-500 mt-1">平均 RTP</div>
+        </div>
+        <div class="bg-white rounded border border-gray-200 p-4 text-center">
+          <div class="text-3xl font-bold text-orange-500" id="attr-top-volatility">—</div>
+          <div class="text-sm text-gray-500 mt-1">最多款波動度</div>
+        </div>
+      </div>
+
+      <!-- 波動度 + Ways/Lines -->
+      <div class="grid grid-cols-2 gap-4">
+        <div class="bg-white rounded border border-gray-200 p-4">
+          <h3 class="text-sm font-semibold text-gray-700 mb-3">波動度分布</h3>
+          <div style="position:relative;height:220px;">
+            <canvas id="attr-vol-canvas"></canvas>
+          </div>
+        </div>
+        <div class="bg-white rounded border border-gray-200 p-4">
+          <h3 class="text-sm font-semibold text-gray-700 mb-3">Ways / Lines / Cluster 分布</h3>
+          <div style="position:relative;height:220px;">
+            <canvas id="attr-ways-canvas"></canvas>
+          </div>
+        </div>
+      </div>
+
+      <!-- RTP 分布 -->
+      <div class="bg-white rounded border border-gray-200 p-4">
+        <h3 class="text-sm font-semibold text-gray-700 mb-3">RTP 分布</h3>
+        <div style="position:relative;height:180px;">
+          <canvas id="attr-rtp-canvas"></canvas>
+        </div>
+      </div>
+
+      <!-- 熱門主題 -->
+      <div class="bg-white rounded border border-gray-200 p-4">
+        <h3 class="text-sm font-semibold text-gray-700 mb-3">熱門主題 Top 15</h3>
+        <div style="position:relative;height:320px;">
+          <canvas id="attr-theme-canvas"></canvas>
+        </div>
+      </div>
+
+      <!-- 熱門玩法功能 -->
+      <div class="bg-white rounded border border-gray-200 p-4">
+        <h3 class="text-sm font-semibold text-gray-700 mb-3">熱門玩法功能 Top 15</h3>
+        <div style="position:relative;height:320px;">
+          <canvas id="attr-feature-canvas"></canvas>
+        </div>
+      </div>
+
+      <!-- 廠家 × 波動度 -->
+      <div class="bg-white rounded border border-gray-200 p-4">
+        <h3 class="text-sm font-semibold text-gray-700 mb-3">主要廠家 × 波動度分布</h3>
+        <div style="position:relative;height:280px;">
+          <canvas id="attr-vendor-vol-canvas"></canvas>
+        </div>
+      </div>
+
+      <p class="text-xs text-gray-400 text-center pb-2">⚠ 此頁籤目前使用模擬資料，待 attributes.json 建立後將自動切換為真實資料。</p>
+    </div>
+  </section>
+
 </body>
 </html>
