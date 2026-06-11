@@ -798,12 +798,18 @@ function getDateRange(preset, from, to) {
 const VOL_ORDER = {'Low':0,'Low-Med':1,'Med':2,'Med-High':3,'High':4,'N/A':5,'Adjusted':6};
 
 function setSortCol(col) {
-  if (MASTER_SORT_COL === col) {
-    MASTER_SORT_DIR = MASTER_SORT_DIR === 'asc' ? 'desc' : 'asc';
-  } else {
+  const defaultDir = ['count','rtp','releaseDate','firstSeen'].includes(col) ? 'desc' : 'asc';
+  if (MASTER_SORT_COL !== col) {
+    // 新欄位：套預設方向
     MASTER_SORT_COL = col;
-    // 數字欄/日期欄預設降序（最大/最新在前）；文字欄預設升序
-    MASTER_SORT_DIR = ['count','rtp','releaseDate','firstSeen'].includes(col) ? 'desc' : 'asc';
+    MASTER_SORT_DIR = defaultDir;
+  } else if (MASTER_SORT_DIR === defaultDir) {
+    // 第二次點：切換方向
+    MASTER_SORT_DIR = defaultDir === 'asc' ? 'desc' : 'asc';
+  } else {
+    // 第三次點：清除排序（回預設）
+    MASTER_SORT_COL = '';
+    MASTER_SORT_DIR = 'asc';
   }
   renderMasterTable();
 }
