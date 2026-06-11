@@ -1,0 +1,4569 @@
+{
+  "1": {
+    "masterId": 1,
+    "name": "Super Ace",
+    "vendor": "JILI",
+    "slotcatalogUrl": "https://slotcatalog.com/en/slots/Super-Ace",
+    "rtp": 97.0,
+    "volatility": "Low-Med",
+    "maxWin": 1500.0,
+    "ways": 1024,
+    "lines": null,
+    "releaseDate": "2021-11-16",
+    "layout": "5-4",
+    "features": [
+      "Additional Free Spins",
+      "Avalanche",
+      "Cascading",
+      "Expanding wild with re-spin",
+      "Free Spins",
+      "Free Spins Multiplier",
+      "Gonzo mechanic",
+      "Multiplier",
+      "Scatter symbols",
+      "Wild"
+    ],
+    "theme": [
+      "Black",
+      "Blue",
+      "Brown",
+      "Card",
+      "Card suits",
+      "Card theme"
+    ],
+    "status": "found"
+  },
+  "2": {
+    "masterId": 2,
+    "name": "Wild Bounty Showdown",
+    "vendor": "PG Soft",
+    "slotcatalogUrl": "https://slotcatalog.com/en/slots/Wild-Bounty-Showdown",
+    "rtp": 96.75,
+    "volatility": "High",
+    "maxWin": 5000.0,
+    "ways": 3000,
+    "lines": null,
+    "releaseDate": "2022-08-30",
+    "layout": "3-4-5-5-4-3",
+    "features": [
+      "Avalanche",
+      "Buy Feature",
+      "Cascading",
+      "Gonzo mechanic",
+      "Multiplier",
+      "Multiway (+1024)",
+      "RTP range",
+      "Wild"
+    ],
+    "theme": [
+      "Brown",
+      "Cowboys",
+      "Sand color",
+      "Weapons",
+      "Western",
+      "Wild West"
+    ],
+    "status": "found"
+  },
+  "3": {
+    "masterId": 3,
+    "name": "Pinata Wins",
+    "vendor": "PG Soft",
+    "slotcatalogUrl": "https://slotcatalog.com/en/slots/pinata-wins",
+    "rtp": 96.75,
+    "volatility": "Med",
+    "maxWin": 5000.0,
+    "ways": 20,
+    "lines": null,
+    "releaseDate": "2024-04-16",
+    "layout": "5-3",
+    "features": [
+      "Additional Free Spins",
+      "Avalanche",
+      "Buy Feature",
+      "Cascading",
+      "Free Spins",
+      "Free Spins Multiplier",
+      "Multiplier",
+      "Random multiplier",
+      "Scatter symbols"
+    ],
+    "theme": [
+      "Chili theme",
+      "Chilli",
+      "Mexico",
+      "pinata",
+      "Skull",
+      "Star",
+      "Street food Taco, HotDod, Shaurma"
+    ],
+    "status": "found"
+  },
+  "4": {
+    "masterId": 4,
+    "name": "Fortune Gems",
+    "vendor": "JILI",
+    "slotcatalogUrl": "https://slotcatalog.com/en/slots/Fortune-Gems",
+    "rtp": 97.0,
+    "volatility": "Low",
+    "maxWin": 375.0,
+    "ways": 5,
+    "lines": null,
+    "releaseDate": "2021-09-07",
+    "layout": "3-3",
+    "features": [
+      "Bonus Bet",
+      "Bonus wheel",
+      "Multiplier",
+      "Random multiplier",
+      "Spin The Wheel",
+      "Wild"
+    ],
+    "theme": [
+      "Ancient civilizations",
+      "Brown",
+      "Card suits",
+      "Diamond",
+      "Garuda",
+      "Gems",
+      "Gods",
+      "Green",
+      "Jewelry",
+      "Ruby",
+      "Totem",
+      "Yellow"
+    ],
+    "status": "found"
+  },
+  "5": {
+    "masterId": 5,
+    "name": "Sweet Bonanza 2500",
+    "vendor": "Pragmatic Play",
+    "slotcatalogUrl": "https://slotcatalog.com/en/slots/Sweet-Bonanza",
+    "rtp": 96.51,
+    "volatility": "Med-High",
+    "maxWin": 21100.0,
+    "ways": null,
+    "lines": null,
+    "releaseDate": "2019-06-27",
+    "layout": "6-5",
+    "features": [
+      "Avalanche",
+      "Cascading",
+      "Free Spins",
+      "Free Spins Multiplier",
+      "Multiplier",
+      "Pay Anywhere",
+      "Progressive Jackpot",
+      "RTP range",
+      "Scatter symbols"
+    ],
+    "theme": [
+      "Apple",
+      "Banana",
+      "Blue",
+      "Candies",
+      "Grapes",
+      "Pink",
+      "Plum",
+      "Sugar",
+      "Sweets",
+      "Watermelon"
+    ],
+    "status": "found"
+  },
+  "6": {
+    "masterId": 6,
+    "name": "Golden Genie",
+    "vendor": "FA CHAI",
+    "slotcatalogUrl": "https://slotcatalog.com/en/slots/Golden-Genie",
+    "rtp": 95.3,
+    "volatility": "Med",
+    "maxWin": null,
+    "ways": 1024,
+    "lines": null,
+    "releaseDate": "2019-08-29",
+    "layout": "5-4",
+    "features": [
+      "Free Spins",
+      "Free Spins Multiplier",
+      "Multiplier",
+      "Scatter symbols",
+      "Wild"
+    ],
+    "theme": [
+      "Arabian",
+      "Blue",
+      "Brown",
+      "Chest",
+      "Djinn",
+      "Medallion",
+      "Shoes",
+      "Treasures"
+    ],
+    "status": "found"
+  },
+  "7": {
+    "masterId": 7,
+    "name": "Charge Buffalo",
+    "vendor": "JILI",
+    "slotcatalogUrl": "https://slotcatalog.com/en/slots/Charge-Buffalo",
+    "rtp": 97.0,
+    "volatility": "Low-Med",
+    "maxWin": 4000.0,
+    "ways": 4096,
+    "lines": null,
+    "releaseDate": "2021-10-04",
+    "layout": "6-4",
+    "features": [
+      "Additional Free Spins",
+      "Free Spins",
+      "Free Spins Multiplier",
+      "Multiway (+1024)",
+      "Scatter symbols",
+      "Wild"
+    ],
+    "theme": [
+      "Animals",
+      "Bears",
+      "Brown",
+      "Buffalo",
+      "Card suits",
+      "Eagles",
+      "Safari",
+      "Sky blue",
+      "Wildlife",
+      "Wolf"
+    ],
+    "status": "found"
+  },
+  "8": {
+    "masterId": 8,
+    "name": "Lucky Fortunes",
+    "vendor": "FA CHAI",
+    "slotcatalogUrl": "https://slotcatalog.com/en/slots/Lucky-Fortunes",
+    "rtp": 96.5,
+    "volatility": "Med",
+    "maxWin": 1000.0,
+    "ways": 243,
+    "lines": null,
+    "releaseDate": "2022-12-02",
+    "layout": "5-3",
+    "features": [
+      "Additional Free Spins",
+      "Bonus Game",
+      "Bonus symbols",
+      "BonusGame: Pick Objects",
+      "Cheats tool",
+      "Fixed Jackpots",
+      "Free Spins",
+      "Scatter symbols",
+      "Wild"
+    ],
+    "theme": [
+      "Card suits",
+      "Coins",
+      "Fortune",
+      "Fortune Frog",
+      "Gold",
+      "Gold-color",
+      "Green",
+      "Hieroglyph",
+      "Koi Fish",
+      "Luck",
+      "Oriental, Asian",
+      "Red",
+      "Turtle"
+    ],
+    "status": "found"
+  },
+  "9": {
+    "masterId": 9,
+    "name": "Fortune Garuda 500",
+    "vendor": "JILI",
+    "slotcatalogUrl": "https://slotcatalog.com/en/slots/fortune-garuda-500",
+    "rtp": 97.1,
+    "volatility": "Low",
+    "maxWin": 25000.0,
+    "ways": 5,
+    "lines": null,
+    "releaseDate": "2026-02-18",
+    "layout": "3-3",
+    "features": [
+      "Bonus Bet",
+      "Cheats tool",
+      "Multiplier",
+      "Nudge Feature",
+      "Prize Line",
+      "Random multiplier",
+      "Stack",
+      "Wild"
+    ],
+    "theme": [
+      "Ancient civilizations",
+      "Garuda",
+      "Gems"
+    ],
+    "status": "found"
+  },
+  "10": {
+    "masterId": 10,
+    "name": "Lucky Jaguar 500",
+    "vendor": "JILI",
+    "slotcatalogUrl": "https://slotcatalog.com/en/slots/lucky-jaguar-500",
+    "rtp": 97.0,
+    "volatility": "Med",
+    "maxWin": 20000.0,
+    "ways": 5,
+    "lines": null,
+    "releaseDate": "2025-12-09",
+    "layout": "3-3",
+    "features": [
+      "Bonus Bet",
+      "Bonus Game",
+      "Bonus symbols",
+      "Cheats tool",
+      "Hold and Win",
+      "Multiplier",
+      "Random multiplier",
+      "Respin Locking Win",
+      "Wild",
+      "Wilds with multipliers"
+    ],
+    "theme": [
+      "Ancient civilizations",
+      "Animals",
+      "Aztec",
+      "Chest",
+      "Jaguar",
+      "Jungle",
+      "Mayan",
+      "Ring",
+      "Totem",
+      "Treasures"
+    ],
+    "status": "found"
+  },
+  "14": {
+    "masterId": 14,
+    "name": "Golden Empire",
+    "vendor": "JILI",
+    "slotcatalogUrl": "https://slotcatalog.com/en/slots/Golden-Empire",
+    "rtp": null,
+    "volatility": "N/A",
+    "maxWin": 540.0,
+    "ways": 243,
+    "lines": null,
+    "releaseDate": null,
+    "layout": "5-3",
+    "features": null,
+    "theme": [
+      "China",
+      "Chinese Dragons",
+      "Chinese Lions",
+      "Gold-color",
+      "Koi Fish",
+      "Oriental, Asian",
+      "Red",
+      "Tigers"
+    ],
+    "status": "found"
+  },
+  "15": {
+    "masterId": 15,
+    "name": "Super Ace Deluxe",
+    "vendor": "JILI",
+    "slotcatalogUrl": "https://slotcatalog.com/en/slots/super-ace-deluxe",
+    "rtp": null,
+    "volatility": "Med",
+    "maxWin": 10000.0,
+    "ways": 1024,
+    "lines": null,
+    "releaseDate": "2024-08-03",
+    "layout": "5-4",
+    "features": [
+      "Avalanche",
+      "Cascading",
+      "Free Spins",
+      "Free Spins Multiplier",
+      "Gonzo mechanic",
+      "Multiplier",
+      "Random Wilds / Additional Wilds",
+      "Scatter symbols",
+      "Wild"
+    ],
+    "theme": [
+      "Card",
+      "Card suits",
+      "Card theme",
+      "Coins"
+    ],
+    "status": "found"
+  },
+  "17": {
+    "masterId": 17,
+    "name": "Sugar Rush 1000",
+    "vendor": "Pragmatic Play",
+    "slotcatalogUrl": "https://slotcatalog.com/en/slots/Sugar-Rush-1000",
+    "rtp": 97.5,
+    "volatility": "High",
+    "maxWin": 25000.0,
+    "ways": null,
+    "lines": null,
+    "releaseDate": "2024-03-08",
+    "layout": "7-7",
+    "features": [
+      "Avalanche",
+      "Bonus Bet",
+      "Buy Feature",
+      "Cascading",
+      "Cluster Pays",
+      "Free Spins",
+      "Free Spins Multiplier",
+      "Multiplier",
+      "RTP range",
+      "Scatter symbols",
+      "Wild"
+    ],
+    "theme": [
+      "Pink",
+      "Sweets",
+      "Violet"
+    ],
+    "status": "found"
+  },
+  "18": {
+    "masterId": 18,
+    "name": "Fortune Gems 3",
+    "vendor": "PG Soft",
+    "slotcatalogUrl": "https://slotcatalog.com/en/slots/Fortune-Gems",
+    "rtp": 97.0,
+    "volatility": "Low",
+    "maxWin": 375.0,
+    "ways": 5,
+    "lines": null,
+    "releaseDate": "2021-09-07",
+    "layout": "3-3",
+    "features": [
+      "Bonus Bet",
+      "Bonus wheel",
+      "Multiplier",
+      "Random multiplier",
+      "Spin The Wheel",
+      "Wild"
+    ],
+    "theme": [
+      "Ancient civilizations",
+      "Brown",
+      "Card suits",
+      "Diamond",
+      "Garuda",
+      "Gems",
+      "Gods",
+      "Green",
+      "Jewelry",
+      "Ruby",
+      "Totem",
+      "Yellow"
+    ],
+    "status": "found"
+  },
+  "19": {
+    "masterId": 19,
+    "name": "Sugar Bang Bang 2",
+    "vendor": "OmniPlay",
+    "slotcatalogUrl": "https://slotcatalog.com/en/slots/Sugar-Bang-Bang",
+    "rtp": 96.5,
+    "volatility": "Med",
+    "maxWin": 3000.0,
+    "ways": 1024,
+    "lines": null,
+    "releaseDate": "2022-10-18",
+    "layout": "4-5-5-5-4",
+    "features": [
+      "Additional Free Spins",
+      "Avalanche",
+      "Bonus Bet",
+      "Cascading",
+      "Cheats tool",
+      "Free Spins",
+      "Free Spins Multiplier",
+      "Gonzo mechanic",
+      "Multiplier",
+      "Multiway (+1024)",
+      "Random Wilds / Additional Wilds",
+      "Scatter symbols",
+      "Wild"
+    ],
+    "theme": [
+      "Bears",
+      "Blue",
+      "Brown",
+      "Candies",
+      "Card suits",
+      "Diamond",
+      "Sugar",
+      "Sweets"
+    ],
+    "status": "found"
+  },
+  "20": {
+    "masterId": 20,
+    "name": "Sweet Bonanza 1000",
+    "vendor": "Pragmatic Play",
+    "slotcatalogUrl": "https://slotcatalog.com/en/slots/Sweet-Bonanza",
+    "rtp": 96.51,
+    "volatility": "Med-High",
+    "maxWin": 21100.0,
+    "ways": null,
+    "lines": null,
+    "releaseDate": "2019-06-27",
+    "layout": "6-5",
+    "features": [
+      "Avalanche",
+      "Cascading",
+      "Free Spins",
+      "Free Spins Multiplier",
+      "Multiplier",
+      "Pay Anywhere",
+      "Progressive Jackpot",
+      "RTP range",
+      "Scatter symbols"
+    ],
+    "theme": [
+      "Apple",
+      "Banana",
+      "Blue",
+      "Candies",
+      "Grapes",
+      "Pink",
+      "Plum",
+      "Sugar",
+      "Sweets",
+      "Watermelon"
+    ],
+    "status": "found"
+  },
+  "21": {
+    "masterId": 21,
+    "name": "Wild Ape #3258",
+    "vendor": "Pragmatic Play",
+    "slotcatalogUrl": "https://slotcatalog.com/en/slots/wild-ape-3258",
+    "rtp": 96.74,
+    "volatility": "High",
+    "maxWin": 10000.0,
+    "ways": 32400,
+    "lines": null,
+    "releaseDate": "2024-03-25",
+    "layout": "6-6",
+    "features": [
+      "Additional Free Spins",
+      "Avalanche",
+      "Buy Feature",
+      "Cascading",
+      "Free Spins",
+      "Free Spins Multiplier",
+      "Multiway (+1024)",
+      "Scatter symbols",
+      "Sticky Wilds",
+      "Wild",
+      "Wilds with multipliers"
+    ],
+    "theme": [
+      "Black",
+      "Blue",
+      "Card suits",
+      "Clock",
+      "Crown",
+      "Cryptocurrency",
+      "Drinks",
+      "Gold",
+      "Monkey",
+      "Monkeys Theme"
+    ],
+    "status": "found"
+  },
+  "22": {
+    "masterId": 22,
+    "name": "Super Ace II",
+    "vendor": "JILI",
+    "status": "not_found",
+    "triedSlugs": [
+      "Super-Ace-II",
+      "Super-Ace-II-JILI",
+      "super-ace-ii"
+    ]
+  },
+  "28": {
+    "masterId": 28,
+    "name": "Poker Win",
+    "vendor": "JILI/FA CHAI",
+    "slotcatalogUrl": "https://slotcatalog.com/en/slots/poker-win",
+    "rtp": 96.5,
+    "volatility": "Med",
+    "maxWin": 25000.0,
+    "ways": null,
+    "lines": null,
+    "releaseDate": "2025-01-20",
+    "layout": "6-5",
+    "features": [
+      "Additional Free Spins",
+      "Avalanche",
+      "Bonus symbols",
+      "Buy Feature",
+      "Cascading",
+      "Cheats tool",
+      "Free Spins",
+      "Free Spins Multiplier",
+      "Multiplier",
+      "Progressive Jackpot",
+      "Random multiplier",
+      "Scatter symbols",
+      "Symbol Swap",
+      "Wild"
+    ],
+    "theme": [
+      "Card",
+      "Card suits",
+      "Card theme",
+      "Casino",
+      "Chip",
+      "Clown",
+      "Diamond",
+      "Green",
+      "Joker",
+      "Queen, Empress",
+      "Red"
+    ],
+    "status": "found"
+  },
+  "23": {
+    "masterId": 23,
+    "name": "Fortune Coins",
+    "vendor": "JILI",
+    "slotcatalogUrl": "https://slotcatalog.com/en/slots/fortune-coins",
+    "rtp": 97.0,
+    "volatility": "Med",
+    "maxWin": 3000.0,
+    "ways": 5,
+    "lines": null,
+    "releaseDate": "2025-02-14",
+    "layout": "3-3",
+    "features": [
+      "Bonus Game",
+      "Bonus symbols",
+      "Buy Feature",
+      "Cash Collector",
+      "Fixed Jackpots",
+      "Hold and Win",
+      "Multiplier",
+      "Respins",
+      "Wild"
+    ],
+    "theme": [
+      "777",
+      "Bell",
+      "Cherry",
+      "Classic style",
+      "Coins",
+      "Crown",
+      "Fruit",
+      "Grapes",
+      "Lemon",
+      "Orange",
+      "Pink",
+      "Plum",
+      "Red",
+      "Violet",
+      "Watermelon"
+    ],
+    "status": "found"
+  },
+  "24": {
+    "masterId": 24,
+    "name": "Treasures of Aztec",
+    "vendor": "PG Soft",
+    "slotcatalogUrl": "https://slotcatalog.com/en/slots/Treasures-of-Aztec",
+    "rtp": 96.71,
+    "volatility": "Med",
+    "maxWin": null,
+    "ways": 32400,
+    "lines": null,
+    "releaseDate": "2020-11-11",
+    "layout": "6-5",
+    "features": [
+      "Avalanche",
+      "Cascading",
+      "Free Spins",
+      "Free Spins Multiplier",
+      "Multiplier",
+      "Scatter symbols",
+      "Wild"
+    ],
+    "theme": [
+      "Ancient civilizations",
+      "Aztec",
+      "Brown",
+      "Green",
+      "Jungle",
+      "Mayan",
+      "Ornamental Symbols",
+      "Ornamentation",
+      "Totem"
+    ],
+    "status": "found"
+  },
+  "25": {
+    "masterId": 25,
+    "name": "Fortune Gems III",
+    "vendor": "JILI",
+    "status": "not_found",
+    "triedSlugs": [
+      "Fortune-Gems-III",
+      "Fortune-Gems-III-JILI",
+      "fortune-gems-iii"
+    ]
+  },
+  "29": {
+    "masterId": 29,
+    "name": "Super Gems",
+    "vendor": "OmniPlay",
+    "slotcatalogUrl": "https://slotcatalog.com/en/slots/Super-Gems",
+    "rtp": 94.0,
+    "volatility": "High",
+    "maxWin": 1000.0,
+    "ways": 10,
+    "lines": null,
+    "releaseDate": "2022-03-31",
+    "layout": "5-3",
+    "features": [
+      "Free Spins",
+      "Free Spins Multiplier",
+      "Multiplier",
+      "Risk/Gamble (Double) game",
+      "RTP range",
+      "Scatter symbols",
+      "Stack",
+      "Wild"
+    ],
+    "theme": [
+      "Black",
+      "Card suits",
+      "Dark blue",
+      "Diamond",
+      "Gems",
+      "Jewelry",
+      "Ruby",
+      "Space",
+      "Star"
+    ],
+    "status": "found"
+  },
+  "30": {
+    "masterId": 30,
+    "name": "Fortune Gems 500 EXCLUSIVE",
+    "vendor": "PG Soft",
+    "status": "not_found",
+    "triedSlugs": [
+      "Fortune-Gems-500-EXCLUSIVE",
+      "Fortune-Gems-500-EXCLUSIVE-PG-Soft",
+      "fortune-gems-500-exclusive"
+    ]
+  },
+  "31": {
+    "masterId": 31,
+    "name": "Sugar Bang Bang 2",
+    "vendor": "FA CHAI",
+    "slotcatalogUrl": "https://slotcatalog.com/en/slots/Sugar-Bang-Bang",
+    "rtp": 96.5,
+    "volatility": "Med",
+    "maxWin": 3000.0,
+    "ways": 1024,
+    "lines": null,
+    "releaseDate": "2022-10-18",
+    "layout": "4-5-5-5-4",
+    "features": [
+      "Additional Free Spins",
+      "Avalanche",
+      "Bonus Bet",
+      "Cascading",
+      "Cheats tool",
+      "Free Spins",
+      "Free Spins Multiplier",
+      "Gonzo mechanic",
+      "Multiplier",
+      "Multiway (+1024)",
+      "Random Wilds / Additional Wilds",
+      "Scatter symbols",
+      "Wild"
+    ],
+    "theme": [
+      "Bears",
+      "Blue",
+      "Brown",
+      "Candies",
+      "Card suits",
+      "Diamond",
+      "Sugar",
+      "Sweets"
+    ],
+    "status": "found"
+  },
+  "32": {
+    "masterId": 32,
+    "name": "SUPER ELEMENTS 2",
+    "vendor": "FA CHAI",
+    "slotcatalogUrl": "https://slotcatalog.com/en/slots/super-elements-2",
+    "rtp": 96.5,
+    "volatility": "Med-High",
+    "maxWin": 10000.0,
+    "ways": 3600,
+    "lines": null,
+    "releaseDate": "2026-04-29",
+    "layout": "3-4-5-5-4-3",
+    "features": [
+      "Additional Free Spins",
+      "Avalanche",
+      "Bonus symbols",
+      "Buy Feature",
+      "Cascading",
+      "Cheats tool",
+      "Free Spins",
+      "Free Spins Multiplier",
+      "Multiplier",
+      "Multiway (+1024)",
+      "Random multiplier",
+      "Random Wilds / Additional Wilds",
+      "Scatter symbols",
+      "Sequels, Series Continuations",
+      "Wild"
+    ],
+    "theme": [
+      "Blue",
+      "Chest",
+      "Dark blue",
+      "Elements",
+      "Fire",
+      "Gems",
+      "Lightning",
+      "Space",
+      "Space Adventure",
+      "Water"
+    ],
+    "status": "found"
+  },
+  "33": {
+    "masterId": 33,
+    "name": "Fortune Coins 2",
+    "vendor": "JILI",
+    "slotcatalogUrl": "https://slotcatalog.com/en/slots/fortune-coins-2",
+    "rtp": 96.46,
+    "volatility": "Low-Med",
+    "maxWin": 10000.0,
+    "ways": 5,
+    "lines": null,
+    "releaseDate": "2025-09-15",
+    "layout": "3-3",
+    "features": [
+      "Bonus Bet",
+      "Bonus symbols",
+      "Buy Feature",
+      "Cash Collector",
+      "Fixed Jackpots",
+      "Hold and Win",
+      "Multiplier",
+      "Pot Collection"
+    ],
+    "theme": [
+      "Bars",
+      "Bell",
+      "Cherry",
+      "Coins",
+      "Fruit",
+      "Gold",
+      "Grapes",
+      "Lemon",
+      "Orange subject",
+      "Plum",
+      "Red",
+      "Silver",
+      "Violet",
+      "Watermelon"
+    ],
+    "status": "found"
+  },
+  "34": {
+    "masterId": 34,
+    "name": "Magic Ace 99 EXCLUSIVE",
+    "vendor": "JILI",
+    "status": "not_found",
+    "triedSlugs": [
+      "Magic-Ace-99-EXCLUSIVE",
+      "Magic-Ace-99-EXCLUSIVE-JILI",
+      "magic-ace-99-exclusive"
+    ]
+  },
+  "35": {
+    "masterId": 35,
+    "name": "Poker Win",
+    "vendor": "FA CHAI",
+    "slotcatalogUrl": "https://slotcatalog.com/en/slots/poker-win",
+    "rtp": 96.5,
+    "volatility": "Med",
+    "maxWin": 25000.0,
+    "ways": null,
+    "lines": null,
+    "releaseDate": "2025-01-20",
+    "layout": "6-5",
+    "features": [
+      "Additional Free Spins",
+      "Avalanche",
+      "Bonus symbols",
+      "Buy Feature",
+      "Cascading",
+      "Cheats tool",
+      "Free Spins",
+      "Free Spins Multiplier",
+      "Multiplier",
+      "Progressive Jackpot",
+      "Random multiplier",
+      "Scatter symbols",
+      "Symbol Swap",
+      "Wild"
+    ],
+    "theme": [
+      "Card",
+      "Card suits",
+      "Card theme",
+      "Casino",
+      "Chip",
+      "Clown",
+      "Diamond",
+      "Green",
+      "Joker",
+      "Queen, Empress",
+      "Red"
+    ],
+    "status": "found"
+  },
+  "36": {
+    "masterId": 36,
+    "name": "Sugar Bang Bang Plus",
+    "vendor": "FA CHAI",
+    "slotcatalogUrl": "https://slotcatalog.com/en/slots/sugar-bang-bang-plus",
+    "rtp": 96.5,
+    "volatility": "Med",
+    "maxWin": 5000.0,
+    "ways": 1024,
+    "lines": null,
+    "releaseDate": "2025-11-20",
+    "layout": "5-4",
+    "features": [
+      "Additional Free Spins",
+      "Avalanche",
+      "Bonus Bet",
+      "Buy Feature",
+      "Cascading",
+      "Free Spins",
+      "Gonzo mechanic",
+      "Multiplier",
+      "Progressive Jackpot",
+      "Random Wilds / Additional Wilds",
+      "Scatter symbols",
+      "Wild"
+    ],
+    "theme": [
+      "Blue",
+      "Candies",
+      "Diamond",
+      "Grapes",
+      "Pink",
+      "Strawberry",
+      "Sugar",
+      "Sweets"
+    ],
+    "status": "found"
+  },
+  "37": {
+    "masterId": 37,
+    "name": "Gates of Olympus Super Scatter",
+    "vendor": "Pragmatic Play",
+    "slotcatalogUrl": "https://slotcatalog.com/en/slots/Gates-of-Olympus-Super-Scatter",
+    "rtp": 96.5,
+    "volatility": "High",
+    "maxWin": 50000.0,
+    "ways": null,
+    "lines": null,
+    "releaseDate": "2025-04-28",
+    "layout": "6-5",
+    "features": [
+      "Additional Free Spins",
+      "Avalanche",
+      "Bonus Bet",
+      "Bonus symbols",
+      "Buy Feature",
+      "Cascading",
+      "Free Spins",
+      "Free Spins Multiplier",
+      "Multiplier",
+      "Pay Anywhere",
+      "RTP range",
+      "Scatter symbols",
+      "Sequels, Series Continuations"
+    ],
+    "theme": [
+      "Adventure",
+      "Crown",
+      "Cup",
+      "Gems",
+      "Gods",
+      "Olympus",
+      "Ring",
+      "Warrior"
+    ],
+    "status": "found"
+  },
+  "38": {
+    "masterId": 38,
+    "name": "Legendary Beasts",
+    "vendor": "Habanero",
+    "slotcatalogUrl": "https://slotcatalog.com/en/slots/Legendary-Beasts",
+    "rtp": 93.93,
+    "volatility": "Low",
+    "maxWin": 3856.0,
+    "ways": 27,
+    "lines": null,
+    "releaseDate": "2023-03-28",
+    "layout": "3-3",
+    "features": [
+      "Multiplier",
+      "Prize Line",
+      "Random multiplier",
+      "RTP range",
+      "Splitting Symbols",
+      "Wild"
+    ],
+    "theme": [
+      "Birds",
+      "Coins",
+      "Dragons",
+      "Mythical, legend",
+      "Oriental, Asian",
+      "Phoenix",
+      "Tigers"
+    ],
+    "status": "found"
+  },
+  "39": {
+    "masterId": 39,
+    "name": "Magnificent Thief",
+    "vendor": "FunTa Gaming",
+    "slotcatalogUrl": "https://slotcatalog.com/en/slots/Magnificent-Thief",
+    "rtp": 96.7,
+    "volatility": "Med",
+    "maxWin": 4000.0,
+    "ways": 40,
+    "lines": null,
+    "releaseDate": "2021-05-06",
+    "layout": "5-4",
+    "features": [
+      "Additional Free Spins",
+      "Expanding Symbols",
+      "Free Spins",
+      "Wild"
+    ],
+    "theme": [
+      "Card suits",
+      "Clock",
+      "Coins",
+      "Detective, Crime",
+      "Jewelry",
+      "Ornamentation",
+      "Ring",
+      "Robbery"
+    ],
+    "status": "found"
+  },
+  "40": {
+    "masterId": 40,
+    "name": "let it burn",
+    "vendor": "NetEnt",
+    "status": "not_found",
+    "triedSlugs": [
+      "let-it-burn",
+      "let-it-burn-NetEnt"
+    ]
+  },
+  "41": {
+    "masterId": 41,
+    "name": "milkshake xxxtreme",
+    "vendor": "NetEnt",
+    "status": "not_found",
+    "triedSlugs": [
+      "milkshake-xxxtreme",
+      "milkshake-xxxtreme-NetEnt"
+    ]
+  },
+  "42": {
+    "masterId": 42,
+    "name": "Pinatas & Ponies",
+    "vendor": "Red Tiger",
+    "status": "not_found",
+    "triedSlugs": [
+      "Pinatas-Ponies",
+      "Pinatas-Ponies-Red-Tiger",
+      "pinatas-ponies"
+    ]
+  },
+  "43": {
+    "masterId": 43,
+    "name": "Fortune Telling",
+    "vendor": "FunTa Gaming",
+    "slotcatalogUrl": "https://slotcatalog.com/en/slots/Fortune-Telling",
+    "rtp": null,
+    "volatility": "N/A",
+    "maxWin": 1500.0,
+    "ways": 384,
+    "lines": null,
+    "releaseDate": "2020-10-28",
+    "layout": "2-3-4-4-4",
+    "features": [
+      "Avalanche",
+      "Bonus Game",
+      "Bonus symbols",
+      "Cascading",
+      "Wild"
+    ],
+    "theme": [
+      "Elements",
+      "Fortune Teller",
+      "Magic"
+    ],
+    "status": "found"
+  },
+  "44": {
+    "masterId": 44,
+    "name": "Peggy Sweets",
+    "vendor": "Red Tiger",
+    "slotcatalogUrl": "https://slotcatalog.com/en/slots/Peggy-Sweets",
+    "rtp": 95.68,
+    "volatility": "High",
+    "maxWin": 5173.0,
+    "ways": null,
+    "lines": null,
+    "releaseDate": "2023-01-06",
+    "layout": "5-5",
+    "features": [
+      "Additional Free Spins",
+      "Avalanche",
+      "Buy Feature",
+      "Cascading",
+      "Free Spins",
+      "Multiplier",
+      "Pay Anywhere",
+      "Random multiplier",
+      "Remove Symbols",
+      "Respins",
+      "RTP range",
+      "Scatter symbols",
+      "Symbol Swap",
+      "Symbols collection (Energy)"
+    ],
+    "theme": [
+      "Beauty",
+      "Marmalade",
+      "Retro",
+      "Violet"
+    ],
+    "status": "found"
+  },
+  "45": {
+    "masterId": 45,
+    "name": "superstars",
+    "vendor": "NetEnt",
+    "status": "not_found",
+    "triedSlugs": [
+      "superstars",
+      "superstars-NetEnt"
+    ]
+  },
+  "46": {
+    "masterId": 46,
+    "name": "Taco Fury XXXtreme",
+    "vendor": "NetEnt",
+    "slotcatalogUrl": "https://slotcatalog.com/en/slots/Taco-Fury-XXXtreme",
+    "rtp": 94.03,
+    "volatility": "Low",
+    "maxWin": 533.0,
+    "ways": 9,
+    "lines": null,
+    "releaseDate": "2023-05-05",
+    "layout": "5-3",
+    "features": [
+      "Buy Feature",
+      "Free Spins",
+      "Guaranteed Wild in Free Spins",
+      "Multiplier",
+      "Random multiplier",
+      "Random Wilds / Additional Wilds",
+      "Reelset Changing",
+      "Respin Wild",
+      "Respins",
+      "RTP range",
+      "Sticky Wilds",
+      "Symbol Swap",
+      "Wild"
+    ],
+    "theme": [
+      "Apocalypse",
+      "Food",
+      "Gray",
+      "Post-apocalyptic",
+      "Street food Taco, HotDod, Shaurma",
+      "Weapons",
+      "Zombie"
+    ],
+    "status": "found"
+  },
+  "47": {
+    "masterId": 47,
+    "name": "Twin Spin XXXtreme",
+    "vendor": "NetEnt",
+    "status": "not_found",
+    "triedSlugs": [
+      "Twin-Spin-XXXtreme",
+      "Twin-Spin-XXXtreme-NetEnt",
+      "twin-spin-xxxtreme"
+    ]
+  },
+  "48": {
+    "masterId": 48,
+    "name": "wonders of christmas",
+    "vendor": "NetEnt",
+    "status": "not_found",
+    "triedSlugs": [
+      "wonders-of-christmas",
+      "wonders-of-christmas-NetEnt"
+    ]
+  },
+  "49": {
+    "masterId": 49,
+    "name": "Super Rich",
+    "vendor": "JILI",
+    "slotcatalogUrl": "https://slotcatalog.com/en/slots/Super-Rich",
+    "rtp": null,
+    "volatility": "High",
+    "maxWin": null,
+    "ways": null,
+    "lines": null,
+    "releaseDate": "2018-12-19",
+    "layout": "5-3",
+    "features": [
+      "Free Spins",
+      "Scatter symbols"
+    ],
+    "theme": [
+      "Dark blue",
+      "Diamond",
+      "Money box"
+    ],
+    "status": "found"
+  },
+  "50": {
+    "masterId": 50,
+    "name": "Lantern Luck",
+    "vendor": "Habanero",
+    "slotcatalogUrl": "https://slotcatalog.com/en/slots/Lantern-Luck",
+    "rtp": 96.77,
+    "volatility": "Low",
+    "maxWin": 702.0,
+    "ways": 25,
+    "lines": null,
+    "releaseDate": "2022-02-22",
+    "layout": "5-3",
+    "features": [
+      "Multiplier",
+      "Respin Wild",
+      "RTP range",
+      "Sticky Wilds",
+      "Wild"
+    ],
+    "theme": [
+      "China",
+      "Lanterns",
+      "Mountains",
+      "Oriental, Asian",
+      "Sakura",
+      "Sky blue"
+    ],
+    "status": "found"
+  },
+  "51": {
+    "masterId": 51,
+    "name": "Laughing Buddha",
+    "vendor": "Habanero",
+    "slotcatalogUrl": "https://slotcatalog.com/en/slots/Laughing-Buddha",
+    "rtp": 96.61,
+    "volatility": "High",
+    "maxWin": 56043.0,
+    "ways": 28,
+    "lines": null,
+    "releaseDate": "2022-08-30",
+    "layout": "5-3",
+    "features": [
+      "Additional Free Spins",
+      "Book of ... mechanic",
+      "Buy Feature",
+      "Expanding Symbols",
+      "Free Spins",
+      "Multiplier",
+      "RTP range",
+      "Scatter symbols",
+      "Wild"
+    ],
+    "theme": [
+      "Buddha statue",
+      "China",
+      "Dragons",
+      "Oriental, Asian",
+      "Tree",
+      "Violet"
+    ],
+    "status": "found"
+  },
+  "52": {
+    "masterId": 52,
+    "name": "Fly!",
+    "vendor": "Habanero",
+    "slotcatalogUrl": "https://slotcatalog.com/en/slots/Fly",
+    "rtp": 96.71,
+    "volatility": "Med",
+    "maxWin": 36140.0,
+    "ways": 7,
+    "lines": null,
+    "releaseDate": "2021-09-28",
+    "layout": "5-5",
+    "features": [
+      "Avalanche",
+      "Cascading",
+      "Cluster Pays",
+      "Free Spins",
+      "Multiplier",
+      "RTP range",
+      "Scatter symbols",
+      "Wild"
+    ],
+    "theme": [
+      "Balloonies",
+      "Candies",
+      "Cartoons",
+      "Circus",
+      "Elephant",
+      "Heart",
+      "Sky blue",
+      "Star",
+      "Sweets"
+    ],
+    "status": "found"
+  },
+  "53": {
+    "masterId": 53,
+    "name": "Medusa",
+    "vendor": "JILI",
+    "slotcatalogUrl": "https://slotcatalog.com/en/slots/Medusa",
+    "rtp": 95.42,
+    "volatility": "Med-High",
+    "maxWin": null,
+    "ways": 25,
+    "lines": null,
+    "releaseDate": "2012-04-11",
+    "layout": "5-3",
+    "features": [
+      "Bonus Game",
+      "Free Spins",
+      "Multiplier",
+      "Respins",
+      "Risk/Gamble (Double) game",
+      "Scatter symbols",
+      "Spreading Wilds or Wild Rush",
+      "Wild"
+    ],
+    "theme": [
+      "Adventure",
+      "Ancient civilizations",
+      "Black",
+      "Fairy tales",
+      "Fantasy",
+      "Gods",
+      "Grapes",
+      "Greece",
+      "Green",
+      "Helmet",
+      "Medusa",
+      "Mythical, legend",
+      "Shield",
+      "Snakes",
+      "Stone",
+      "Violet"
+    ],
+    "status": "found"
+  },
+  "54": {
+    "masterId": 54,
+    "name": "TWIN WINS",
+    "vendor": "JILI",
+    "status": "not_found",
+    "triedSlugs": [
+      "TWIN-WINS",
+      "TWIN-WINS-JILI",
+      "twin-wins"
+    ]
+  },
+  "55": {
+    "masterId": 55,
+    "name": "Super Ace 2",
+    "vendor": "JILI",
+    "slotcatalogUrl": "https://slotcatalog.com/en/slots/Super-Ace",
+    "rtp": 97.0,
+    "volatility": "Low-Med",
+    "maxWin": 1500.0,
+    "ways": 1024,
+    "lines": null,
+    "releaseDate": "2021-11-16",
+    "layout": "5-4",
+    "features": [
+      "Additional Free Spins",
+      "Avalanche",
+      "Cascading",
+      "Expanding wild with re-spin",
+      "Free Spins",
+      "Free Spins Multiplier",
+      "Gonzo mechanic",
+      "Multiplier",
+      "Scatter symbols",
+      "Wild"
+    ],
+    "theme": [
+      "Black",
+      "Blue",
+      "Brown",
+      "Card",
+      "Card suits",
+      "Card theme"
+    ],
+    "status": "found"
+  },
+  "56": {
+    "masterId": 56,
+    "name": "Super Ace Jackpot",
+    "vendor": "JILI",
+    "status": "not_found",
+    "triedSlugs": [
+      "Super-Ace-Jackpot",
+      "Super-Ace-Jackpot-JILI",
+      "super-ace-jackpot"
+    ]
+  },
+  "57": {
+    "masterId": 57,
+    "name": "Fortune Gems 2",
+    "vendor": "JILI",
+    "slotcatalogUrl": "https://slotcatalog.com/en/slots/Fortune-Gems-2",
+    "rtp": 97.0,
+    "volatility": "Low",
+    "maxWin": 10000.0,
+    "ways": 5,
+    "lines": null,
+    "releaseDate": "2023-08-25",
+    "layout": "3-3",
+    "features": [
+      "Bonus Bet",
+      "Bonus symbols",
+      "Bonus wheel",
+      "Multiplier",
+      "Random multiplier",
+      "Spin The Wheel",
+      "Stack",
+      "Wild"
+    ],
+    "theme": [
+      "Ancient civilizations",
+      "Brown",
+      "Diamond",
+      "Forest",
+      "Fortune",
+      "Garuda",
+      "Gems",
+      "Green",
+      "Jungle",
+      "Luck",
+      "Ruby",
+      "Totem",
+      "Treasures"
+    ],
+    "status": "found"
+  },
+  "58": {
+    "masterId": 58,
+    "name": "Sugar Bang Bang",
+    "vendor": "FA CHAI",
+    "slotcatalogUrl": "https://slotcatalog.com/en/slots/Sugar-Bang-Bang",
+    "rtp": 96.5,
+    "volatility": "Med",
+    "maxWin": 3000.0,
+    "ways": 1024,
+    "lines": null,
+    "releaseDate": "2022-10-18",
+    "layout": "4-5-5-5-4",
+    "features": [
+      "Additional Free Spins",
+      "Avalanche",
+      "Bonus Bet",
+      "Cascading",
+      "Cheats tool",
+      "Free Spins",
+      "Free Spins Multiplier",
+      "Gonzo mechanic",
+      "Multiplier",
+      "Multiway (+1024)",
+      "Random Wilds / Additional Wilds",
+      "Scatter symbols",
+      "Wild"
+    ],
+    "theme": [
+      "Bears",
+      "Blue",
+      "Brown",
+      "Candies",
+      "Card suits",
+      "Diamond",
+      "Sugar",
+      "Sweets"
+    ],
+    "status": "found"
+  },
+  "59": {
+    "masterId": 59,
+    "name": "Jackpot Fishing",
+    "vendor": "JILI",
+    "slotcatalogUrl": "https://slotcatalog.com/en/slots/Jackpot-Fishing",
+    "rtp": 97.0,
+    "volatility": "N/A",
+    "maxWin": 888.0,
+    "ways": null,
+    "lines": null,
+    "releaseDate": "2021-09-07",
+    "layout": "N/A",
+    "features": [
+      "Symbols collection (Energy)"
+    ],
+    "theme": [
+      "Blue",
+      "Crab, Lobster",
+      "Dragons",
+      "Fish",
+      "Medusa",
+      "Octopus",
+      "Sea",
+      "Shark",
+      "Starfish",
+      "Turtle",
+      "Water world"
+    ],
+    "status": "found"
+  },
+  "60": {
+    "masterId": 60,
+    "name": "Mines",
+    "vendor": "JILI",
+    "slotcatalogUrl": "https://slotcatalog.com/en/slots/Mines",
+    "rtp": 97.0,
+    "volatility": "Adjusted",
+    "maxWin": 10000.0,
+    "ways": null,
+    "lines": null,
+    "releaseDate": "2021-09-12",
+    "layout": "5-5",
+    "features": [
+      "Mines Games",
+      "RTP range"
+    ],
+    "theme": [
+      "Blue",
+      "Bombs",
+      "Computer games",
+      "Star"
+    ],
+    "status": "found"
+  },
+  "61": {
+    "masterId": 61,
+    "name": "Wanted Dead Or A Wild",
+    "vendor": "HACKSAW",
+    "status": "not_found",
+    "triedSlugs": [
+      "Wanted-Dead-Or-A-Wild",
+      "Wanted-Dead-Or-A-Wild-HACKSAW",
+      "wanted-dead-or-a-wild"
+    ]
+  },
+  "62": {
+    "masterId": 62,
+    "name": "Cloud Princess",
+    "vendor": "HACKSAW",
+    "slotcatalogUrl": "https://slotcatalog.com/en/slots/cloud-princess",
+    "rtp": 94.21,
+    "volatility": "Med",
+    "maxWin": 10000.0,
+    "ways": null,
+    "lines": null,
+    "releaseDate": "2024-09-23",
+    "layout": "6-5",
+    "features": [
+      "Additional Free Spins",
+      "Bonus Bet",
+      "Buy Feature",
+      "Free Spins",
+      "Free Spins Multiplier",
+      "Multiplier",
+      "Pay Anywhere",
+      "Random multiplier",
+      "RTP range",
+      "Scatter symbols"
+    ],
+    "theme": [
+      "Blue",
+      "Crown",
+      "Gems",
+      "Ice",
+      "Jewelry",
+      "Princess",
+      "Queen, Empress",
+      "Royal"
+    ],
+    "status": "found"
+  },
+  "63": {
+    "masterId": 63,
+    "name": "Rise Of Ymir",
+    "vendor": "HACKSAW",
+    "slotcatalogUrl": "https://slotcatalog.com/en/slots/rise-of-ymir",
+    "rtp": 94.24,
+    "volatility": "High",
+    "maxWin": 15000.0,
+    "ways": 14,
+    "lines": null,
+    "releaseDate": "2024-10-14",
+    "layout": "5-4",
+    "features": [
+      "Additive symbol",
+      "Bonus Bet",
+      "Bonus Game",
+      "Bonus symbols",
+      "Buy Feature",
+      "Cash Collector",
+      "Free Spins",
+      "Free Spins Multiplier",
+      "Hold and Win",
+      "Respin Wild",
+      "RTP range",
+      "Scatter symbols",
+      "Sticky Wilds",
+      "Wild",
+      "Wilds with multipliers"
+    ],
+    "theme": [
+      "Ancient civilizations",
+      "Black",
+      "Blue",
+      "Darkness",
+      "Gray",
+      "Hammer",
+      "Horror",
+      "Mythical, legend",
+      "Scandinavia",
+      "Sword",
+      "Viking"
+    ],
+    "status": "found"
+  },
+  "64": {
+    "masterId": 64,
+    "name": "Mines (2)",
+    "vendor": "HACKSAW",
+    "slotcatalogUrl": "https://slotcatalog.com/en/slots/Mines",
+    "rtp": 97.0,
+    "volatility": "Adjusted",
+    "maxWin": 10000.0,
+    "ways": null,
+    "lines": null,
+    "releaseDate": "2021-09-12",
+    "layout": "5-5",
+    "features": [
+      "Mines Games",
+      "RTP range"
+    ],
+    "theme": [
+      "Blue",
+      "Bombs",
+      "Computer games",
+      "Star"
+    ],
+    "status": "found"
+  },
+  "65": {
+    "masterId": 65,
+    "name": "Le Pharaoh",
+    "vendor": "HACKSAW",
+    "slotcatalogUrl": "https://slotcatalog.com/en/slots/le-pharaoh",
+    "rtp": 94.33,
+    "volatility": "Med",
+    "maxWin": 10000.0,
+    "ways": 19,
+    "lines": null,
+    "releaseDate": "2024-09-26",
+    "layout": "6-5",
+    "features": [
+      "Additional Free Spins",
+      "Additive symbol",
+      "Bonus Bet",
+      "Bonus Game",
+      "BonusGame: Pick Objects",
+      "Buy Feature",
+      "Cash Collector",
+      "Free Spins",
+      "Hold and Win",
+      "RTP range",
+      "Scatter symbols",
+      "Symbols collection (Energy)"
+    ],
+    "theme": [
+      "Adventure",
+      "Ancient civilizations",
+      "Egypt",
+      "Pharaoh",
+      "Pyramid",
+      "Rainbow",
+      "Sand",
+      "Sand color",
+      "Scarab",
+      "Sky blue",
+      "Treasures"
+    ],
+    "status": "found"
+  },
+  "66": {
+    "masterId": 66,
+    "name": "Ze Zeus",
+    "vendor": "HACKSAW",
+    "slotcatalogUrl": "https://slotcatalog.com/en/slots/ze-zeus",
+    "rtp": 92.17,
+    "volatility": "Med",
+    "maxWin": 10000.0,
+    "ways": null,
+    "lines": null,
+    "releaseDate": "2024-06-06",
+    "layout": "6-5",
+    "features": [
+      "Additional Free Spins",
+      "Avalanche",
+      "Bonus Bet",
+      "Buy Feature",
+      "Cascading",
+      "Cash Collector",
+      "Cluster Pays",
+      "Free Spins",
+      "Multiplier",
+      "Random multiplier",
+      "RTP range",
+      "Scatter symbols",
+      "Wild"
+    ],
+    "theme": [
+      "Black",
+      "Blue",
+      "Coins",
+      "Gods",
+      "Gold",
+      "Gold-color",
+      "Greece",
+      "Helmet",
+      "Mythical, legend",
+      "Olympus",
+      "Sky blue",
+      "Zeus"
+    ],
+    "status": "found"
+  },
+  "67": {
+    "masterId": 67,
+    "name": "Wild Ape #3258",
+    "vendor": "PG Soft",
+    "slotcatalogUrl": "https://slotcatalog.com/en/slots/wild-ape-3258",
+    "rtp": 96.74,
+    "volatility": "High",
+    "maxWin": 10000.0,
+    "ways": 32400,
+    "lines": null,
+    "releaseDate": "2024-03-25",
+    "layout": "6-6",
+    "features": [
+      "Additional Free Spins",
+      "Avalanche",
+      "Buy Feature",
+      "Cascading",
+      "Free Spins",
+      "Free Spins Multiplier",
+      "Multiway (+1024)",
+      "Scatter symbols",
+      "Sticky Wilds",
+      "Wild",
+      "Wilds with multipliers"
+    ],
+    "theme": [
+      "Black",
+      "Blue",
+      "Card suits",
+      "Clock",
+      "Crown",
+      "Cryptocurrency",
+      "Drinks",
+      "Gold",
+      "Monkey",
+      "Monkeys Theme"
+    ],
+    "status": "found"
+  },
+  "68": {
+    "masterId": 68,
+    "name": "Fortune Gems 3",
+    "vendor": "JILI",
+    "slotcatalogUrl": "https://slotcatalog.com/en/slots/Fortune-Gems",
+    "rtp": 97.0,
+    "volatility": "Low",
+    "maxWin": 375.0,
+    "ways": 5,
+    "lines": null,
+    "releaseDate": "2021-09-07",
+    "layout": "3-3",
+    "features": [
+      "Bonus Bet",
+      "Bonus wheel",
+      "Multiplier",
+      "Random multiplier",
+      "Spin The Wheel",
+      "Wild"
+    ],
+    "theme": [
+      "Ancient civilizations",
+      "Brown",
+      "Card suits",
+      "Diamond",
+      "Garuda",
+      "Gems",
+      "Gods",
+      "Green",
+      "Jewelry",
+      "Ruby",
+      "Totem",
+      "Yellow"
+    ],
+    "status": "found"
+  },
+  "69": {
+    "masterId": 69,
+    "name": "Lucky Neko",
+    "vendor": "PG Soft",
+    "slotcatalogUrl": "https://slotcatalog.com/en/slots/Lucky-Neko",
+    "rtp": 96.73,
+    "volatility": "Med",
+    "maxWin": 5527.0,
+    "ways": 32400,
+    "lines": null,
+    "releaseDate": "2021-01-19",
+    "layout": "5-6-6-6-6-5",
+    "features": [
+      "Avalanche",
+      "Buy Feature",
+      "Cascading",
+      "Free Spins",
+      "Free Spins Multiplier",
+      "Gonzo mechanic",
+      "Multiplier",
+      "RTP range",
+      "Scatter symbols",
+      "Symbol Swap",
+      "Wild"
+    ],
+    "theme": [
+      "Drum",
+      "Food",
+      "Japan",
+      "Lucky Cat",
+      "Oriental, Asian",
+      "Sakura",
+      "Sushi",
+      "Violet"
+    ],
+    "status": "found"
+  },
+  "70": {
+    "masterId": 70,
+    "name": "Sweet Rush Bonanza",
+    "vendor": "Pragmatic Play",
+    "slotcatalogUrl": "https://slotcatalog.com/en/slots/sweet-rush-bonanza",
+    "rtp": 96.5,
+    "volatility": "High",
+    "maxWin": 5000.0,
+    "ways": null,
+    "lines": null,
+    "releaseDate": "2025-09-18",
+    "layout": "6-5",
+    "features": [
+      "Additional Free Spins",
+      "Avalanche",
+      "Bonus Bet",
+      "Buy Feature",
+      "Cascading",
+      "Free Spins",
+      "Free Spins Multiplier",
+      "Multiplier",
+      "Pay Anywhere",
+      "RTP range",
+      "Scatter symbols"
+    ],
+    "theme": [
+      "Apple",
+      "Banana",
+      "Candies",
+      "Grapes",
+      "Lightness",
+      "Lollipop",
+      "Sugar",
+      "Sweets"
+    ],
+    "status": "found"
+  },
+  "71": {
+    "masterId": 71,
+    "name": "Chinese New Year Moreways",
+    "vendor": "FA CHAI",
+    "slotcatalogUrl": "https://slotcatalog.com/en/slots/chinese-new-year-moreways",
+    "rtp": 96.5,
+    "volatility": "Med",
+    "maxWin": 1536.0,
+    "ways": 15625,
+    "lines": null,
+    "releaseDate": "2025-01-09",
+    "layout": "6-5",
+    "features": [
+      "Additional Free Spins",
+      "Avalanche",
+      "Buy Feature",
+      "Cascading",
+      "Cheats tool",
+      "Expanding Symbols",
+      "Free Spins",
+      "Free Spins Mode Choosing",
+      "Free Spins Multiplier",
+      "Multiplier",
+      "Multiway (+1024)",
+      "Scatter symbols",
+      "Wild"
+    ],
+    "theme": [
+      "Chinese Dragons",
+      "Chinese New Year",
+      "Coins",
+      "Fireworks",
+      "Frogs",
+      "Gold",
+      "Koi Fish",
+      "Oriental, Asian",
+      "Red",
+      "Treasures"
+    ],
+    "status": "found"
+  },
+  "72": {
+    "masterId": 72,
+    "name": "Wild Bandito",
+    "vendor": "PG Soft",
+    "slotcatalogUrl": "https://slotcatalog.com/en/slots/Wild-Bandito",
+    "rtp": 96.73,
+    "volatility": "Med",
+    "maxWin": 2525.0,
+    "ways": 1024,
+    "lines": null,
+    "releaseDate": "2021-06-05",
+    "layout": "5-4",
+    "features": [
+      "Avalanche",
+      "Cascading",
+      "Free Spins",
+      "Multiplier",
+      "Scatter symbols",
+      "Wild"
+    ],
+    "theme": [
+      "Cocktail",
+      "Day of the Dead",
+      "Guitar",
+      "Mexico",
+      "Skull",
+      "Violet",
+      "Weapons"
+    ],
+    "status": "found"
+  },
+  "73": {
+    "masterId": 73,
+    "name": "Viking Forge",
+    "vendor": "Pragmatic Play",
+    "slotcatalogUrl": "https://slotcatalog.com/en/slots/Viking-Forge",
+    "rtp": 96.05,
+    "volatility": "High",
+    "maxWin": 10000.0,
+    "ways": null,
+    "lines": null,
+    "releaseDate": "2023-10-12",
+    "layout": "6-5",
+    "features": [
+      "Additive symbol",
+      "Avalanche",
+      "Bonus Bet",
+      "Buy Feature",
+      "Cascading",
+      "Free Spins",
+      "Multiplier",
+      "Pay Anywhere",
+      "RTP range",
+      "Scatter symbols"
+    ],
+    "theme": [
+      "Blue",
+      "Scandinavia",
+      "Viking"
+    ],
+    "status": "found"
+  },
+  "74": {
+    "masterId": 74,
+    "name": "Anubis Wrath",
+    "vendor": "PG Soft",
+    "slotcatalogUrl": "https://slotcatalog.com/en/slots/anubis-wrath",
+    "rtp": 96.75,
+    "volatility": "High",
+    "maxWin": 10000.0,
+    "ways": 1024,
+    "lines": null,
+    "releaseDate": "2024-05-20",
+    "layout": "5-4",
+    "features": [
+      "Additional Free Spins",
+      "Avalanche",
+      "Buy Feature",
+      "Cascading",
+      "Free Spins",
+      "Free Spins Multiplier",
+      "Multiplier",
+      "Multiway (+1024)",
+      "Random multiplier",
+      "Scatter symbols",
+      "Wild"
+    ],
+    "theme": [
+      "Adventure",
+      "Ancient civilizations",
+      "Anubis",
+      "Egypt",
+      "Gods",
+      "Sand color",
+      "Scarab"
+    ],
+    "status": "found"
+  },
+  "75": {
+    "masterId": 75,
+    "name": "Fortune Gems 500",
+    "vendor": "JILI",
+    "slotcatalogUrl": "https://slotcatalog.com/en/slots/Fortune-Gems",
+    "rtp": 97.0,
+    "volatility": "Low",
+    "maxWin": 375.0,
+    "ways": 5,
+    "lines": null,
+    "releaseDate": "2021-09-07",
+    "layout": "3-3",
+    "features": [
+      "Bonus Bet",
+      "Bonus wheel",
+      "Multiplier",
+      "Random multiplier",
+      "Spin The Wheel",
+      "Wild"
+    ],
+    "theme": [
+      "Ancient civilizations",
+      "Brown",
+      "Card suits",
+      "Diamond",
+      "Garuda",
+      "Gems",
+      "Gods",
+      "Green",
+      "Jewelry",
+      "Ruby",
+      "Totem",
+      "Yellow"
+    ],
+    "status": "found"
+  },
+  "76": {
+    "masterId": 76,
+    "name": "Boxing King",
+    "vendor": "JILI",
+    "slotcatalogUrl": "https://slotcatalog.com/en/slots/Boxing-King",
+    "rtp": 97.0,
+    "volatility": "Med",
+    "maxWin": 2000.0,
+    "ways": 88,
+    "lines": null,
+    "releaseDate": "2021-10-11",
+    "layout": "5-5",
+    "features": [
+      "Additional Free Spins",
+      "Avalanche",
+      "Cascading",
+      "Free Spins",
+      "Free Spins Multiplier",
+      "Multiplier",
+      "Scatter symbols",
+      "Stack",
+      "Symbols collection (Energy)",
+      "Wild"
+    ],
+    "theme": [
+      "Belt",
+      "Black",
+      "Blue",
+      "Boxing",
+      "Boxing gloves",
+      "Card suits",
+      "Magician, Illusionist",
+      "Red",
+      "Ring",
+      "Sports",
+      "Warrior"
+    ],
+    "status": "found"
+  },
+  "77": {
+    "masterId": 77,
+    "name": "Super Elements",
+    "vendor": "FA CHAI",
+    "slotcatalogUrl": "https://slotcatalog.com/en/slots/Super-Elements",
+    "rtp": 96.5,
+    "volatility": "Med",
+    "maxWin": 2000.0,
+    "ways": 2000,
+    "lines": null,
+    "releaseDate": "2023-10-16",
+    "layout": "4-5-5-5-4",
+    "features": [
+      "Additional Free Spins",
+      "Avalanche",
+      "Bonus Bet",
+      "Buy Feature",
+      "Cascading",
+      "Free Spins",
+      "Free Spins Multiplier",
+      "Multiplier",
+      "Progressive Jackpot",
+      "Random multiplier",
+      "Scatter symbols",
+      "Spreading Wilds or Wild Rush",
+      "Wild"
+    ],
+    "theme": [
+      "Chest",
+      "Elements",
+      "Fantasy",
+      "Space"
+    ],
+    "status": "found"
+  },
+  "78": {
+    "masterId": 78,
+    "name": "Money Wheel",
+    "vendor": "JDB",
+    "slotcatalogUrl": "https://slotcatalog.com/en/slots/Money-Wheel",
+    "rtp": 70.0,
+    "volatility": "N/A",
+    "maxWin": null,
+    "ways": null,
+    "lines": null,
+    "releaseDate": "2021-02-03",
+    "layout": "N-A",
+    "features": [
+      "Bonus wheel",
+      "RTP range",
+      "Spin The Wheel",
+      "Wheel Of Fortune Game"
+    ],
+    "theme": [
+      "Gray",
+      "Money",
+      "Red"
+    ],
+    "status": "found"
+  },
+  "79": {
+    "masterId": 79,
+    "name": "100x Super Ace Plus",
+    "vendor": "Lucky365",
+    "status": "not_found",
+    "triedSlugs": [
+      "100x-Super-Ace-Plus",
+      "100x-Super-Ace-Plus-Lucky365",
+      "100x-super-ace-plus"
+    ]
+  },
+  "80": {
+    "masterId": 80,
+    "name": "CazVip Treasure Raiders",
+    "vendor": "FA CHAI",
+    "status": "not_found",
+    "triedSlugs": [
+      "CazVip-Treasure-Raiders",
+      "CazVip-Treasure-Raiders-FA-CHAI",
+      "cazvip-treasure-raiders"
+    ]
+  },
+  "81": {
+    "masterId": 81,
+    "name": "Money Coming",
+    "vendor": "JILI",
+    "slotcatalogUrl": "https://slotcatalog.com/en/slots/Money-Coming",
+    "rtp": 97.0,
+    "volatility": "Med",
+    "maxWin": 10000.0,
+    "ways": 1,
+    "lines": null,
+    "releaseDate": "2021-11-17",
+    "layout": "3-3",
+    "features": [
+      "Bonus symbols",
+      "Bonus wheel",
+      "Multiplier",
+      "Nudge Feature",
+      "Random multiplier",
+      "Respins",
+      "Scatter symbols",
+      "Spin The Wheel"
+    ],
+    "theme": [
+      "Classic style",
+      "Gold-color",
+      "Green",
+      "Red"
+    ],
+    "status": "found"
+  },
+  "82": {
+    "masterId": 82,
+    "name": "Super Elements (FA CHAI)",
+    "vendor": "FA CHAI",
+    "slotcatalogUrl": "https://slotcatalog.com/en/slots/Super-Elements",
+    "rtp": 96.5,
+    "volatility": "Med",
+    "maxWin": 2000.0,
+    "ways": 2000,
+    "lines": null,
+    "releaseDate": "2023-10-16",
+    "layout": "4-5-5-5-4",
+    "features": [
+      "Additional Free Spins",
+      "Avalanche",
+      "Bonus Bet",
+      "Buy Feature",
+      "Cascading",
+      "Free Spins",
+      "Free Spins Multiplier",
+      "Multiplier",
+      "Progressive Jackpot",
+      "Random multiplier",
+      "Scatter symbols",
+      "Spreading Wilds or Wild Rush",
+      "Wild"
+    ],
+    "theme": [
+      "Chest",
+      "Elements",
+      "Fantasy",
+      "Space"
+    ],
+    "status": "found"
+  },
+  "83": {
+    "masterId": 83,
+    "name": "Diva's Ace",
+    "vendor": "YesBingo",
+    "status": "not_found",
+    "triedSlugs": [
+      "Divas-Ace",
+      "Divas-Ace-YesBingo",
+      "divas-ace"
+    ]
+  },
+  "84": {
+    "masterId": 84,
+    "name": "Magic Ace Wild Lock",
+    "vendor": "JDB",
+    "slotcatalogUrl": "https://slotcatalog.com/en/slots/magic-ace-wild-lock",
+    "rtp": 96.33,
+    "volatility": "Med",
+    "maxWin": 2600.0,
+    "ways": 1024,
+    "lines": null,
+    "releaseDate": "2024-10-15",
+    "layout": "5-4",
+    "features": [
+      "Additional Free Spins",
+      "Avalanche",
+      "Bonus Bet",
+      "Bonus Game",
+      "Bonus symbols",
+      "Buy Feature",
+      "Cascading",
+      "Cheats tool",
+      "Expanding Symbols",
+      "Multiplier",
+      "Multiway (+1024)",
+      "Random Wilds / Additional Wilds",
+      "Scatter symbols",
+      "Sticky Wilds",
+      "Wild",
+      "Wilds with multipliers"
+    ],
+    "theme": [
+      "Card suits",
+      "Gold",
+      "Joker",
+      "Magic",
+      "Red"
+    ],
+    "status": "found"
+  },
+  "85": {
+    "masterId": 85,
+    "name": "Inca Queen",
+    "vendor": "Pragmatic Play",
+    "slotcatalogUrl": "https://slotcatalog.com/en/slots/inca-queen",
+    "rtp": 96.55,
+    "volatility": "High",
+    "maxWin": 5000.0,
+    "ways": 20,
+    "lines": null,
+    "releaseDate": "2026-03-29",
+    "layout": "5-3",
+    "features": [
+      "Bonus Bet",
+      "Bonus symbols",
+      "Buy Feature",
+      "Fixed Jackpots",
+      "Hold and Win",
+      "Multiplier",
+      "Pot Collection",
+      "Random multiplier",
+      "Respins",
+      "RTP range",
+      "Stack",
+      "Wild"
+    ],
+    "theme": [
+      "Adventure",
+      "Ancient civilizations",
+      "Animals",
+      "Aztec",
+      "Coins",
+      "Green",
+      "Mayan",
+      "Queen, Empress",
+      "Sky blue",
+      "Snakes",
+      "Temple",
+      "Tigers",
+      "Toucan",
+      "Treasures"
+    ],
+    "status": "found"
+  },
+  "86": {
+    "masterId": 86,
+    "name": "Fortune Ace Super Scatter",
+    "vendor": "Pragmatic Play",
+    "slotcatalogUrl": "https://slotcatalog.com/en/slots/fortune-ace-super-scatter",
+    "rtp": 96.5,
+    "volatility": "High",
+    "maxWin": 100000.0,
+    "ways": 2000,
+    "lines": null,
+    "releaseDate": "2025-09-17",
+    "layout": "4-5-5-5-4",
+    "features": [
+      "Avalanche",
+      "Buy Feature",
+      "Cascading",
+      "Feature: Substitution Symbols",
+      "Free Spins",
+      "Free Spins Multiplier",
+      "Gonzo mechanic",
+      "Multiplier",
+      "Multiway (+1024)",
+      "Scatter symbols",
+      "Wild"
+    ],
+    "theme": [
+      "Card",
+      "Coins",
+      "Diamond",
+      "Gold",
+      "Joker",
+      "Royal"
+    ],
+    "status": "found"
+  },
+  "87": {
+    "masterId": 87,
+    "name": "Mahjong Wins Super Scatter",
+    "vendor": "Pragmatic Play",
+    "slotcatalogUrl": "https://slotcatalog.com/en/slots/mahjong-wins-super-scatter",
+    "rtp": 95.5,
+    "volatility": "High",
+    "maxWin": 100000.0,
+    "ways": 2000,
+    "lines": null,
+    "releaseDate": "2025-05-29",
+    "layout": "4-5-5-5-4",
+    "features": [
+      "Additional Free Spins",
+      "Buy Feature",
+      "Free Spins",
+      "Free Spins Multiplier",
+      "Gonzo mechanic",
+      "RTP range",
+      "Scatter symbols",
+      "Wild"
+    ],
+    "theme": [
+      "Adventure",
+      "Coins",
+      "Green",
+      "Hieroglyph",
+      "Mahjong",
+      "Oriental, Asian",
+      "Red",
+      "Treasures"
+    ],
+    "status": "found"
+  },
+  "88": {
+    "masterId": 88,
+    "name": "Blazing Train",
+    "vendor": "JILI",
+    "status": "not_found",
+    "triedSlugs": [
+      "Blazing-Train",
+      "Blazing-Train-JILI",
+      "blazing-train"
+    ]
+  },
+  "89": {
+    "masterId": 89,
+    "name": "Champion Dunk",
+    "vendor": "OmniPlay",
+    "status": "not_found",
+    "triedSlugs": [
+      "Champion-Dunk",
+      "Champion-Dunk-OmniPlay",
+      "champion-dunk"
+    ]
+  },
+  "90": {
+    "masterId": 90,
+    "name": "Fortune Gems 500 Exclusive",
+    "vendor": "JILI",
+    "status": "not_found",
+    "triedSlugs": [
+      "Fortune-Gems-500-Exclusive",
+      "Fortune-Gems-500-Exclusive-JILI",
+      "fortune-gems-500-exclusive"
+    ]
+  },
+  "91": {
+    "masterId": 91,
+    "name": "Golden Idol",
+    "vendor": "FA CHAI",
+    "slotcatalogUrl": "https://slotcatalog.com/en/slots/Golden-Idol",
+    "rtp": 95.88,
+    "volatility": "Med",
+    "maxWin": 200.0,
+    "ways": 20,
+    "lines": null,
+    "releaseDate": "2021-01-19",
+    "layout": "5-3",
+    "features": [
+      "Bonus symbols",
+      "Free Spins",
+      "Multiplier",
+      "Wild"
+    ],
+    "theme": [
+      "Aztec",
+      "Blue",
+      "Green",
+      "Mayan",
+      "Yellow"
+    ],
+    "status": "found"
+  },
+  "92": {
+    "masterId": 92,
+    "name": "Sexy Joker Deluxe",
+    "vendor": "Yellow Bat",
+    "slotcatalogUrl": "https://slotcatalog.com/en/slots/sexy-joker-deluxe",
+    "rtp": 96.5,
+    "volatility": "Low-Med",
+    "maxWin": 5000.0,
+    "ways": 1024,
+    "lines": null,
+    "releaseDate": "2026-02-25",
+    "layout": "5-4",
+    "features": [
+      "Avalanche",
+      "Buy Feature",
+      "Cascading",
+      "Free Spins",
+      "Free Spins Multiplier",
+      "Multiplier",
+      "Multiway (+1024)",
+      "Scatter symbols",
+      "Symbol Swap",
+      "Wild"
+    ],
+    "theme": [
+      "Card",
+      "Card suits",
+      "Card theme",
+      "Joker"
+    ],
+    "status": "found"
+  },
+  "93": {
+    "masterId": 93,
+    "name": "Magic Ace 99 Exclusive",
+    "vendor": "JDB",
+    "status": "not_found",
+    "triedSlugs": [
+      "Magic-Ace-99-Exclusive",
+      "Magic-Ace-99-Exclusive-JDB",
+      "magic-ace-99-exclusive"
+    ]
+  },
+  "94": {
+    "masterId": 94,
+    "name": "Dragon Boat Festival",
+    "vendor": "Playstar",
+    "slotcatalogUrl": "https://slotcatalog.com/en/slots/Dragon-Boat-Festival",
+    "rtp": 96.0,
+    "volatility": "Med-High",
+    "maxWin": 20.0,
+    "ways": 243,
+    "lines": null,
+    "releaseDate": "2018-06-15",
+    "layout": "5-3",
+    "features": [
+      "Bothway",
+      "Free Spins",
+      "Scatter symbols",
+      "Sticky Wilds",
+      "Wild"
+    ],
+    "theme": [
+      "Chinese Dragons",
+      "Flowers",
+      "Kite",
+      "Oriental, Asian",
+      "Ships",
+      "Tree",
+      "Water"
+    ],
+    "status": "found"
+  },
+  "95": {
+    "masterId": 95,
+    "name": "China Empress",
+    "vendor": "Playstar",
+    "slotcatalogUrl": "https://slotcatalog.com/en/slots/China-Empress",
+    "rtp": null,
+    "volatility": "Med-High",
+    "maxWin": 1000.0,
+    "ways": 50,
+    "lines": null,
+    "releaseDate": "2018-09-15",
+    "layout": "5-4",
+    "features": [
+      "Bothway",
+      "Free Spins",
+      "Scatter symbols",
+      "Wild"
+    ],
+    "theme": [
+      "Diamond",
+      "Luxury",
+      "Oriental, Asian",
+      "Queen, Empress",
+      "Treasures"
+    ],
+    "status": "found"
+  },
+  "96": {
+    "masterId": 96,
+    "name": "Lucky Panda",
+    "vendor": "Playstar",
+    "slotcatalogUrl": "https://slotcatalog.com/en/slots/Lucky-Panda",
+    "rtp": 95.5,
+    "volatility": "N/A",
+    "maxWin": null,
+    "ways": 243,
+    "lines": null,
+    "releaseDate": "2012-06-05",
+    "layout": "5-3",
+    "features": null,
+    "theme": [
+      "Animals",
+      "Oriental, Asian",
+      "Panda",
+      "Wildlife"
+    ],
+    "status": "found"
+  },
+  "97": {
+    "masterId": 97,
+    "name": "Who's The Boss",
+    "vendor": "Playstar",
+    "slotcatalogUrl": "https://slotcatalog.com/en/slots/Whos-The-Boss",
+    "rtp": 0.0,
+    "volatility": "Med",
+    "maxWin": 1000.0,
+    "ways": 243,
+    "lines": null,
+    "releaseDate": "2019-01-15",
+    "layout": "5-3",
+    "features": [
+      "Free Spins",
+      "Free Spins Multiplier",
+      "Scatter symbols",
+      "Wild"
+    ],
+    "theme": [
+      "Blue",
+      "Gangster",
+      "Money",
+      "Weapons"
+    ],
+    "status": "found"
+  },
+  "98": {
+    "masterId": 98,
+    "name": "Kung Hei",
+    "vendor": "Playstar",
+    "slotcatalogUrl": "https://slotcatalog.com/en/slots/Kung-Hei",
+    "rtp": 0.0,
+    "volatility": "Med",
+    "maxWin": 200.0,
+    "ways": 20,
+    "lines": null,
+    "releaseDate": "2019-01-15",
+    "layout": "5-3",
+    "features": [
+      "Expanding Symbols",
+      "Free Spins",
+      "Scatter symbols",
+      "Wild"
+    ],
+    "theme": [
+      "Brown",
+      "Chinese Dragons",
+      "Coins",
+      "Fireworks",
+      "Hat",
+      "Hieroglyph",
+      "Oriental, Asian"
+    ],
+    "status": "found"
+  },
+  "99": {
+    "masterId": 99,
+    "name": "Buster's Bones",
+    "vendor": "NetEnt",
+    "status": "not_found",
+    "triedSlugs": [
+      "Busters-Bones",
+      "Busters-Bones-NetEnt",
+      "busters-bones"
+    ]
+  },
+  "100": {
+    "masterId": 100,
+    "name": "Fa Fa Monkey",
+    "vendor": "Playstar",
+    "slotcatalogUrl": "https://slotcatalog.com/en/slots/Fa-Fa-Monkey",
+    "rtp": 0.0,
+    "volatility": "Med-High",
+    "maxWin": 25.0,
+    "ways": 1,
+    "lines": null,
+    "releaseDate": "2018-09-15",
+    "layout": "3-1",
+    "features": [
+      "Bothway"
+    ],
+    "theme": [
+      "Coconut",
+      "Guitar",
+      "Monkey",
+      "Music",
+      "Neon",
+      "Party",
+      "Violet"
+    ],
+    "status": "found"
+  },
+  "101": {
+    "masterId": 101,
+    "name": "Double Happiness",
+    "vendor": "Playstar",
+    "slotcatalogUrl": "https://slotcatalog.com/en/slots/Double-Happiness",
+    "rtp": 93.06,
+    "volatility": "Med-High",
+    "maxWin": null,
+    "ways": 25,
+    "lines": null,
+    "releaseDate": "2013-02-12",
+    "layout": "5-3",
+    "features": [
+      "Free Spins",
+      "Scatter symbols",
+      "Wild"
+    ],
+    "theme": [
+      "Blue",
+      "China",
+      "Chinese Lions",
+      "Orange",
+      "Oriental, Asian",
+      "Red"
+    ],
+    "status": "found"
+  },
+  "102": {
+    "masterId": 102,
+    "name": "Athena",
+    "vendor": "Playstar",
+    "slotcatalogUrl": "https://slotcatalog.com/en/slots/Athena",
+    "rtp": null,
+    "volatility": "N/A",
+    "maxWin": null,
+    "ways": 40,
+    "lines": null,
+    "releaseDate": "2016-09-20",
+    "layout": "5-4",
+    "features": [
+      "Bothway",
+      "Feature: Substitution Symbols",
+      "Free Spins",
+      "Stack",
+      "Wild"
+    ],
+    "theme": [
+      "Gods",
+      "Gray",
+      "Greece",
+      "Green",
+      "Mythical, legend",
+      "Olives",
+      "Sky blue",
+      "Tree"
+    ],
+    "status": "found"
+  },
+  "103": {
+    "masterId": 103,
+    "name": "Glorious Kingdom",
+    "vendor": "Playstar",
+    "slotcatalogUrl": "https://slotcatalog.com/en/slots/Glorious-Kingdom",
+    "rtp": 0.0,
+    "volatility": "Med",
+    "maxWin": 1000.0,
+    "ways": 243,
+    "lines": null,
+    "releaseDate": "2018-04-15",
+    "layout": "5-3",
+    "features": [
+      "Free Spins",
+      "Random Wilds / Additional Wilds",
+      "Scatter symbols",
+      "Wild"
+    ],
+    "theme": [
+      "Castle",
+      "Crown",
+      "Horse",
+      "Medieval, Middle Ages",
+      "Queen, Empress",
+      "Ring",
+      "Shield",
+      "Sword",
+      "Warrior"
+    ],
+    "status": "found"
+  },
+  "104": {
+    "masterId": 104,
+    "name": "Fortune God",
+    "vendor": "Playstar",
+    "slotcatalogUrl": "https://slotcatalog.com/en/slots/Fortune-God",
+    "rtp": 96.06,
+    "volatility": "Med",
+    "maxWin": 1000.0,
+    "ways": 1024,
+    "lines": null,
+    "releaseDate": "2017-09-30",
+    "layout": "5-4",
+    "features": [
+      "Bonus symbols",
+      "Feature: Substitution Symbols",
+      "Free Spins",
+      "RTP range",
+      "Scatter symbols",
+      "Wild"
+    ],
+    "theme": [
+      "Asian Gods",
+      "Black",
+      "Card",
+      "China",
+      "Coins",
+      "Fortune",
+      "Gold-color",
+      "Green",
+      "Luck",
+      "Oriental, Asian",
+      "Red",
+      "Yellow"
+    ],
+    "status": "found"
+  },
+  "105": {
+    "masterId": 105,
+    "name": "Werewolf",
+    "vendor": "Playstar",
+    "status": "not_found",
+    "triedSlugs": [
+      "Werewolf",
+      "Werewolf-Playstar",
+      "werewolf"
+    ]
+  },
+  "106": {
+    "masterId": 106,
+    "name": "Face Off",
+    "vendor": "Playstar",
+    "slotcatalogUrl": "https://slotcatalog.com/en/slots/Face-Off",
+    "rtp": null,
+    "volatility": "Low-Med",
+    "maxWin": 1000.0,
+    "ways": 1024,
+    "lines": null,
+    "releaseDate": "2018-10-15",
+    "layout": "5-3",
+    "features": [
+      "Bothway",
+      "Free Spins",
+      "Scatter symbols",
+      "Wild"
+    ],
+    "theme": [
+      "Flowers",
+      "Mask",
+      "Oriental, Asian",
+      "Tree"
+    ],
+    "status": "found"
+  },
+  "107": {
+    "masterId": 107,
+    "name": "Mines",
+    "vendor": "HACKSAW",
+    "slotcatalogUrl": "https://slotcatalog.com/en/slots/Mines",
+    "rtp": 97.0,
+    "volatility": "Adjusted",
+    "maxWin": 10000.0,
+    "ways": null,
+    "lines": null,
+    "releaseDate": "2021-09-12",
+    "layout": "5-5",
+    "features": [
+      "Mines Games",
+      "RTP range"
+    ],
+    "theme": [
+      "Blue",
+      "Bombs",
+      "Computer games",
+      "Star"
+    ],
+    "status": "found"
+  },
+  "108": {
+    "masterId": 108,
+    "name": "Super Ace Plus",
+    "vendor": "Lucky365",
+    "slotcatalogUrl": "https://slotcatalog.com/en/slots/super-ace-plus",
+    "rtp": null,
+    "volatility": "N/A",
+    "maxWin": null,
+    "ways": null,
+    "lines": null,
+    "releaseDate": "2024-12-02",
+    "layout": "N/A",
+    "features": null,
+    "theme": [
+      "Card suits",
+      "Coins",
+      "Crown",
+      "Gold",
+      "Gold-color"
+    ],
+    "status": "found"
+  },
+  "109": {
+    "masterId": 109,
+    "name": "Treasure Raiders",
+    "vendor": "FA CHAI",
+    "slotcatalogUrl": "https://slotcatalog.com/en/slots/Treasure-Raiders",
+    "rtp": 96.5,
+    "volatility": "Low-Med",
+    "maxWin": 600.0,
+    "ways": 5,
+    "lines": null,
+    "releaseDate": "2022-12-21",
+    "layout": "3-3",
+    "features": [
+      "Bonus Bet",
+      "Cheats tool",
+      "Multiplier",
+      "Random multiplier",
+      "Respins",
+      "Scatter symbols"
+    ],
+    "theme": [
+      "Ancient civilizations",
+      "Brown",
+      "Card suits",
+      "Egypt",
+      "Gems",
+      "Medallion",
+      "Orange",
+      "Pyramid",
+      "Scarab",
+      "Treasures",
+      "Yellow"
+    ],
+    "status": "found"
+  },
+  "110": {
+    "masterId": 110,
+    "name": "Diva's Ace",
+    "vendor": "Yellow Bat",
+    "status": "not_found",
+    "triedSlugs": [
+      "Divas-Ace",
+      "Divas-Ace-Yellow-Bat",
+      "divas-ace"
+    ]
+  },
+  "111": {
+    "masterId": 111,
+    "name": "Money Coming Expand Bets",
+    "vendor": "JILI",
+    "status": "not_found",
+    "triedSlugs": [
+      "Money-Coming-Expand-Bets",
+      "Money-Coming-Expand-Bets-JILI",
+      "money-coming-expand-bets"
+    ]
+  },
+  "112": {
+    "masterId": 112,
+    "name": "Circus Joker",
+    "vendor": "JILI",
+    "status": "not_found",
+    "triedSlugs": [
+      "Circus-Joker",
+      "Circus-Joker-JILI",
+      "circus-joker"
+    ]
+  },
+  "113": {
+    "masterId": 113,
+    "name": "Sang'gre Jackpot",
+    "vendor": "Spark Game",
+    "status": "not_found",
+    "triedSlugs": [
+      "Sanggre-Jackpot",
+      "Sanggre-Jackpot-Spark-Game",
+      "sanggre-jackpot"
+    ]
+  },
+  "114": {
+    "masterId": 114,
+    "name": "High Noon",
+    "vendor": "JILI",
+    "slotcatalogUrl": "https://slotcatalog.com/en/slots/High-Noon",
+    "rtp": 97.03,
+    "volatility": "N/A",
+    "maxWin": null,
+    "ways": 30,
+    "lines": null,
+    "releaseDate": "2016-08-21",
+    "layout": "5-3",
+    "features": [
+      "Free Spins",
+      "Risk/Gamble (Double) game",
+      "Scatter symbols",
+      "Wild"
+    ],
+    "theme": [
+      "Black",
+      "Blue",
+      "Brown",
+      "Cowboys",
+      "Weapons",
+      "Wild West"
+    ],
+    "status": "found"
+  },
+  "115": {
+    "masterId": 115,
+    "name": "3 Super Ace",
+    "vendor": "JILI",
+    "status": "not_found",
+    "triedSlugs": [
+      "3-Super-Ace",
+      "3-Super-Ace-JILI",
+      "3-super-ace"
+    ]
+  },
+  "116": {
+    "masterId": 116,
+    "name": "Crab Trap",
+    "vendor": "NetEnt",
+    "slotcatalogUrl": "https://slotcatalog.com/en/slots/Crab-Trap",
+    "rtp": 96.07,
+    "volatility": "Med",
+    "maxWin": 1191.0,
+    "ways": null,
+    "lines": null,
+    "releaseDate": "2023-07-28",
+    "layout": "6-4",
+    "features": [
+      "Additional Free Spins",
+      "Bonus symbols",
+      "Buy Feature",
+      "Free Spins",
+      "Mega Symbol (3x3)",
+      "Pay Anywhere",
+      "Respins",
+      "RTP range",
+      "Scatter symbols",
+      "Symbols collection (Energy)"
+    ],
+    "theme": [
+      "Crab, Lobster",
+      "Fishing",
+      "Ocean",
+      "Sea",
+      "Ships",
+      "Water world"
+    ],
+    "status": "found"
+  },
+  "117": {
+    "masterId": 117,
+    "name": "Mystic Fortune Deluxe",
+    "vendor": "Habanero",
+    "slotcatalogUrl": "https://slotcatalog.com/en/slots/Mystic-Fortune-Deluxe",
+    "rtp": 96.71,
+    "volatility": "Med",
+    "maxWin": 8888.0,
+    "ways": 28,
+    "lines": null,
+    "releaseDate": "2021-08-31",
+    "layout": "5-4",
+    "features": [
+      "Additional Free Spins",
+      "Bonus symbols",
+      "Free Spins",
+      "Free Spins Multiplier",
+      "Multiplier",
+      "Nudge Feature",
+      "Progressive Jackpot",
+      "RTP range",
+      "Scatter symbols",
+      "Stack",
+      "Wild"
+    ],
+    "theme": [
+      "Blue",
+      "China",
+      "Chinese Dragons",
+      "Coins",
+      "Flowers",
+      "Garden",
+      "Green",
+      "Lotus",
+      "Oriental, Asian",
+      "Phoenix"
+    ],
+    "status": "found"
+  },
+  "118": {
+    "masterId": 118,
+    "name": "Elephant",
+    "vendor": "Playstar",
+    "slotcatalogUrl": "https://slotcatalog.com/en/slots/Elephant-Playstar",
+    "rtp": 0.0,
+    "volatility": "High",
+    "maxWin": 1000.0,
+    "ways": 243,
+    "lines": null,
+    "releaseDate": "2019-09-15",
+    "layout": "5-3",
+    "features": [
+      "Bothway",
+      "Expanding Symbols",
+      "Free Spins",
+      "Scatter symbols",
+      "Wild"
+    ],
+    "theme": [
+      "Animals",
+      "Brown",
+      "Buffalo",
+      "Elephant",
+      "Giraffe",
+      "Safari",
+      "Wildlife",
+      "Yellow",
+      "Zebra"
+    ],
+    "status": "found"
+  },
+  "119": {
+    "masterId": 119,
+    "name": "Piñata Wins",
+    "vendor": "PG Soft",
+    "status": "not_found",
+    "triedSlugs": [
+      "Piñata-Wins",
+      "Piñata-Wins-PG-Soft",
+      "piñata-wins"
+    ]
+  },
+  "120": {
+    "masterId": 120,
+    "name": "Viking Forge™",
+    "vendor": "Pragmatic Play",
+    "slotcatalogUrl": "https://slotcatalog.com/en/slots/Viking-Forge",
+    "rtp": 96.05,
+    "volatility": "High",
+    "maxWin": 10000.0,
+    "ways": null,
+    "lines": null,
+    "releaseDate": "2023-10-12",
+    "layout": "6-5",
+    "features": [
+      "Additive symbol",
+      "Avalanche",
+      "Bonus Bet",
+      "Buy Feature",
+      "Cascading",
+      "Free Spins",
+      "Multiplier",
+      "Pay Anywhere",
+      "RTP range",
+      "Scatter symbols"
+    ],
+    "theme": [
+      "Blue",
+      "Scandinavia",
+      "Viking"
+    ],
+    "status": "found"
+  },
+  "121": {
+    "masterId": 121,
+    "name": "Super Elements (bj)",
+    "vendor": "FA CHAI",
+    "slotcatalogUrl": "https://slotcatalog.com/en/slots/Super-Elements",
+    "rtp": 96.5,
+    "volatility": "Med",
+    "maxWin": 2000.0,
+    "ways": 2000,
+    "lines": null,
+    "releaseDate": "2023-10-16",
+    "layout": "4-5-5-5-4",
+    "features": [
+      "Additional Free Spins",
+      "Avalanche",
+      "Bonus Bet",
+      "Buy Feature",
+      "Cascading",
+      "Free Spins",
+      "Free Spins Multiplier",
+      "Multiplier",
+      "Progressive Jackpot",
+      "Random multiplier",
+      "Scatter symbols",
+      "Spreading Wilds or Wild Rush",
+      "Wild"
+    ],
+    "theme": [
+      "Chest",
+      "Elements",
+      "Fantasy",
+      "Space"
+    ],
+    "status": "found"
+  },
+  "122": {
+    "masterId": 122,
+    "name": "BJ Money Wheel",
+    "vendor": "JDB",
+    "status": "not_found",
+    "triedSlugs": [
+      "BJ-Money-Wheel",
+      "BJ-Money-Wheel-JDB",
+      "bj-money-wheel"
+    ]
+  },
+  "123": {
+    "masterId": 123,
+    "name": "Mines Dare2Win",
+    "vendor": "HACKSAW",
+    "status": "not_found",
+    "triedSlugs": [
+      "Mines-Dare2Win",
+      "Mines-Dare2Win-HACKSAW",
+      "mines-dare2win"
+    ]
+  },
+  "124": {
+    "masterId": 124,
+    "name": "Pinata 1000",
+    "vendor": "5G Games",
+    "slotcatalogUrl": "https://slotcatalog.com/en/slots/Pinata",
+    "rtp": 94.0,
+    "volatility": "N/A",
+    "maxWin": 12.0,
+    "ways": 25,
+    "lines": null,
+    "releaseDate": "2020-06-02",
+    "layout": "5-3",
+    "features": [
+      "Free Spins",
+      "RTP range",
+      "Scatter symbols",
+      "Wild"
+    ],
+    "theme": [
+      "Cocktail",
+      "Mexico",
+      "pinata"
+    ],
+    "status": "found"
+  },
+  "125": {
+    "masterId": 125,
+    "name": "DJ Tiger x1000",
+    "vendor": "BNG",
+    "slotcatalogUrl": "https://slotcatalog.com/en/slots/dj-tiger-x1000",
+    "rtp": null,
+    "volatility": "High",
+    "maxWin": 20000.0,
+    "ways": null,
+    "lines": null,
+    "releaseDate": "2026-02-26",
+    "layout": "6-5",
+    "features": [
+      "Additional Free Spins",
+      "Bonus Bet",
+      "Bonus symbols",
+      "Buy Feature",
+      "Free Spins",
+      "Free Spins Multiplier",
+      "Multiplier",
+      "Mystery symbol",
+      "Pay Anywhere",
+      "Random multiplier",
+      "Scatter Pays",
+      "Sticky Wilds",
+      "Wild"
+    ],
+    "theme": [
+      "Disco ball",
+      "DJ",
+      "Gems",
+      "Hat",
+      "Music",
+      "Oriental, Asian",
+      "Shoes",
+      "Tigers",
+      "Violet"
+    ],
+    "status": "found"
+  },
+  "126": {
+    "masterId": 126,
+    "name": "DJ Boom Boom",
+    "vendor": "FA CHAI",
+    "slotcatalogUrl": "https://slotcatalog.com/en/slots/dj-boom-boom",
+    "rtp": 96.5,
+    "volatility": "Med-High",
+    "maxWin": 5000.0,
+    "ways": 3600,
+    "lines": null,
+    "releaseDate": "2026-01-02",
+    "layout": "3-4-5-5-4-3",
+    "features": [
+      "Additional Free Spins",
+      "Buy Feature",
+      "Cheats tool",
+      "Free Spins",
+      "Free Spins Multiplier",
+      "Multiplier",
+      "Multiway (+1024)",
+      "Progressive Jackpot",
+      "Random multiplier",
+      "Scatter symbols",
+      "Sticky Symbols",
+      "Wild",
+      "Wilds with multipliers"
+    ],
+    "theme": [
+      "Blue",
+      "Disco ball",
+      "DJ",
+      "Gold",
+      "Ice",
+      "Music",
+      "Penguin",
+      "Violet"
+    ],
+    "status": "found"
+  },
+  "127": {
+    "masterId": 127,
+    "name": "Super Boom",
+    "vendor": "Playstar",
+    "slotcatalogUrl": "https://slotcatalog.com/en/slots/Super-Boom",
+    "rtp": 95.16,
+    "volatility": "Med-High",
+    "maxWin": 3240.0,
+    "ways": 12,
+    "lines": null,
+    "releaseDate": "2019-05-02",
+    "layout": "5-4",
+    "features": [
+      "Expanding Symbols",
+      "Free Spins",
+      "Multiplier",
+      "Scatter symbols",
+      "Sticky Wilds",
+      "Wild"
+    ],
+    "theme": [
+      "Bank`s",
+      "Blue",
+      "Gold bars",
+      "Gray",
+      "Money",
+      "Robbery",
+      "Superheroes"
+    ],
+    "status": "found"
+  },
+  "128": {
+    "masterId": 128,
+    "name": "Challenge·Mayan Calendar",
+    "vendor": "Playstar",
+    "status": "not_found",
+    "triedSlugs": [
+      "ChallengeMayan-Calendar",
+      "ChallengeMayan-Calendar-Playstar",
+      "challengemayan-calendar"
+    ]
+  },
+  "129": {
+    "masterId": 129,
+    "name": "Zuma",
+    "vendor": "Playstar",
+    "slotcatalogUrl": "https://slotcatalog.com/en/slots/Zuma",
+    "rtp": 95.74,
+    "volatility": "N/A",
+    "maxWin": null,
+    "ways": 20,
+    "lines": null,
+    "releaseDate": "2013-03-02",
+    "layout": "5-3",
+    "features": [
+      "Free Spins",
+      "Multiplier",
+      "Wild"
+    ],
+    "theme": [
+      "Arcader",
+      "Aztec",
+      "Brown",
+      "Computer games",
+      "Forest",
+      "Frogs",
+      "Green",
+      "Mayan",
+      "Tropics"
+    ],
+    "status": "found"
+  },
+  "130": {
+    "masterId": 130,
+    "name": "Challenge · Fu Lu Shou Xi",
+    "vendor": "Playstar",
+    "slotcatalogUrl": "https://slotcatalog.com/en/slots/Challenge-Fu-Lu-Shou-Xi",
+    "rtp": null,
+    "volatility": "High",
+    "maxWin": 4800.0,
+    "ways": 243,
+    "lines": null,
+    "releaseDate": "2020-09-10",
+    "layout": "5-3",
+    "features": [
+      "Features selection",
+      "Free Spins",
+      "Random Wilds / Additional Wilds",
+      "Reelset Changing",
+      "Scatter symbols",
+      "Wild"
+    ],
+    "theme": [
+      "Birds",
+      "China",
+      "Hieroglyph",
+      "Oriental, Asian",
+      "Red",
+      "Ring",
+      "Yellow"
+    ],
+    "status": "found"
+  },
+  "131": {
+    "masterId": 131,
+    "name": "Tuk Tuk Thailand",
+    "vendor": "Habanero",
+    "slotcatalogUrl": "https://slotcatalog.com/en/slots/Tuk-Tuk-Thailand",
+    "rtp": 96.67,
+    "volatility": "N/A",
+    "maxWin": 2500.0,
+    "ways": 243,
+    "lines": null,
+    "releaseDate": "2022-10-25",
+    "layout": "5-3",
+    "features": [
+      "Additional Free Spins",
+      "Bonus symbols",
+      "Buy Feature",
+      "Free Spins",
+      "Multiplier",
+      "Progressive Jackpot",
+      "Random multiplier",
+      "RTP range",
+      "Scatter symbols",
+      "Sticky Wilds",
+      "Walking Symbols, Moving Wilds",
+      "Wild"
+    ],
+    "theme": [
+      "Card suits",
+      "Dragons",
+      "Flowers",
+      "Green",
+      "Lotus",
+      "Oriental, Asian",
+      "Red",
+      "Sky blue",
+      "Street food Taco, HotDod, Shaurma",
+      "Thailand",
+      "Tigers"
+    ],
+    "status": "found"
+  },
+  "132": {
+    "masterId": 132,
+    "name": "Golden Week",
+    "vendor": "Playstar",
+    "slotcatalogUrl": "https://slotcatalog.com/en/slots/Golden-Week",
+    "rtp": null,
+    "volatility": "Med",
+    "maxWin": 2000.0,
+    "ways": 243,
+    "lines": null,
+    "releaseDate": "2018-08-18",
+    "layout": "5-3",
+    "features": [
+      "Bothway",
+      "Free Spins",
+      "Reelset Changing",
+      "Scatter symbols",
+      "Wild"
+    ],
+    "theme": [
+      "Airship",
+      "Leisure, tourism",
+      "Oriental, Asian",
+      "Travels"
+    ],
+    "status": "found"
+  },
+  "133": {
+    "masterId": 133,
+    "name": "Kungfu",
+    "vendor": "Playstar",
+    "status": "not_found",
+    "triedSlugs": [
+      "Kungfu",
+      "Kungfu-Playstar",
+      "kungfu"
+    ]
+  },
+  "134": {
+    "masterId": 134,
+    "name": "Wu Xia",
+    "vendor": "Playstar",
+    "slotcatalogUrl": "https://slotcatalog.com/en/slots/Wu-Xia",
+    "rtp": 0.0,
+    "volatility": "High",
+    "maxWin": 14.13,
+    "ways": 27,
+    "lines": null,
+    "releaseDate": "2020-08-01",
+    "layout": "3-3",
+    "features": [
+      "Free Spins",
+      "Reelset Changing",
+      "Scatter symbols",
+      "Symbol Swap",
+      "Wild"
+    ],
+    "theme": [
+      "China",
+      "Green",
+      "Oriental, Asian",
+      "Samurai"
+    ],
+    "status": "found"
+  },
+  "135": {
+    "masterId": 135,
+    "name": "Hand Of God",
+    "vendor": "Playstar",
+    "status": "not_found",
+    "triedSlugs": [
+      "Hand-Of-God",
+      "Hand-Of-God-Playstar",
+      "hand-of-god"
+    ]
+  },
+  "136": {
+    "masterId": 136,
+    "name": "Rat Of Wealth",
+    "vendor": "Playstar",
+    "status": "not_found",
+    "triedSlugs": [
+      "Rat-Of-Wealth",
+      "Rat-Of-Wealth-Playstar",
+      "rat-of-wealth"
+    ]
+  },
+  "137": {
+    "masterId": 137,
+    "name": "Master Haha",
+    "vendor": "Playstar",
+    "status": "not_found",
+    "triedSlugs": [
+      "Master-Haha",
+      "Master-Haha-Playstar",
+      "master-haha"
+    ]
+  },
+  "138": {
+    "masterId": 138,
+    "name": "Taiko Beats",
+    "vendor": "Habanero",
+    "slotcatalogUrl": "https://slotcatalog.com/en/slots/Taiko-Beats",
+    "rtp": 96.48,
+    "volatility": "High",
+    "maxWin": 4005.0,
+    "ways": 243,
+    "lines": null,
+    "releaseDate": "2022-09-27",
+    "layout": "5-3",
+    "features": [
+      "Free Spins",
+      "Multiplier",
+      "RTP range",
+      "Scatter symbols",
+      "Wild",
+      "Wilds with multipliers"
+    ],
+    "theme": [
+      "Black",
+      "Drum",
+      "Fan",
+      "Mask",
+      "Oriental, Asian",
+      "Red"
+    ],
+    "status": "found"
+  },
+  "139": {
+    "masterId": 139,
+    "name": "Da Fu Gui",
+    "vendor": "Playstar",
+    "status": "not_found",
+    "triedSlugs": [
+      "Da-Fu-Gui",
+      "Da-Fu-Gui-Playstar",
+      "da-fu-gui"
+    ]
+  },
+  "140": {
+    "masterId": 140,
+    "name": "Fish Prawn Crab",
+    "vendor": "Playstar",
+    "slotcatalogUrl": "https://slotcatalog.com/en/slots/Fish-Prawn-Crab",
+    "rtp": null,
+    "volatility": "Low",
+    "maxWin": 8991.0,
+    "ways": 1,
+    "lines": null,
+    "releaseDate": "2020-07-16",
+    "layout": "3-1",
+    "features": [
+      "Multiplier",
+      "Wild"
+    ],
+    "theme": [
+      "Black",
+      "China",
+      "Crab, Lobster",
+      "Fish",
+      "Gold-color",
+      "Oriental, Asian"
+    ],
+    "status": "found"
+  },
+  "141": {
+    "masterId": 141,
+    "name": "Space Goonz",
+    "vendor": "Habanero",
+    "slotcatalogUrl": "https://slotcatalog.com/en/slots/Space-Goonz",
+    "rtp": 96.65,
+    "volatility": "Med",
+    "maxWin": 3624.0,
+    "ways": 1024,
+    "lines": null,
+    "releaseDate": "2022-07-26",
+    "layout": "5-4",
+    "features": [
+      "Additional Free Spins",
+      "Feature: Substitution Symbols",
+      "Free Spins",
+      "RTP range",
+      "Scatter symbols",
+      "Wild"
+    ],
+    "theme": [
+      "Blue",
+      "Monsters",
+      "Planet",
+      "Space",
+      "Space Adventure",
+      "UFO",
+      "Violet"
+    ],
+    "status": "found"
+  },
+  "142": {
+    "masterId": 142,
+    "name": "Money Meow",
+    "vendor": "Playstar",
+    "slotcatalogUrl": "https://slotcatalog.com/en/slots/Money-Meow",
+    "rtp": 0.0,
+    "volatility": "Med",
+    "maxWin": 250.0,
+    "ways": 30,
+    "lines": null,
+    "releaseDate": "2018-03-12",
+    "layout": "5-3",
+    "features": [
+      "BonusGame: Pick Objects",
+      "Bothway",
+      "Free Spins",
+      "Free Spins Multiplier",
+      "Random Wilds / Additional Wilds",
+      "Scatter symbols",
+      "Wild"
+    ],
+    "theme": [
+      "Brown",
+      "Coins",
+      "Flowers",
+      "Gold",
+      "Lucky Cat",
+      "Oriental, Asian",
+      "Pigs"
+    ],
+    "status": "found"
+  },
+  "143": {
+    "masterId": 143,
+    "name": "Aladdin",
+    "vendor": "CREATIVE GAMING",
+    "slotcatalogUrl": "https://slotcatalog.com/en/slots/Aladdin",
+    "rtp": 97.27,
+    "volatility": "Med",
+    "maxWin": 1000.0,
+    "ways": 25,
+    "lines": null,
+    "releaseDate": "2019-06-25",
+    "layout": "5-3",
+    "features": [
+      "Avalanche",
+      "Cascading",
+      "Scatter symbols",
+      "Wild"
+    ],
+    "theme": [
+      "Aladdin",
+      "Arabian",
+      "Blue",
+      "Desert",
+      "Diamond",
+      "Gems",
+      "Knife",
+      "Sand color",
+      "Treasures",
+      "Violet",
+      "White"
+    ],
+    "status": "found"
+  },
+  "144": {
+    "masterId": 144,
+    "name": "Cashking",
+    "vendor": "ACEWIN",
+    "status": "not_found",
+    "triedSlugs": [
+      "Cashking",
+      "Cashking-ACEWIN",
+      "cashking"
+    ]
+  },
+  "145": {
+    "masterId": 145,
+    "name": "50 Lions",
+    "vendor": "CREATIVE GAMING",
+    "slotcatalogUrl": "https://slotcatalog.com/en/slots/50-Lions",
+    "rtp": 94.71,
+    "volatility": "N/A",
+    "maxWin": null,
+    "ways": 50,
+    "lines": null,
+    "releaseDate": null,
+    "layout": "5-4",
+    "features": [
+      "Free Spins",
+      "Scatter symbols"
+    ],
+    "theme": [
+      "Adventure",
+      "Africa",
+      "Animals",
+      "Black",
+      "Blue",
+      "Giraffe",
+      "Green",
+      "Lions",
+      "Orange",
+      "Pink",
+      "Red",
+      "Wildlife",
+      "Yellow",
+      "Zebra"
+    ],
+    "status": "found"
+  },
+  "146": {
+    "masterId": 146,
+    "name": "Super Acewin",
+    "vendor": "ACEWIN",
+    "slotcatalogUrl": "https://slotcatalog.com/en/slots/super-acewin",
+    "rtp": null,
+    "volatility": "N/A",
+    "maxWin": 1500.0,
+    "ways": null,
+    "lines": null,
+    "releaseDate": "2024-11-23",
+    "layout": "5-4",
+    "features": [
+      "Additional Free Spins",
+      "Avalanche",
+      "Cascading",
+      "Free Spins",
+      "Free Spins Multiplier",
+      "Gonzo mechanic",
+      "Multiplier",
+      "Random Wilds / Additional Wilds",
+      "Scatter symbols",
+      "Wild"
+    ],
+    "theme": [
+      "Black",
+      "Blue",
+      "Card",
+      "Card suits",
+      "Card theme"
+    ],
+    "status": "found"
+  },
+  "147": {
+    "masterId": 147,
+    "name": "Fist Champion",
+    "vendor": "ACEWIN",
+    "slotcatalogUrl": "https://slotcatalog.com/en/slots/fist-champion",
+    "rtp": null,
+    "volatility": "N/A",
+    "maxWin": 2000.0,
+    "ways": 88,
+    "lines": null,
+    "releaseDate": "2024-12-23",
+    "layout": "5-5",
+    "features": [
+      "Free Spins",
+      "Gonzo mechanic",
+      "Multiplier",
+      "Scatter symbols",
+      "Wild"
+    ],
+    "theme": [
+      "Blue",
+      "Boxing",
+      "Boxing gloves",
+      "Oriental, Asian",
+      "Red",
+      "Sports"
+    ],
+    "status": "found"
+  },
+  "148": {
+    "masterId": 148,
+    "name": "Zombie Hunter",
+    "vendor": "CREATIVE GAMING",
+    "slotcatalogUrl": "https://slotcatalog.com/en/slots/Zombie-Hunter",
+    "rtp": 96.12,
+    "volatility": "High",
+    "maxWin": null,
+    "ways": 30,
+    "lines": null,
+    "releaseDate": "2018-10-01",
+    "layout": "5-3",
+    "features": [
+      "Bonus Game",
+      "Expanding Symbols",
+      "Feature: Substitution Symbols",
+      "Free Spins",
+      "Multiplier",
+      "Scatter symbols",
+      "Wild"
+    ],
+    "theme": [
+      "Black",
+      "Gray",
+      "Weapons",
+      "Zombie"
+    ],
+    "status": "found"
+  },
+  "149": {
+    "masterId": 149,
+    "name": "Mummy Mia",
+    "vendor": "ACEWIN",
+    "slotcatalogUrl": "https://slotcatalog.com/en/slots/mummy-mia",
+    "rtp": 95.99,
+    "volatility": "High",
+    "maxWin": 5000.0,
+    "ways": 50,
+    "lines": null,
+    "releaseDate": "2026-05-17",
+    "layout": "5-4",
+    "features": [
+      "Additional Free Spins",
+      "Buy Feature",
+      "Fixed Jackpots",
+      "Free Spins",
+      "Random multiplier",
+      "Scatter symbols",
+      "Wild"
+    ],
+    "theme": [
+      "Ancient civilizations",
+      "Anubis",
+      "Cats",
+      "Cleopatra",
+      "Egypt",
+      "Gods",
+      "Mummy",
+      "Scarab"
+    ],
+    "status": "found"
+  },
+  "150": {
+    "masterId": 150,
+    "name": "Ninja Warrior",
+    "vendor": "CREATIVE GAMING",
+    "status": "not_found",
+    "triedSlugs": [
+      "Ninja-Warrior",
+      "Ninja-Warrior-CREATIVE-GAMING",
+      "ninja-warrior"
+    ]
+  },
+  "151": {
+    "masterId": 151,
+    "name": "Diamond Slot",
+    "vendor": "CREATIVE GAMING",
+    "slotcatalogUrl": "https://slotcatalog.com/en/slots/Diamond-Slot",
+    "rtp": null,
+    "volatility": "N/A",
+    "maxWin": 2000.0,
+    "ways": 15,
+    "lines": null,
+    "releaseDate": "2019-09-17",
+    "layout": "5-3",
+    "features": [
+      "Free Spins",
+      "Multiplier",
+      "Scatter symbols",
+      "Wild"
+    ],
+    "theme": [
+      "Cherry",
+      "Classic style",
+      "Diamond",
+      "Green",
+      "Red",
+      "Watermelon",
+      "Yellow"
+    ],
+    "status": "found"
+  },
+  "152": {
+    "masterId": 152,
+    "name": "Fortune 4 Ever Dragon",
+    "vendor": "ACEWIN",
+    "status": "not_found",
+    "triedSlugs": [
+      "Fortune-4-Ever-Dragon",
+      "Fortune-4-Ever-Dragon-ACEWIN",
+      "fortune-4-ever-dragon"
+    ]
+  },
+  "153": {
+    "masterId": 153,
+    "name": "Lil' Green",
+    "vendor": "ACEWIN",
+    "status": "not_found",
+    "triedSlugs": [
+      "Lil-Green",
+      "Lil-Green-ACEWIN",
+      "lil-green"
+    ]
+  },
+  "154": {
+    "masterId": 154,
+    "name": "Money Farm 3",
+    "vendor": "CREATIVE GAMING",
+    "slotcatalogUrl": "https://slotcatalog.com/en/slots/Money-Farm",
+    "rtp": 96.42,
+    "volatility": "Med-High",
+    "maxWin": 1200.0,
+    "ways": 5,
+    "lines": null,
+    "releaseDate": "2015-11-03",
+    "layout": "5-3",
+    "features": [
+      "Feature: Substitution Symbols",
+      "Gamble",
+      "Multiplier",
+      "RTP range",
+      "Scatter symbols",
+      "Wild"
+    ],
+    "theme": [
+      "Animals",
+      "Brown",
+      "Chickens",
+      "Cows",
+      "Dogs",
+      "Egg",
+      "Farm",
+      "Orange",
+      "Pigs",
+      "Sky",
+      "White",
+      "Wildlife"
+    ],
+    "status": "found"
+  },
+  "155": {
+    "masterId": 155,
+    "name": "Lucky Pig",
+    "vendor": "CREATIVE GAMING",
+    "status": "not_found",
+    "triedSlugs": [
+      "Lucky-Pig",
+      "Lucky-Pig-CREATIVE-GAMING",
+      "lucky-pig"
+    ]
+  },
+  "156": {
+    "masterId": 156,
+    "name": "Reel Royale Showdown",
+    "vendor": "PG Soft",
+    "slotcatalogUrl": "https://slotcatalog.com/en/slots/reel-royale-showdown",
+    "rtp": 96.75,
+    "volatility": "High",
+    "maxWin": 5000.0,
+    "ways": 10000,
+    "lines": null,
+    "releaseDate": "2026-05-10",
+    "layout": "4-5-5-5-5-4",
+    "features": [
+      "Additional Free Spins",
+      "Avalanche",
+      "Cascading",
+      "Dynamic Reels",
+      "Free Spins",
+      "Free Spins Multiplier",
+      "Random Wilds / Additional Wilds",
+      "Scatter symbols",
+      "Stack",
+      "Wild"
+    ],
+    "theme": [
+      "Wrestling"
+    ],
+    "status": "found"
+  },
+  "157": {
+    "masterId": 157,
+    "name": "Mighty Mania",
+    "vendor": "PG Soft",
+    "slotcatalogUrl": "https://slotcatalog.com/en/slots/mighty-mania",
+    "rtp": 96.76,
+    "volatility": "High",
+    "maxWin": 5000.0,
+    "ways": 2304,
+    "lines": null,
+    "releaseDate": "2026-05-18",
+    "layout": "6-4",
+    "features": [
+      "Avalanche",
+      "Cascading",
+      "Free Spins",
+      "Free Spins Mode Choosing",
+      "Free Spins Multiplier",
+      "Gonzo mechanic",
+      "Multiplier",
+      "Scatter symbols",
+      "Sticky Wilds",
+      "Wild"
+    ],
+    "theme": [
+      "Athlete",
+      "Card suits",
+      "Dark blue",
+      "Sports",
+      "Trophy",
+      "Violet"
+    ],
+    "status": "found"
+  },
+  "158": {
+    "masterId": 158,
+    "name": "Triple Pot Plinko Hercules",
+    "vendor": "Pragmatic Play",
+    "slotcatalogUrl": "https://slotcatalog.com/en/slots/triple-pot-plinko-hercules",
+    "rtp": 95.57,
+    "volatility": "Low",
+    "maxWin": 10000.0,
+    "ways": 243,
+    "lines": null,
+    "releaseDate": "2026-05-04",
+    "layout": "5-3",
+    "features": [
+      "Bonus Bet",
+      "Bonus Game",
+      "Bonus symbols",
+      "Buy Feature",
+      "Multiplier",
+      "Plinko Games",
+      "Random multiplier",
+      "RTP range",
+      "Scatter symbols",
+      "Wild"
+    ],
+    "theme": [
+      "Balls",
+      "Black",
+      "Blue",
+      "Bull",
+      "Chest",
+      "Greece",
+      "Hercules",
+      "Lions",
+      "Mythical, legend"
+    ],
+    "status": "found"
+  },
+  "159": {
+    "masterId": 159,
+    "name": "HeartBreakers",
+    "vendor": "Pragmatic Play",
+    "slotcatalogUrl": "https://slotcatalog.com/en/slots/heartbreakers",
+    "rtp": 96.53,
+    "volatility": "High",
+    "maxWin": 10000.0,
+    "ways": 20,
+    "lines": null,
+    "releaseDate": "2026-05-11",
+    "layout": "5-3",
+    "features": [
+      "Bonus Bet",
+      "Bonus Game",
+      "Buy Feature",
+      "Hold and Win",
+      "Respins",
+      "RTP range",
+      "Wild"
+    ],
+    "theme": [
+      "Alcohol",
+      "Cabaret, Burlesque",
+      "Coins",
+      "Cowboys",
+      "Dance",
+      "Deer",
+      "Erotic",
+      "Girls",
+      "Green",
+      "Heart",
+      "Red",
+      "Shoes"
+    ],
+    "status": "found"
+  },
+  "160": {
+    "masterId": 160,
+    "name": "Candy Rush",
+    "vendor": "Pragmatic Play",
+    "slotcatalogUrl": "https://slotcatalog.com/en/slots/Candy-Rush",
+    "rtp": 97.42,
+    "volatility": "Med-High",
+    "maxWin": 5000.0,
+    "ways": null,
+    "lines": null,
+    "releaseDate": "2022-03-31",
+    "layout": "6-5",
+    "features": [
+      "Additional Free Spins",
+      "Avalanche",
+      "Bonus Bet",
+      "Buy Feature",
+      "Cascading",
+      "Cluster Pays",
+      "Free Spins",
+      "Multiplier"
+    ],
+    "theme": [
+      "Apple",
+      "Banana",
+      "Fruit",
+      "Grapes",
+      "Sweets",
+      "Watermelon"
+    ],
+    "status": "found"
+  },
+  "161": {
+    "masterId": 161,
+    "name": "Wild Bounty Queen",
+    "vendor": "Victory Ark",
+    "status": "not_found",
+    "triedSlugs": [
+      "Wild-Bounty-Queen",
+      "Wild-Bounty-Queen-Victory-Ark",
+      "wild-bounty-queen"
+    ]
+  },
+  "162": {
+    "masterId": 162,
+    "name": "The Big Dog House",
+    "vendor": "Pragmatic Play",
+    "slotcatalogUrl": "https://slotcatalog.com/en/slots/the-big-dog-house",
+    "rtp": 96.53,
+    "volatility": "Med-High",
+    "maxWin": 15000.0,
+    "ways": 20,
+    "lines": null,
+    "releaseDate": "2026-05-21",
+    "layout": "5-3",
+    "features": [
+      "Bonus Bet",
+      "Buy Feature",
+      "Free Spins",
+      "Mega Symbol (3x3)",
+      "RTP range",
+      "Scatter symbols",
+      "Sequels, Series Continuations",
+      "Stack",
+      "Sticky Wilds",
+      "Wild",
+      "Wilds with multipliers"
+    ],
+    "theme": [
+      "Animals",
+      "Bones",
+      "Brown",
+      "Dogs",
+      "Green",
+      "Pets"
+    ],
+    "status": "found"
+  },
+  "163": {
+    "masterId": 163,
+    "name": "Coin Tornado",
+    "vendor": "BNG",
+    "slotcatalogUrl": "https://slotcatalog.com/en/slots/coin-tornado",
+    "rtp": null,
+    "volatility": "Med",
+    "maxWin": 1000.0,
+    "ways": 5,
+    "lines": null,
+    "releaseDate": "2025-10-02",
+    "layout": "5-3",
+    "features": [
+      "Additive symbol",
+      "Bonus Game",
+      "Bonus symbols",
+      "Buy Feature",
+      "Cash Collector",
+      "Fixed Jackpots",
+      "Hold and Win",
+      "Multiplier",
+      "Random multiplier",
+      "Respins",
+      "Sticky Symbols",
+      "Symbols collection (Energy)",
+      "Wild"
+    ],
+    "theme": [
+      "777",
+      "Bell",
+      "Coins",
+      "Fruit",
+      "Gold bars"
+    ],
+    "status": "found"
+  },
+  "164": {
+    "masterId": 164,
+    "name": "x1000 Golden Penny 2",
+    "vendor": "BNG",
+    "slotcatalogUrl": "https://slotcatalog.com/en/slots/x1000-golden-penny-2",
+    "rtp": null,
+    "volatility": "N/A",
+    "maxWin": 20000.0,
+    "ways": null,
+    "lines": null,
+    "releaseDate": "2026-01-15",
+    "layout": "6-5",
+    "features": [
+      "Additional Free Spins",
+      "Avalanche",
+      "Buy Feature",
+      "Cascading",
+      "Free Spins",
+      "Free Spins Multiplier",
+      "Gonzo mechanic",
+      "Multiplier",
+      "Mystery symbol",
+      "Pay Anywhere",
+      "Random multiplier",
+      "Scatter Pays",
+      "Scatter symbols",
+      "Wild"
+    ],
+    "theme": [
+      "Beer",
+      "Clover",
+      "Coins",
+      "Gems",
+      "Gold",
+      "Harp",
+      "Horseshoe",
+      "Irish",
+      "Leprechauns",
+      "St Patricks Day"
+    ],
+    "status": "found"
+  },
+  "165": {
+    "masterId": 165,
+    "name": "3 Super Hungry Pandas",
+    "vendor": "BNG",
+    "slotcatalogUrl": "https://slotcatalog.com/en/slots/3-super-hungry-pandas",
+    "rtp": 95.74,
+    "volatility": "Med-High",
+    "maxWin": 1570.0,
+    "ways": 25,
+    "lines": null,
+    "releaseDate": "2026-01-15",
+    "layout": "5-3",
+    "features": [
+      "Bonus symbols",
+      "Bonus wheel",
+      "Buy Feature",
+      "Fixed Jackpots",
+      "Hold and Win",
+      "Multiplier",
+      "Pot Collection",
+      "Random multiplier",
+      "Reels doubling",
+      "Risk/Gamble (Double) game",
+      "RTP range",
+      "Sequels, Series Continuations",
+      "Wild"
+    ],
+    "theme": [
+      "Drum",
+      "Fan",
+      "Green",
+      "Jungle",
+      "Koi Fish",
+      "Lotus",
+      "Oriental, Asian",
+      "Panda",
+      "Scroll"
+    ],
+    "status": "found"
+  },
+  "166": {
+    "masterId": 166,
+    "name": "Coin Strike XXL Hold and Win 3x5",
+    "vendor": "BNG",
+    "status": "not_found",
+    "triedSlugs": [
+      "Coin-Strike-XXL-Hold-and-Win-3x5",
+      "Coin-Strike-XXL-Hold-and-Win-3x5-BNG",
+      "coin-strike-xxl-hold-and-win-3x5"
+    ]
+  },
+  "167": {
+    "masterId": 167,
+    "name": "Flaming Bells Hold and Win",
+    "vendor": "BNG",
+    "status": "not_found",
+    "triedSlugs": [
+      "Flaming-Bells-Hold-and-Win",
+      "Flaming-Bells-Hold-and-Win-BNG",
+      "flaming-bells-hold-and-win"
+    ]
+  },
+  "168": {
+    "masterId": 168,
+    "name": "Super 3 Coin Volcanoes",
+    "vendor": "BNG",
+    "status": "not_found",
+    "triedSlugs": [
+      "Super-3-Coin-Volcanoes",
+      "Super-3-Coin-Volcanoes-BNG",
+      "super-3-coin-volcanoes"
+    ]
+  },
+  "169": {
+    "masterId": 169,
+    "name": "MeowRiches",
+    "vendor": "Victory Ark",
+    "status": "not_found",
+    "triedSlugs": [
+      "MeowRiches",
+      "MeowRiches-Victory-Ark",
+      "meowriches"
+    ]
+  },
+  "170": {
+    "masterId": 170,
+    "name": "Dragon's Gate Bonus Choice",
+    "vendor": "Pragmatic Play",
+    "status": "not_found",
+    "triedSlugs": [
+      "Dragons-Gate-Bonus-Choice",
+      "Dragons-Gate-Bonus-Choice-Pragmatic-Play",
+      "dragons-gate-bonus-choice"
+    ]
+  },
+  "171": {
+    "masterId": 171,
+    "name": "Rainbow Jackpots",
+    "vendor": "Red Tiger",
+    "slotcatalogUrl": "https://slotcatalog.com/en/slots/Rainbow-Jackpots",
+    "rtp": 96.15,
+    "volatility": "Med-High",
+    "maxWin": 1054.0,
+    "ways": 20,
+    "lines": null,
+    "releaseDate": "2017-09-08",
+    "layout": "5-3",
+    "features": [
+      "Bonus Game",
+      "Free Spins",
+      "RTP range",
+      "Wild"
+    ],
+    "theme": [
+      "Beer",
+      "Brightness",
+      "Clover",
+      "Coins",
+      "Gold",
+      "Green",
+      "Hat",
+      "Horseshoe",
+      "Irish",
+      "Joy",
+      "Leprechauns",
+      "Lightness",
+      "St Patricks Day",
+      "White"
+    ],
+    "status": "found"
+  },
+  "172": {
+    "masterId": 172,
+    "name": "More Energy Coins Hold and Win 5x4",
+    "vendor": "BNG",
+    "status": "not_found",
+    "triedSlugs": [
+      "More-Energy-Coins-Hold-and-Win-5x4",
+      "More-Energy-Coins-Hold-and-Win-5x4-BNG",
+      "more-energy-coins-hold-and-win-5x4"
+    ]
+  },
+  "173": {
+    "masterId": 173,
+    "name": "Jingle Bells",
+    "vendor": "Red Tiger",
+    "slotcatalogUrl": "https://slotcatalog.com/en/slots/Jingle-Bells",
+    "rtp": 94.95,
+    "volatility": "Med",
+    "maxWin": null,
+    "ways": 5,
+    "lines": null,
+    "releaseDate": "2006-06-15",
+    "layout": "3-3",
+    "features": [
+      "Free Spins",
+      "Substitution of wining symbols",
+      "Wild"
+    ],
+    "theme": [
+      "Bell",
+      "Christmas and New Year",
+      "Gold-color",
+      "Green",
+      "Holidays",
+      "Red"
+    ],
+    "status": "found"
+  },
+  "174": {
+    "masterId": 174,
+    "name": "Mr. Null's Wicked Wares",
+    "vendor": "Pragmatic Play",
+    "status": "not_found",
+    "triedSlugs": [
+      "Mr-Nulls-Wicked-Wares",
+      "Mr-Nulls-Wicked-Wares-Pragmatic-Play",
+      "mr-nulls-wicked-wares"
+    ]
+  },
+  "175": {
+    "masterId": 175,
+    "name": "Launch to Riches",
+    "vendor": "Pragmatic Play",
+    "slotcatalogUrl": "https://slotcatalog.com/en/slots/launch-to-riches",
+    "rtp": 95.53,
+    "volatility": "Med-High",
+    "maxWin": 5000.0,
+    "ways": 1024,
+    "lines": null,
+    "releaseDate": "2026-04-27",
+    "layout": "5-4",
+    "features": [
+      "Bonus Bet",
+      "Buy Feature",
+      "Cash Collector",
+      "Feature: Random reward",
+      "Free Spins",
+      "RTP range",
+      "Scatter symbols",
+      "Wild"
+    ],
+    "theme": [
+      "Adventure",
+      "Blue",
+      "Castle",
+      "Gold",
+      "Pink",
+      "Rocket",
+      "Royal",
+      "Treasures",
+      "Violet"
+    ],
+    "status": "found"
+  }
+}
