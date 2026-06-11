@@ -1856,12 +1856,42 @@ function getSelectedPlatforms() {
   return [...document.querySelectorAll('.attr-plat-cb:checked')].map(c => c.value);
 }
 
+// ── 資料庫層級覆蓋率（固定值，不受篩選影響）
+function libraryAttrCoverage() {
+  if (!STATE.master.games || !STATE.master.attributes) return null;
+  const total = (STATE.master.games.games || []).length;
+  const found = Object.values(STATE.master.attributes).filter(a => a.status === 'found').length;
+  return { found, total };
+}
+
+// ── 時間 preset 計算（回傳 ISO 日期字串）
+function attrDateRange(preset, from, to) {
+  const now = new Date();
+  const y = now.getFullYear(), m = now.getMonth(), q = Math.floor(m/3);
+  const pad = n => String(n).padStart(2,'0');
+  if (preset === 'year')    return [`${y}-01-01`, `${y}-12-31`];
+  if (preset === 'quarter') return [`${y}-${pad(q*3+1)}-01`, `${y}-${pad((q+1)*3)}-31`];
+  if (preset === 'month')   return [`${y}-${pad(m+1)}-01`, `${y}-${pad(m+1)}-31`];
+  if (preset === 'custom')  return [from||'', to||''];
+  return ['',''];
+}
+
+// ── 依日期範圍篩選週次 key（自動勾選週次按鈕用）
+function weekKeysInRange(from, to) {
+  return Object.keys(STATE.weekly).sort().filter(k => {
+    const d = STATE.weekly[k].captureDate || '';
+    if (from && d < from) return false;
+    if (to   && d > to)   return false;
+    return true;
+  });
+}
+
 // ── 主計算（真實資料）
 function computeAgg(selPlats, weekKeys) {
   const attrsByName = buildAttrsByName();
   const allPlats = selPlats.length ? selPlats : ['PT','BP','CP','TCG','BAJI'];
   const volMap={}, themeMap={}, featMap={}, yearMap={}, vendorMap={};
-  let rtpTotal=0, rtpCount=0, withAttr=0, totalApps=0;
+  let rtpTotal=0, rtpCount=0;
   const uniq=new Set();
 
   for (const key of weekKeys) {
@@ -1869,18 +1899,16 @@ function computeAgg(selPlats, weekKeys) {
     if (!wk) continue;
     for (const plat of allPlats) {
       for (const r of (wk.platforms?.[plat]?.rankings || [])) {
-        totalApps++;
         uniq.add(r.name);
         const v = r.vendor || r.rawVendor || '(未知)';
         vendorMap[v] = (vendorMap[v]||0) + 1;
         const attr = attrsByName[r.name];
         if (!attr) continue;
-        withAttr++;
         const vol = attr.volatility || 'N/A';
         volMap[vol] = (volMap[vol]||0) + 1;
         if (attr.rtp && attr.rtp > 10) { rtpTotal += attr.rtp; rtpCount++; }
-        (attr.theme    || []).forEach(t => { themeMap[t]  = (themeMap[t] ||0)+1; });
-        (attr.features || []).forEach(f => { featMap[f]   = (featMap[f]  ||0)+1; });
+        (attr.theme    || []).forEach(t => { themeMap[t] = (themeMap[t]||0)+1; });
+        (attr.features || []).forEach(f => { featMap[f]  = (featMap[f] ||0)+1; });
         if (attr.releaseDate) {
           const yr = attr.releaseDate.slice(0,4);
           yearMap[yr] = (yearMap[yr]||0)+1;
@@ -1890,15 +1918,13 @@ function computeAgg(selPlats, weekKeys) {
   }
 
   const curY = new Date().getFullYear();
-  const recentCnt = Object.entries(yearMap).filter(([y])=>parseInt(y)>=curY-1).reduce((s,[,v])=>s+v,0);
+  const recentCnt  = Object.entries(yearMap).filter(([y])=>parseInt(y)>=curY-1).reduce((s,[,v])=>s+v,0);
   const totalDated = Object.values(yearMap).reduce((s,v)=>s+v,0);
 
   return {
-    appearances: totalApps,
-    unique:      uniq.size,
-    coverage:    totalApps > 0 ? withAttr/totalApps : 0,
-    rtp:         rtpCount  > 0 ? rtpTotal/rtpCount  : null,
-    newRatio:    totalDated > 0 ? recentCnt/totalDated : null,
+    unique:   uniq.size,
+    rtp:      rtpCount  > 0 ? rtpTotal/rtpCount : null,
+    newRatio: totalDated > 0 ? recentCnt/totalDated : null,
     vol:     volMap,
     themes:  Object.entries(themeMap).sort((a,b)=>b[1]-a[1]).slice(0,12),
     features:Object.entries(featMap).sort((a,b)=>b[1]-a[1]).slice(0,12),
@@ -1947,11 +1973,13 @@ function renderAll() {
   const d = computeAgg(plats, weekKeys);
 
   // 摘要
-  document.getElementById("attr-stat-appearances").textContent = d.appearances.toLocaleString();
   document.getElementById("attr-stat-unique").textContent      = d.unique + " 款";
   document.getElementById("attr-stat-rtp").textContent         = d.rtp    ? d.rtp.toFixed(1)+"%" : "—";
   document.getElementById("attr-stat-new-ratio").textContent   = d.newRatio ? Math.round(d.newRatio*100)+"%" : "—";
-  document.getElementById("attr-stat-coverage").textContent    = Math.round(d.coverage*100) + "%";
+  const cov = libraryAttrCoverage();
+  document.getElementById("attr-stat-coverage").textContent    = cov
+    ? `${cov.found} / ${cov.total} (${Math.round(cov.found/cov.total*100)}%)`
+    : "—";
   document.getElementById("attr-filter-label").textContent     =
     `${plats.length===5?"全平台":plats.join("/")} × ${weekKeys.length} 週`;
 
@@ -2076,6 +2104,58 @@ function initAttributesTab() {
     renderAll();
   });
 
+  // ── 時間 preset 按鈕
+  let _attrPreset = '';
+  const applyAttrPreset = (preset) => {
+    _attrPreset = preset;
+    // 更新按鈕樣式
+    document.querySelectorAll('.attr-date-preset').forEach(b => {
+      const on = b.dataset.preset === preset;
+      b.classList.toggle('bg-blue-500',  on);
+      b.classList.toggle('text-white',   on);
+      b.classList.toggle('border-blue-500', on);
+      b.classList.toggle('bg-white',     !on);
+      b.classList.toggle('text-gray-600', !on);
+      b.classList.toggle('border-gray-300', !on);
+    });
+    // 顯示/隱藏自訂輸入
+    const customEl = document.getElementById('attr-date-custom');
+    if (customEl) customEl.style.display = preset === 'custom' ? 'flex' : 'none';
+
+    if (!preset) return;
+    if (preset === 'custom') return; // 自訂等待使用者輸入
+    const [from, to] = attrDateRange(preset, '', '');
+    // 自動勾選在範圍內的週次
+    const matched = weekKeysInRange(from, to);
+    document.querySelectorAll('.attr-week-btn').forEach(b => {
+      toggleWeekBtn(b, matched.includes(b.dataset.key));
+    });
+    renderAll();
+  };
+
+  document.querySelectorAll('.attr-date-preset').forEach(btn => {
+    btn.addEventListener('click', () => {
+      const p = btn.dataset.preset;
+      applyAttrPreset(_attrPreset === p ? '' : p); // 再點一次取消
+    });
+  });
+
+  // 自訂日期輸入
+  const attrFromEl = document.getElementById('attr-date-from');
+  const attrToEl   = document.getElementById('attr-date-to');
+  const applyCustomRange = () => {
+    const from = attrFromEl ? attrFromEl.value : '';
+    const to   = attrToEl   ? attrToEl.value   : '';
+    if (!from && !to) return;
+    const matched = weekKeysInRange(from, to);
+    document.querySelectorAll('.attr-week-btn').forEach(b => {
+      toggleWeekBtn(b, matched.includes(b.dataset.key));
+    });
+    renderAll();
+  };
+  if (attrFromEl) attrFromEl.addEventListener('change', applyCustomRange);
+  if (attrToEl)   attrToEl.addEventListener('change',   applyCustomRange);
+
   // ── 平台 checkbox
   const platAllCb = document.getElementById("attr-plat-all");
   const platCbs   = document.querySelectorAll(".attr-plat-cb");
@@ -2120,23 +2200,33 @@ document.addEventListener("DOMContentLoaded", () => {
           <label class="flex items-center gap-0.5 cursor-pointer select-none"><input type="checkbox" class="attr-plat-cb accent-purple-500" value="TCG"  checked> <span class="text-xs px-1 rounded bg-purple-100 text-purple-700">TCG</span></label>
           <label class="flex items-center gap-0.5 cursor-pointer select-none"><input type="checkbox" class="attr-plat-cb accent-pink-500"   value="BAJI" checked> <span class="text-xs px-1 rounded bg-pink-100 text-pink-700">BAJI</span></label>
         </div>
-        <div class="flex items-center gap-1.5 flex-wrap">
-          <span class="text-xs text-gray-500 font-medium">週次：</span>
-          <button id="attr-week-all" class="px-2 py-1 text-xs rounded border border-gray-300 text-gray-500 hover:border-blue-400 hover:text-blue-600">全選/全消</button>
-          <div id="attr-week-btns" class="flex gap-1 flex-wrap"></div>
+        <div class="flex flex-col gap-1.5">
+          <div class="flex items-center gap-1.5 flex-wrap">
+            <span class="text-xs text-gray-500 font-medium">時間：</span>
+            <button class="attr-date-preset px-2 py-1 text-xs rounded border border-gray-300 bg-white text-gray-600 hover:border-blue-400 hover:text-blue-600" data-preset="year">今年</button>
+            <button class="attr-date-preset px-2 py-1 text-xs rounded border border-gray-300 bg-white text-gray-600 hover:border-blue-400 hover:text-blue-600" data-preset="quarter">本季</button>
+            <button class="attr-date-preset px-2 py-1 text-xs rounded border border-gray-300 bg-white text-gray-600 hover:border-blue-400 hover:text-blue-600" data-preset="month">本月</button>
+            <button class="attr-date-preset px-2 py-1 text-xs rounded border border-gray-300 bg-white text-gray-600 hover:border-blue-400 hover:text-blue-600" data-preset="custom">自訂</button>
+            <span id="attr-date-custom" class="hidden items-center gap-1">
+              <input type="date" id="attr-date-from" class="px-2 py-1 text-xs border border-gray-300 rounded">
+              <span class="text-xs text-gray-400">—</span>
+              <input type="date" id="attr-date-to" class="px-2 py-1 text-xs border border-gray-300 rounded">
+            </span>
+          </div>
+          <div class="flex items-center gap-1.5 flex-wrap">
+            <span class="text-xs text-gray-500 font-medium">週次：</span>
+            <button id="attr-week-all" class="px-2 py-1 text-xs rounded border border-gray-300 text-gray-500 hover:border-blue-400 hover:text-blue-600">全選/全消</button>
+            <div id="attr-week-btns" class="flex gap-1 flex-wrap"></div>
+          </div>
         </div>
         <span id="attr-filter-label" class="text-xs text-gray-400 ml-auto"></span>
       </div>
 
       <!-- 摘要卡片 -->
-      <div class="grid grid-cols-5 gap-3">
-        <div class="bg-white rounded border border-gray-200 p-3 text-center">
-          <div class="text-2xl font-bold text-blue-600" id="attr-stat-appearances">—</div>
-          <div class="text-xs text-gray-500 mt-1">上榜次數（含重複）</div>
-        </div>
+      <div class="grid grid-cols-4 gap-3">
         <div class="bg-white rounded border border-gray-200 p-3 text-center">
           <div class="text-2xl font-bold text-indigo-600" id="attr-stat-unique">—</div>
-          <div class="text-xs text-gray-500 mt-1">不重複遊戲款數</div>
+          <div class="text-xs text-gray-500 mt-1">上榜款數（樣本）</div>
         </div>
         <div class="bg-white rounded border border-gray-200 p-3 text-center">
           <div class="text-2xl font-bold text-green-600" id="attr-stat-rtp">—</div>
@@ -2147,8 +2237,8 @@ document.addEventListener("DOMContentLoaded", () => {
           <div class="text-xs text-gray-500 mt-1">近 2 年新遊戲佔比</div>
         </div>
         <div class="bg-white rounded border border-gray-200 p-3 text-center">
-          <div class="text-2xl font-bold text-gray-500" id="attr-stat-coverage">—</div>
-          <div class="text-xs text-gray-500 mt-1">屬性覆蓋率</div>
+          <div class="text-xl font-bold text-gray-600" id="attr-stat-coverage">—</div>
+          <div class="text-xs text-gray-500 mt-1">遊戲庫屬性覆蓋率</div>
         </div>
       </div>
 
