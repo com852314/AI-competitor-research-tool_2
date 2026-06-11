@@ -704,6 +704,8 @@ let MASTER_ATTR_KW     = '';
 let MASTER_DATE_PRESET = '';
 let MASTER_DATE_FROM   = '';
 let MASTER_DATE_TO     = '';
+let MASTER_SORT_COL    = '';   // '' = 預設排序（跨台降序）
+let MASTER_SORT_DIR    = 'asc';
 
 function renderMaster() {
   if (!STATE.master.games) {
@@ -792,6 +794,65 @@ function getDateRange(preset, from, to) {
   return ['', ''];
 }
 
+// ── 主表排序 helpers
+const VOL_ORDER = {'Low':0,'Low-Med':1,'Med':2,'Med-High':3,'High':4,'N/A':5,'Adjusted':6};
+
+function setSortCol(col) {
+  if (MASTER_SORT_COL === col) {
+    MASTER_SORT_DIR = MASTER_SORT_DIR === 'asc' ? 'desc' : 'asc';
+  } else {
+    MASTER_SORT_COL = col;
+    // 數字欄/日期欄預設降序（最大/最新在前）；文字欄預設升序
+    MASTER_SORT_DIR = ['count','rtp','releaseDate','firstSeen'].includes(col) ? 'desc' : 'asc';
+  }
+  renderMasterTable();
+}
+
+function sortTh(col, label, align) {
+  const active = MASTER_SORT_COL === col;
+  const ind = active ? (MASTER_SORT_DIR === 'asc' ? ' ▲' : ' ▼') : ' <span class="opacity-30">⇅</span>';
+  const cls = (align === 'center' ? 'text-center' : 'text-left') +
+    ' px-2 py-2 text-xs font-medium cursor-pointer select-none whitespace-nowrap ' +
+    (active ? 'text-blue-600 hover:text-blue-700' : 'text-gray-500 hover:text-blue-500');
+  return `<th class="${cls}" onclick="setSortCol('${col}')">${label}${ind}</th>`;
+}
+
+function masterCompareRows(a, b) {
+  const col = MASTER_SORT_COL;
+  const d = MASTER_SORT_DIR === 'asc' ? 1 : -1;
+  let av, bv;
+  switch (col) {
+    case 'name':
+      av = (a.normalizedName || '').toLowerCase();
+      bv = (b.normalizedName || '').toLowerCase();
+      return av < bv ? -d : av > bv ? d : 0;
+    case 'vendor':
+      av = (a.normalizedVendor || '').toLowerCase();
+      bv = (b.normalizedVendor || '').toLowerCase();
+      return av < bv ? -d : av > bv ? d : 0;
+    case 'count':
+      return (a._count - b._count) * d;
+    case 'volatility':
+      av = VOL_ORDER[(a._attr && a._attr.volatility) ?? ''] ?? 99;
+      bv = VOL_ORDER[(b._attr && b._attr.volatility) ?? ''] ?? 99;
+      return (av - bv) * d;
+    case 'rtp':
+      av = (a._attr && a._attr.rtp > 10) ? a._attr.rtp : -1;
+      bv = (b._attr && b._attr.rtp > 10) ? b._attr.rtp : -1;
+      return (av - bv) * d;
+    case 'releaseDate':
+      av = (a._attr && a._attr.releaseDate) || '';
+      bv = (b._attr && b._attr.releaseDate) || '';
+      return av < bv ? -d : av > bv ? d : 0;
+    case 'firstSeen':
+      av = a.firstSeen || '';
+      bv = b.firstSeen || '';
+      return av < bv ? -d : av > bv ? d : 0;
+    default:
+      return b._count - a._count || a.masterId - b.masterId;
+  }
+}
+
 function renderAttrList(arr, limit) {
   if (!arr || !arr.length) return '<span class="text-gray-300">—</span>';
   const safe = arr.map(s => escapeHtml(String(s)));
@@ -866,7 +927,7 @@ function renderMasterTable() {
     });
   }
 
-  filtered.sort((a, b) => b._count - a._count || a.masterId - b.masterId);
+  filtered.sort(masterCompareRows);
 
   const summary = `共 ${allGames.length} 款，顯示 ${filtered.length} 款`;
   document.getElementById('master-count').textContent = summary;
@@ -930,17 +991,17 @@ function renderMasterTable() {
     <table class="w-full text-sm">
       <thead class="bg-gray-50 sticky top-0">
         <tr>
-          <th class="px-2 py-2 text-left text-gray-500 text-xs font-medium">ID</th>
-          <th class="px-2 py-2 text-left text-gray-500 text-xs font-medium">遊戲名稱</th>
-          <th class="px-2 py-2 text-left text-gray-500 text-xs font-medium">廠家</th>
-          <th class="px-2 py-2 text-center text-gray-500 text-xs font-medium">跨台</th>
-          <th class="px-2 py-2 text-left text-gray-500 text-xs font-medium">上榜平台</th>
-          <th class="px-2 py-2 text-left text-gray-500 text-xs font-medium">波動度</th>
-          <th class="px-2 py-2 text-left text-gray-500 text-xs font-medium">RTP</th>
-          <th class="px-2 py-2 text-left text-gray-500 text-xs font-medium">上市</th>
+          <th class="px-2 py-2 text-left text-gray-400 text-xs font-medium">ID</th>
+          ${sortTh('name','遊戲名稱')}
+          ${sortTh('vendor','廠家')}
+          ${sortTh('count','跨台','center')}
+          <th class="px-2 py-2 text-left text-gray-500 text-xs font-medium whitespace-nowrap">上榜平台</th>
+          ${sortTh('volatility','波動度')}
+          ${sortTh('rtp','RTP')}
+          ${sortTh('releaseDate','上市')}
           <th class="px-2 py-2 text-left text-gray-500 text-xs font-medium">主題</th>
           <th class="px-2 py-2 text-left text-gray-500 text-xs font-medium">玩法功能</th>
-          <th class="px-2 py-2 text-left text-gray-500 text-xs font-medium">首見</th>
+          ${sortTh('firstSeen','首見')}
         </tr>
       </thead>
       <tbody>${rows}</tbody>
