@@ -162,14 +162,24 @@ CP 平台的排行頁面沒有廠家資訊。處理方式：
 | HACKSAW | HACKSAW、Hacksaw Gaming |
 | Habanero | HBN、Habanero |
 | JDB | JDB |
-| Red Tiger | REDTIGER、Red Tiger |
+| BNG | BNG |
+| Red Tiger | REDTIGER、Red Tiger、RED TIGER |
 | FunTa Gaming | FTG |
 | NetEnt | NETENT、NetEnt |
 | OmniPlay | OP |
 | Playstar | PLAYSTAR |
-| KingMidas | KingMidas |
+| KingMidas | KingMidas、KINGMIDAS |
 | YesBingo | YESBINGO |
 | Lucky365 | LUCKY365 |
+| 5G Games | 5G |
+| Victory Ark | Victory Ark |
+| CREATIVE GAMING | CREATIVE GAMING |
+| ACEWIN | ACEWIN |
+| WORLD MATCH | WORLD MATCH |
+| MICROGAMING | MICROGAMING |
+| DRAGOONSOFT | DRAGOONSOFT |
+| COMBO | COMBO |
+| PLAY'N GO | PLAY'N GO |
 
 > 不在表中的廠家：`vendor` 填平台原始文字（等人工確認），`rawVendor` 也填一樣。
 
