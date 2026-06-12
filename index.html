@@ -48,10 +48,10 @@
     <button class="tab-btn active px-4 py-2 text-sm font-medium border-b-2 border-blue-600 text-blue-700" data-tab="snapshot">📊 本週快照</button>
     <button class="tab-btn px-4 py-2 text-sm font-medium border-b-2 border-transparent text-gray-500 hover:text-gray-800" data-tab="cross">🌐 跨平台分析</button>
     <button class="tab-btn px-4 py-2 text-sm font-medium border-b-2 border-transparent text-gray-500 hover:text-gray-800" data-tab="newgames">📰 新遊戲</button>
-    <button class="tab-btn px-4 py-2 text-sm font-medium border-b-2 border-transparent text-gray-500 hover:text-gray-800" data-tab="master">📋 主表瀏覽</button>
+    <button class="tab-btn px-4 py-2 text-sm font-medium border-b-2 border-transparent text-gray-500 hover:text-gray-800" data-tab="master">📋 遊戲庫</button>
     <button class="tab-btn px-4 py-2 text-sm font-medium border-b-2 border-transparent text-gray-500 hover:text-gray-800" data-tab="vendors">🏢 廠家對照</button>
     <button class="tab-btn px-4 py-2 text-sm font-medium border-b-2 border-transparent text-gray-500 hover:text-gray-800" data-tab="trend">📈 跨週趨勢</button>
-    <button class="tab-btn px-4 py-2 text-sm font-medium border-b-2 border-transparent text-gray-500 hover:text-gray-800" data-tab="attributes">🔬 遊戲屬性</button>
+    <button class="tab-btn px-4 py-2 text-sm font-medium border-b-2 border-transparent text-gray-500 hover:text-gray-800" data-tab="attributes">📊 遊戲統計</button>
   </nav>
 </header>
 
@@ -1869,9 +1869,13 @@ function attrDateRange(preset, from, to) {
   const now = new Date();
   const y = now.getFullYear(), m = now.getMonth(), q = Math.floor(m/3);
   const pad = n => String(n).padStart(2,'0');
+  const lastDay = (yr, mo0) => new Date(yr, mo0 + 1, 0).getDate(); // mo0 = 0-indexed
   if (preset === 'year')    return [`${y}-01-01`, `${y}-12-31`];
-  if (preset === 'quarter') return [`${y}-${pad(q*3+1)}-01`, `${y}-${pad((q+1)*3)}-31`];
-  if (preset === 'month')   return [`${y}-${pad(m+1)}-01`, `${y}-${pad(m+1)}-31`];
+  if (preset === 'quarter') {
+    const qs = q * 3, qe = qs + 2;
+    return [`${y}-${pad(qs+1)}-01`, `${y}-${pad(qe+1)}-${lastDay(y, qe)}`];
+  }
+  if (preset === 'month')   return [`${y}-${pad(m+1)}-01`, `${y}-${pad(m+1)}-${lastDay(y, m)}`];
   if (preset === 'custom')  return [from||'', to||''];
   return ['',''];
 }
@@ -2122,9 +2126,18 @@ function initAttributesTab() {
     const customEl = document.getElementById('attr-date-custom');
     if (customEl) customEl.style.display = preset === 'custom' ? 'flex' : 'none';
 
-    if (!preset) return;
+    const rangeLabel = document.getElementById('attr-date-range-label');
+    if (!preset) {
+      if (rangeLabel) rangeLabel.textContent = '';
+      return;
+    }
     if (preset === 'custom') return; // 自訂等待使用者輸入
     const [from, to] = attrDateRange(preset, '', '');
+    // 更新日期範圍標籤
+    if (rangeLabel) {
+      const fmt = s => s.replace(/-/g, '/');
+      rangeLabel.textContent = from === to ? fmt(from) : `${fmt(from)} ~ ${fmt(to)}`;
+    }
     // 自動勾選在範圍內的週次
     const matched = weekKeysInRange(from, to);
     document.querySelectorAll('.attr-week-btn').forEach(b => {
@@ -2147,6 +2160,13 @@ function initAttributesTab() {
     const from = attrFromEl ? attrFromEl.value : '';
     const to   = attrToEl   ? attrToEl.value   : '';
     if (!from && !to) return;
+    const rangeLabel = document.getElementById('attr-date-range-label');
+    if (rangeLabel) {
+      const fmt = s => s.replace(/-/g, '/');
+      if (from && to)   rangeLabel.textContent = `${fmt(from)} ~ ${fmt(to)}`;
+      else if (from)    rangeLabel.textContent = `${fmt(from)} 起`;
+      else if (to)      rangeLabel.textContent = `至 ${fmt(to)}`;
+    }
     const matched = weekKeysInRange(from, to);
     document.querySelectorAll('.attr-week-btn').forEach(b => {
       toggleWeekBtn(b, matched.includes(b.dataset.key));
@@ -2212,6 +2232,7 @@ document.addEventListener("DOMContentLoaded", () => {
               <span class="text-xs text-gray-400">—</span>
               <input type="date" id="attr-date-to" class="px-2 py-1 text-xs border border-gray-300 rounded">
             </span>
+            <span id="attr-date-range-label" class="text-xs text-blue-500 font-medium ml-1"></span>
           </div>
           <div class="flex items-center gap-1.5 flex-wrap">
             <span class="text-xs text-gray-500 font-medium">週次：</span>
