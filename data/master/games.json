@@ -2365,6 +2365,258 @@
       },
       "firstSeen": "2026-06-08",
       "note": "W5 新發現於 TCG newGames"
+    },
+    {
+      "masterId": 176,
+      "normalizedName": "Happy Dragon",
+      "normalizedVendor": "YesBingo",
+      "platformAliases": {
+        "PT": "Happy Dragon",
+        "BP": null,
+        "CP": null,
+        "TCG": null,
+        "BAJI": null
+      },
+      "firstSeen": "2026-06-15",
+      "note": "W6 新發現於 PT"
+    },
+    {
+      "masterId": 177,
+      "normalizedName": "Fortune Lion",
+      "normalizedVendor": "5G Games",
+      "platformAliases": {
+        "PT": "Fortune Lion",
+        "BP": null,
+        "CP": null,
+        "TCG": null,
+        "BAJI": null
+      },
+      "firstSeen": "2026-06-15",
+      "note": "W6 新發現於 PT"
+    },
+    {
+      "masterId": 178,
+      "normalizedName": "Super Ace Speed",
+      "normalizedVendor": "JILI",
+      "platformAliases": {
+        "PT": "Super Ace Speed",
+        "BP": null,
+        "CP": null,
+        "TCG": null,
+        "BAJI": null
+      },
+      "firstSeen": "2026-06-15",
+      "note": "W6 新發現於 PT"
+    },
+    {
+      "masterId": 179,
+      "normalizedName": "Hot Chilli",
+      "normalizedVendor": "JILI",
+      "platformAliases": {
+        "PT": null,
+        "BP": "Hot Chilli",
+        "CP": null,
+        "TCG": null,
+        "BAJI": null
+      },
+      "firstSeen": "2026-06-15",
+      "note": "W6 新發現於 BP"
+    },
+    {
+      "masterId": 180,
+      "normalizedName": "What The Fa",
+      "normalizedVendor": "Playstar",
+      "platformAliases": {
+        "PT": null,
+        "BP": "What The Fa",
+        "CP": null,
+        "TCG": null,
+        "BAJI": null
+      },
+      "firstSeen": "2026-06-15",
+      "note": "W6 新發現於 BP"
+    },
+    {
+      "masterId": 181,
+      "normalizedName": "Burlesque 2",
+      "normalizedVendor": "Playstar",
+      "platformAliases": {
+        "PT": null,
+        "BP": "Burlesque 2",
+        "CP": null,
+        "TCG": null,
+        "BAJI": null
+      },
+      "firstSeen": "2026-06-15",
+      "note": "W6 新發現於 BP"
+    },
+    {
+      "masterId": 182,
+      "normalizedName": "Lucky Poker 2",
+      "normalizedVendor": "Playstar",
+      "platformAliases": {
+        "PT": null,
+        "BP": "Lucky Poker 2",
+        "CP": null,
+        "TCG": null,
+        "BAJI": null
+      },
+      "firstSeen": "2026-06-15",
+      "note": "W6 新發現於 BP"
+    },
+    {
+      "masterId": 183,
+      "normalizedName": "Golden Zongzi",
+      "normalizedVendor": "Playstar",
+      "platformAliases": {
+        "PT": null,
+        "BP": "Golden Zongzi",
+        "CP": null,
+        "TCG": null,
+        "BAJI": null
+      },
+      "firstSeen": "2026-06-15",
+      "note": "W6 新發現於 BP"
+    },
+    {
+      "masterId": 184,
+      "normalizedName": "Diao Chan Fa Da Cai",
+      "normalizedVendor": "Playstar",
+      "platformAliases": {
+        "PT": null,
+        "BP": "Diao Chan Fa Da Cai",
+        "CP": null,
+        "TCG": null,
+        "BAJI": null
+      },
+      "firstSeen": "2026-06-15",
+      "note": "W6 新發現於 BP"
+    },
+    {
+      "masterId": 185,
+      "normalizedName": "Golden Jade",
+      "normalizedVendor": "Playstar",
+      "platformAliases": {
+        "PT": null,
+        "BP": "Golden Jade",
+        "CP": null,
+        "TCG": null,
+        "BAJI": null
+      },
+      "firstSeen": "2026-06-15",
+      "note": "W6 新發現於 BP"
+    },
+    {
+      "masterId": 186,
+      "normalizedName": "Fantasy Southeast Asia",
+      "normalizedVendor": "Playstar",
+      "platformAliases": {
+        "PT": null,
+        "BP": "Fantasy Southeast Asia",
+        "CP": null,
+        "TCG": null,
+        "BAJI": null
+      },
+      "firstSeen": "2026-06-15",
+      "note": "W6 新發現於 BP"
+    },
+    {
+      "masterId": 187,
+      "normalizedName": "Crazy 777",
+      "normalizedVendor": "Playstar",
+      "platformAliases": {
+        "PT": null,
+        "BP": "Crazy 777",
+        "CP": null,
+        "TCG": null,
+        "BAJI": null
+      },
+      "firstSeen": "2026-06-15",
+      "note": "W6 新發現於 BP"
+    },
+    {
+      "masterId": 188,
+      "normalizedName": "Coin Maniac",
+      "normalizedVendor": "Playstar",
+      "platformAliases": {
+        "PT": null,
+        "BP": "Coin Maniac",
+        "CP": null,
+        "TCG": null,
+        "BAJI": null
+      },
+      "firstSeen": "2026-06-15",
+      "note": "W6 新發現於 BP"
+    },
+    {
+      "masterId": 189,
+      "normalizedName": "My Lord",
+      "normalizedVendor": "Playstar",
+      "platformAliases": {
+        "PT": null,
+        "BP": "My Lord",
+        "CP": null,
+        "TCG": null,
+        "BAJI": null
+      },
+      "firstSeen": "2026-06-15",
+      "note": "W6 新發現於 BP"
+    },
+    {
+      "masterId": 190,
+      "normalizedName": "Fiery Sevens",
+      "normalizedVendor": "SPADEGAMING",
+      "platformAliases": {
+        "PT": null,
+        "BP": null,
+        "CP": null,
+        "TCG": null,
+        "BAJI": "Fiery Sevens"
+      },
+      "firstSeen": "2026-06-15",
+      "note": "W6 新發現於 BAJI"
+    },
+    {
+      "masterId": 191,
+      "normalizedName": "Olympus 1000",
+      "normalizedVendor": "Pragmatic Play",
+      "platformAliases": {
+        "PT": null,
+        "BP": null,
+        "CP": null,
+        "TCG": null,
+        "BAJI": "Olympus 1000"
+      },
+      "firstSeen": "2026-06-15",
+      "note": "W6 新發現於 BAJI"
+    },
+    {
+      "masterId": 192,
+      "normalizedName": "Fiery Sevens Exclusive",
+      "normalizedVendor": "SPADEGAMING",
+      "platformAliases": {
+        "PT": null,
+        "BP": null,
+        "CP": null,
+        "TCG": null,
+        "BAJI": "Fiery Sevens Exclusive"
+      },
+      "firstSeen": "2026-06-15",
+      "note": "W6 新發現於 BAJI"
+    },
+    {
+      "masterId": 193,
+      "normalizedName": "Super Tiger",
+      "normalizedVendor": "YesBingo",
+      "platformAliases": {
+        "PT": null,
+        "BP": null,
+        "CP": null,
+        "TCG": null,
+        "BAJI": "Super Tiger"
+      },
+      "firstSeen": "2026-06-15",
+      "note": "W6 新發現於 BAJI"
     }
   ]
 }

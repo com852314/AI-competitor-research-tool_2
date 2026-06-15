@@ -572,6 +572,62 @@
         }
       },
       "note": "W5 新發現於 BAJI newGames"
+    },
+    {
+      "normalizedName": "SPADEGAMING",
+      "displayPerPlatform": {
+        "PT": null,
+        "BP": null,
+        "CP": null,
+        "TCG": null,
+        "BAJI": {
+          "urlCode": "SPADEGAMING",
+          "display": "SPADEGAMING"
+        }
+      },
+      "note": "W6 新發現於 BAJI"
+    },
+    {
+      "normalizedName": "RICH88",
+      "displayPerPlatform": {
+        "PT": null,
+        "BP": null,
+        "CP": null,
+        "TCG": null,
+        "BAJI": {
+          "urlCode": "RICH88",
+          "display": "RICH88"
+        }
+      },
+      "note": "W6 新發現於 BAJI newGames"
+    },
+    {
+      "normalizedName": "NOLIMIT CITY",
+      "displayPerPlatform": {
+        "PT": null,
+        "BP": null,
+        "CP": null,
+        "TCG": null,
+        "BAJI": {
+          "urlCode": "NOLIMITCITY",
+          "display": "NOLIMIT CITY"
+        }
+      },
+      "note": "W6 新發現於 BAJI newGames"
+    },
+    {
+      "normalizedName": "YGGDRASIL",
+      "displayPerPlatform": {
+        "PT": null,
+        "BP": null,
+        "CP": null,
+        "TCG": null,
+        "BAJI": {
+          "urlCode": "YGGDRASIL",
+          "display": "YGGDRASIL"
+        }
+      },
+      "note": "W6 新發現於 BAJI newGames"
     }
   ]
 }

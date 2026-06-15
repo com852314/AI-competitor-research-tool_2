@@ -169,8 +169,12 @@ CP 平台的排行頁面沒有廠家資訊。處理方式：
 | OmniPlay | OP |
 | Playstar | PLAYSTAR |
 | KingMidas | KingMidas、KINGMIDAS |
-| YesBingo | YESBINGO |
+| YesBingo | YESBINGO、YELLOW BAT、YB |
 | Lucky365 | LUCKY365 |
+| SPADEGAMING | SPADEGAMING |
+| RICH88 | RICH88 |
+| NOLIMIT CITY | NOLIMIT CITY |
+| YGGDRASIL | YGGDRASIL |
 | 5G Games | 5G |
 | Victory Ark | Victory Ark |
 | CREATIVE GAMING | CREATIVE GAMING |
