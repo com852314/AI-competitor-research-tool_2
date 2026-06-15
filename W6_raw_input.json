@@ -41,7 +41,7 @@
         },
         {
           "name": "Happy Dragon",
-          "vendor": "YELLOW BAT",
+          "vendor": "YesBingo",
           "rawVendor": "YB",
           "note": ""
         },
@@ -640,7 +640,7 @@
         },
         {
           "name": "Diva's Ace",
-          "vendor": "YELLOW BAT",
+          "vendor": "YesBingo",
           "rawVendor": "YELLOW BAT",
           "note": ""
         },
@@ -658,7 +658,7 @@
         },
         {
           "name": "Happy Dragon",
-          "vendor": "YELLOW BAT",
+          "vendor": "YesBingo",
           "rawVendor": "YELLOW BAT",
           "note": ""
         },
@@ -724,7 +724,7 @@
         },
         {
           "name": "Super Tiger",
-          "vendor": "YELLOW BAT",
+          "vendor": "YesBingo",
           "rawVendor": "YELLOW BAT",
           "note": ""
         },
@@ -744,143 +744,143 @@
       "newGames": [
         {
           "name": "Happy Dragon",
-          "vendor": "YELLOW BAT",
+          "vendor": "YesBingo",
           "rawVendor": "YELLOW BAT",
-          "gameId": "",
-          "note": "gameId 無法從 BAJI 頁面取得"
+          "gameId": "YesBingo-SLOT-053",
+          "note": ""
         },
         {
           "name": "Candy Rush",
           "vendor": "Pragmatic Play",
           "rawVendor": "PRAGMATIC PLAY",
-          "gameId": "",
-          "note": "gameId 無法從 BAJI 頁面取得"
+          "gameId": "PP-SLOT-722",
+          "note": ""
         },
         {
           "name": "Super Ace Plus",
           "vendor": "Lucky365",
           "rawVendor": "LUCKY365",
-          "gameId": "",
-          "note": "gameId 無法從 BAJI 頁面取得"
+          "gameId": "LUCKY-SLOT-074",
+          "note": ""
         },
         {
           "name": "Treasure Hunt Golden City",
           "vendor": "RICH88",
           "rawVendor": "RICH88",
-          "gameId": "",
-          "note": "gameId 無法從 BAJI 頁面取得"
+          "gameId": "SlotTreasureHuntGoldenCity",
+          "note": ""
         },
         {
           "name": "Supernova",
           "vendor": "JILI",
           "rawVendor": "JILI",
-          "gameId": "",
-          "note": "gameId 無法從 BAJI 頁面取得"
+          "gameId": "JILI-SLOT-181",
+          "note": ""
         },
         {
           "name": "Tombstone Begins",
           "vendor": "NOLIMIT CITY",
           "rawVendor": "NOLIMIT CITY",
-          "gameId": "",
-          "note": "gameId 無法從 BAJI 頁面取得"
+          "gameId": "NLC-SLOT-132",
+          "note": ""
         },
         {
           "name": "The Big Dog House",
           "vendor": "Pragmatic Play",
           "rawVendor": "PRAGMATIC PLAY",
-          "gameId": "",
-          "note": "gameId 無法從 BAJI 頁面取得"
+          "gameId": "PP-SLOT-720",
+          "note": ""
         },
         {
           "name": "Dragon's Gate",
           "vendor": "Pragmatic Play",
           "rawVendor": "PRAGMATIC PLAY",
-          "gameId": "",
-          "note": "gameId 無法從 BAJI 頁面取得"
+          "gameId": "PP-SLOT-719",
+          "note": ""
         },
         {
           "name": "Big Game Fishing Rapid Riches",
           "vendor": "YGGDRASIL",
           "rawVendor": "YGGDRASIL",
-          "gameId": "",
-          "note": "gameId 無法從 BAJI 頁面取得"
+          "gameId": "YGG-SLOT-486",
+          "note": ""
         },
         {
           "name": "Gunslinger Glory",
           "vendor": "YGGDRASIL",
           "rawVendor": "YGGDRASIL",
-          "gameId": "",
-          "note": "gameId 無法從 BAJI 頁面取得"
+          "gameId": "YGG-SLOT-485",
+          "note": ""
         },
         {
           "name": "Banana Twist",
           "vendor": "YGGDRASIL",
           "rawVendor": "YGGDRASIL",
-          "gameId": "",
-          "note": "gameId 無法從 BAJI 頁面取得"
+          "gameId": "YGG-SLOT-484",
+          "note": ""
         },
         {
           "name": "Attack on Toys",
           "vendor": "WORLD MATCH",
           "rawVendor": "WORLD MATCH",
-          "gameId": "",
-          "note": "gameId 無法從 BAJI 頁面取得"
+          "gameId": "WorldMatch1080",
+          "note": ""
         },
         {
           "name": "Steel Greezly",
           "vendor": "WORLD MATCH",
           "rawVendor": "WORLD MATCH",
-          "gameId": "",
-          "note": "gameId 無法從 BAJI 頁面取得"
+          "gameId": "WorldMatch1095",
+          "note": ""
         },
         {
           "name": "Vault Keeper",
           "vendor": "WORLD MATCH",
           "rawVendor": "WORLD MATCH",
-          "gameId": "",
-          "note": "gameId 無法從 BAJI 頁面取得"
+          "gameId": "WorldMatch1089",
+          "note": ""
         },
         {
           "name": "Loki's Descendants",
           "vendor": "Red Tiger",
           "rawVendor": "RED TIGER",
-          "gameId": "",
-          "note": "gameId 無法從 BAJI 頁面取得"
+          "gameId": "RT-SLOT-391",
+          "note": ""
         },
         {
           "name": "Aztec Tribute",
           "vendor": "Red Tiger",
           "rawVendor": "RED TIGER",
-          "gameId": "",
-          "note": "gameId 無法從 BAJI 頁面取得"
+          "gameId": "RT-SLOT-389",
+          "note": ""
         },
         {
           "name": "Golden Express",
           "vendor": "ACEWIN",
           "rawVendor": "ACEWIN",
-          "gameId": "",
-          "note": "gameId 無法從 BAJI 頁面取得"
+          "gameId": "ACEWIN-SLOT-044",
+          "note": ""
         },
         {
           "name": "Wrath of Seth Split",
           "vendor": "MICROGAMING",
           "rawVendor": "MICROGAMING",
-          "gameId": "",
-          "note": "gameId 無法從 BAJI 頁面取得"
+          "gameId": "SMG_wrathofSethSplit",
+          "note": ""
         },
         {
           "name": "Ultimate Goal Blitz",
           "vendor": "MICROGAMING",
           "rawVendor": "MICROGAMING",
-          "gameId": "",
-          "note": "gameId 無法從 BAJI 頁面取得"
+          "gameId": "SMG_ultimateGoalBlitz",
+          "note": ""
         },
         {
           "name": "Toy Pop",
           "vendor": "DRAGOONSOFT",
           "rawVendor": "DRAGOONSOFT",
-          "gameId": "",
-          "note": "gameId 無法從 BAJI 頁面取得"
+          "gameId": "DRAGOONSOFT-SLOT-095",
+          "note": ""
         }
       ]
     }

@@ -179,16 +179,19 @@
     {
       "normalizedName": "YesBingo",
       "displayPerPlatform": {
-        "PT": null,
+        "PT": {
+          "urlCode": "YB",
+          "display": "YB"
+        },
         "BP": null,
         "CP": null,
         "TCG": null,
         "BAJI": {
           "urlCode": "YesBingo",
-          "display": "YESBINGO"
+          "display": "YELLOW BAT"
         }
       },
-      "note": ""
+      "note": "PT顯示YB、BAJI顯示YELLOW BAT，gameId前綴為YesBingo-SLOT-"
     },
     {
       "normalizedName": "Yellow Bat",
@@ -628,23 +631,6 @@
         }
       },
       "note": "W6 新發現於 BAJI newGames"
-    },
-    {
-      "normalizedName": "YELLOW BAT",
-      "displayPerPlatform": {
-        "PT": {
-          "urlCode": "YB",
-          "display": "YB"
-        },
-        "BP": null,
-        "CP": null,
-        "TCG": null,
-        "BAJI": {
-          "urlCode": "YELLOWBAT",
-          "display": "YELLOW BAT"
-        }
-      },
-      "note": "W6 確認：PT 顯示 YB，BAJI 顯示 YELLOW BAT"
     }
   ]
 }

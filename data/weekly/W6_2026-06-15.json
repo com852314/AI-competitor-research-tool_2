@@ -74,7 +74,7 @@
         {
           "rank": 7,
           "name": "Happy Dragon",
-          "vendor": "YELLOW BAT",
+          "vendor": "YesBingo",
           "rawVendor": "YB",
           "masterId": 176,
           "isNewToTop20": true,
@@ -1099,7 +1099,7 @@
         {
           "rank": 4,
           "name": "Diva's Ace",
-          "vendor": "YELLOW BAT",
+          "vendor": "YesBingo",
           "rawVendor": "YELLOW BAT",
           "masterId": 83,
           "isNewToTop20": true,
@@ -1132,7 +1132,7 @@
         {
           "rank": 7,
           "name": "Happy Dragon",
-          "vendor": "YELLOW BAT",
+          "vendor": "YesBingo",
           "rawVendor": "YELLOW BAT",
           "masterId": 176,
           "isNewToTop20": true,
@@ -1253,7 +1253,7 @@
         {
           "rank": 18,
           "name": "Super Tiger",
-          "vendor": "YELLOW BAT",
+          "vendor": "YesBingo",
           "rawVendor": "YELLOW BAT",
           "masterId": 193,
           "isNewToTop20": true,
@@ -1288,9 +1288,9 @@
         {
           "order": 1,
           "name": "Happy Dragon",
-          "vendor": "YELLOW BAT",
+          "vendor": "YesBingo",
           "rawVendor": "YELLOW BAT",
-          "gameId": "",
+          "gameId": "YesBingo-SLOT-053",
           "isFirstSeen": true,
           "note": "gameId 無法從 BAJI 頁面取得"
         },
@@ -1299,7 +1299,7 @@
           "name": "Candy Rush",
           "vendor": "Pragmatic Play",
           "rawVendor": "PRAGMATIC PLAY",
-          "gameId": "",
+          "gameId": "PP-SLOT-722",
           "isFirstSeen": true,
           "note": "gameId 無法從 BAJI 頁面取得"
         },
@@ -1308,7 +1308,7 @@
           "name": "Super Ace Plus",
           "vendor": "Lucky365",
           "rawVendor": "LUCKY365",
-          "gameId": "",
+          "gameId": "LUCKY-SLOT-074",
           "isFirstSeen": true,
           "note": "gameId 無法從 BAJI 頁面取得"
         },
@@ -1317,7 +1317,7 @@
           "name": "Treasure Hunt Golden City",
           "vendor": "RICH88",
           "rawVendor": "RICH88",
-          "gameId": "",
+          "gameId": "SlotTreasureHuntGoldenCity",
           "isFirstSeen": true,
           "note": "gameId 無法從 BAJI 頁面取得"
         },
@@ -1326,7 +1326,7 @@
           "name": "Supernova",
           "vendor": "JILI",
           "rawVendor": "JILI",
-          "gameId": "",
+          "gameId": "JILI-SLOT-181",
           "isFirstSeen": true,
           "note": "gameId 無法從 BAJI 頁面取得"
         },
@@ -1335,7 +1335,7 @@
           "name": "Tombstone Begins",
           "vendor": "NOLIMIT CITY",
           "rawVendor": "NOLIMIT CITY",
-          "gameId": "",
+          "gameId": "NLC-SLOT-132",
           "isFirstSeen": true,
           "note": "gameId 無法從 BAJI 頁面取得"
         },
@@ -1344,7 +1344,7 @@
           "name": "The Big Dog House",
           "vendor": "Pragmatic Play",
           "rawVendor": "PRAGMATIC PLAY",
-          "gameId": "",
+          "gameId": "PP-SLOT-720",
           "isFirstSeen": true,
           "note": "gameId 無法從 BAJI 頁面取得"
         },
@@ -1353,7 +1353,7 @@
           "name": "Dragon's Gate",
           "vendor": "Pragmatic Play",
           "rawVendor": "PRAGMATIC PLAY",
-          "gameId": "",
+          "gameId": "PP-SLOT-719",
           "isFirstSeen": true,
           "note": "gameId 無法從 BAJI 頁面取得"
         },
@@ -1362,7 +1362,7 @@
           "name": "Big Game Fishing Rapid Riches",
           "vendor": "YGGDRASIL",
           "rawVendor": "YGGDRASIL",
-          "gameId": "",
+          "gameId": "YGG-SLOT-486",
           "isFirstSeen": true,
           "note": "gameId 無法從 BAJI 頁面取得"
         },
@@ -1371,7 +1371,7 @@
           "name": "Gunslinger Glory",
           "vendor": "YGGDRASIL",
           "rawVendor": "YGGDRASIL",
-          "gameId": "",
+          "gameId": "YGG-SLOT-485",
           "isFirstSeen": true,
           "note": "gameId 無法從 BAJI 頁面取得"
         },
@@ -1380,7 +1380,7 @@
           "name": "Banana Twist",
           "vendor": "YGGDRASIL",
           "rawVendor": "YGGDRASIL",
-          "gameId": "",
+          "gameId": "YGG-SLOT-484",
           "isFirstSeen": true,
           "note": "gameId 無法從 BAJI 頁面取得"
         },
@@ -1389,7 +1389,7 @@
           "name": "Attack on Toys",
           "vendor": "WORLD MATCH",
           "rawVendor": "WORLD MATCH",
-          "gameId": "",
+          "gameId": "WorldMatch1080",
           "isFirstSeen": true,
           "note": "gameId 無法從 BAJI 頁面取得"
         },
@@ -1398,7 +1398,7 @@
           "name": "Steel Greezly",
           "vendor": "WORLD MATCH",
           "rawVendor": "WORLD MATCH",
-          "gameId": "",
+          "gameId": "WorldMatch1095",
           "isFirstSeen": true,
           "note": "gameId 無法從 BAJI 頁面取得"
         },
@@ -1407,7 +1407,7 @@
           "name": "Vault Keeper",
           "vendor": "WORLD MATCH",
           "rawVendor": "WORLD MATCH",
-          "gameId": "",
+          "gameId": "WorldMatch1089",
           "isFirstSeen": true,
           "note": "gameId 無法從 BAJI 頁面取得"
         },
@@ -1416,7 +1416,7 @@
           "name": "Loki's Descendants",
           "vendor": "Red Tiger",
           "rawVendor": "RED TIGER",
-          "gameId": "",
+          "gameId": "RT-SLOT-391",
           "isFirstSeen": true,
           "note": "gameId 無法從 BAJI 頁面取得"
         },
@@ -1425,7 +1425,7 @@
           "name": "Aztec Tribute",
           "vendor": "Red Tiger",
           "rawVendor": "RED TIGER",
-          "gameId": "",
+          "gameId": "RT-SLOT-389",
           "isFirstSeen": true,
           "note": "gameId 無法從 BAJI 頁面取得"
         },
@@ -1434,7 +1434,7 @@
           "name": "Golden Express",
           "vendor": "ACEWIN",
           "rawVendor": "ACEWIN",
-          "gameId": "",
+          "gameId": "ACEWIN-SLOT-044",
           "isFirstSeen": true,
           "note": "gameId 無法從 BAJI 頁面取得"
         },
@@ -1443,7 +1443,7 @@
           "name": "Wrath of Seth Split",
           "vendor": "MICROGAMING",
           "rawVendor": "MICROGAMING",
-          "gameId": "",
+          "gameId": "SMG_wrathofSethSplit",
           "isFirstSeen": true,
           "note": "gameId 無法從 BAJI 頁面取得"
         },
@@ -1452,7 +1452,7 @@
           "name": "Ultimate Goal Blitz",
           "vendor": "MICROGAMING",
           "rawVendor": "MICROGAMING",
-          "gameId": "",
+          "gameId": "SMG_ultimateGoalBlitz",
           "isFirstSeen": true,
           "note": "gameId 無法從 BAJI 頁面取得"
         },
@@ -1461,7 +1461,7 @@
           "name": "Toy Pop",
           "vendor": "DRAGOONSOFT",
           "rawVendor": "DRAGOONSOFT",
-          "gameId": "",
+          "gameId": "DRAGOONSOFT-SLOT-095",
           "isFirstSeen": true,
           "note": "gameId 無法從 BAJI 頁面取得"
         }
