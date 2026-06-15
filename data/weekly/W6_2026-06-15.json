@@ -74,7 +74,7 @@
         {
           "rank": 7,
           "name": "Happy Dragon",
-          "vendor": "YesBingo",
+          "vendor": "YELLOW BAT",
           "rawVendor": "YB",
           "masterId": 176,
           "isNewToTop20": true,
@@ -1099,7 +1099,7 @@
         {
           "rank": 4,
           "name": "Diva's Ace",
-          "vendor": "YesBingo",
+          "vendor": "YELLOW BAT",
           "rawVendor": "YELLOW BAT",
           "masterId": 83,
           "isNewToTop20": true,
@@ -1132,7 +1132,7 @@
         {
           "rank": 7,
           "name": "Happy Dragon",
-          "vendor": "YesBingo",
+          "vendor": "YELLOW BAT",
           "rawVendor": "YELLOW BAT",
           "masterId": 176,
           "isNewToTop20": true,
@@ -1253,7 +1253,7 @@
         {
           "rank": 18,
           "name": "Super Tiger",
-          "vendor": "YesBingo",
+          "vendor": "YELLOW BAT",
           "rawVendor": "YELLOW BAT",
           "masterId": 193,
           "isNewToTop20": true,
@@ -1288,7 +1288,7 @@
         {
           "order": 1,
           "name": "Happy Dragon",
-          "vendor": "YesBingo",
+          "vendor": "YELLOW BAT",
           "rawVendor": "YELLOW BAT",
           "gameId": "",
           "isFirstSeen": true,

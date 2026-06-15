@@ -3,163 +3,885 @@
   "platforms": {
     "PT": {
       "rankings": [
-        {"name": "Super Ace", "vendor": "JILI", "rawVendor": "JL", "note": ""},
-        {"name": "Pinata Wins", "vendor": "PG Soft", "rawVendor": "PG", "note": ""},
-        {"name": "Wild Bounty Showdown", "vendor": "PG Soft", "rawVendor": "PG", "note": ""},
-        {"name": "Fortune Garuda 500", "vendor": "JILI", "rawVendor": "JL JACKPOT", "note": ""},
-        {"name": "Pinata 1000", "vendor": "5G Games", "rawVendor": "5G", "note": ""},
-        {"name": "Fortune Gems 500 EXCLUSIVE", "vendor": "JILI", "rawVendor": "JL JACKPOT", "note": ""},
-        {"name": "Happy Dragon", "vendor": "YesBingo", "rawVendor": "YB", "note": ""},
-        {"name": "Super Gems", "vendor": "OmniPlay", "rawVendor": "OP", "note": ""},
-        {"name": "Fortune Lion", "vendor": "5G Games", "rawVendor": "5G", "note": ""},
-        {"name": "Super Ace Speed", "vendor": "JILI", "rawVendor": "JILI", "note": ""},
-        {"name": "Fortune Gems 3", "vendor": "JILI", "rawVendor": "JL JACKPOT", "note": ""},
-        {"name": "Sugar Bang Bang 2", "vendor": "FA CHAI", "rawVendor": "FC", "note": ""},
-        {"name": "DJ Boom Boom", "vendor": "FA CHAI", "rawVendor": "FC", "note": ""},
-        {"name": "Super Elements 2", "vendor": "FA CHAI", "rawVendor": "FC", "note": ""},
-        {"name": "Wild Ape #3258", "vendor": "PG Soft", "rawVendor": "PG", "note": ""},
-        {"name": "Super Ace II", "vendor": "JILI", "rawVendor": "JL JACKPOT", "note": ""},
-        {"name": "Magic Ace 99 EXCLUSIVE", "vendor": "JDB", "rawVendor": "JDB", "note": ""},
-        {"name": "Sugar Rush 1000", "vendor": "Pragmatic Play", "rawVendor": "PP", "note": ""},
-        {"name": "Sugar Bang Bang Plus", "vendor": "FA CHAI", "rawVendor": "FC", "note": ""},
-        {"name": "Gates of Olympus Super Scatter", "vendor": "Pragmatic Play", "rawVendor": "PP", "note": ""}
+        {
+          "name": "Super Ace",
+          "vendor": "JILI",
+          "rawVendor": "JL",
+          "note": ""
+        },
+        {
+          "name": "Pinata Wins",
+          "vendor": "PG Soft",
+          "rawVendor": "PG",
+          "note": ""
+        },
+        {
+          "name": "Wild Bounty Showdown",
+          "vendor": "PG Soft",
+          "rawVendor": "PG",
+          "note": ""
+        },
+        {
+          "name": "Fortune Garuda 500",
+          "vendor": "JILI",
+          "rawVendor": "JL JACKPOT",
+          "note": ""
+        },
+        {
+          "name": "Pinata 1000",
+          "vendor": "5G Games",
+          "rawVendor": "5G",
+          "note": ""
+        },
+        {
+          "name": "Fortune Gems 500 EXCLUSIVE",
+          "vendor": "JILI",
+          "rawVendor": "JL JACKPOT",
+          "note": ""
+        },
+        {
+          "name": "Happy Dragon",
+          "vendor": "YELLOW BAT",
+          "rawVendor": "YB",
+          "note": ""
+        },
+        {
+          "name": "Super Gems",
+          "vendor": "OmniPlay",
+          "rawVendor": "OP",
+          "note": ""
+        },
+        {
+          "name": "Fortune Lion",
+          "vendor": "5G Games",
+          "rawVendor": "5G",
+          "note": ""
+        },
+        {
+          "name": "Super Ace Speed",
+          "vendor": "JILI",
+          "rawVendor": "JILI",
+          "note": ""
+        },
+        {
+          "name": "Fortune Gems 3",
+          "vendor": "JILI",
+          "rawVendor": "JL JACKPOT",
+          "note": ""
+        },
+        {
+          "name": "Sugar Bang Bang 2",
+          "vendor": "FA CHAI",
+          "rawVendor": "FC",
+          "note": ""
+        },
+        {
+          "name": "DJ Boom Boom",
+          "vendor": "FA CHAI",
+          "rawVendor": "FC",
+          "note": ""
+        },
+        {
+          "name": "Super Elements 2",
+          "vendor": "FA CHAI",
+          "rawVendor": "FC",
+          "note": ""
+        },
+        {
+          "name": "Wild Ape #3258",
+          "vendor": "PG Soft",
+          "rawVendor": "PG",
+          "note": ""
+        },
+        {
+          "name": "Super Ace II",
+          "vendor": "JILI",
+          "rawVendor": "JL JACKPOT",
+          "note": ""
+        },
+        {
+          "name": "Magic Ace 99 EXCLUSIVE",
+          "vendor": "JDB",
+          "rawVendor": "JDB",
+          "note": ""
+        },
+        {
+          "name": "Sugar Rush 1000",
+          "vendor": "Pragmatic Play",
+          "rawVendor": "PP",
+          "note": ""
+        },
+        {
+          "name": "Sugar Bang Bang Plus",
+          "vendor": "FA CHAI",
+          "rawVendor": "FC",
+          "note": ""
+        },
+        {
+          "name": "Gates of Olympus Super Scatter",
+          "vendor": "Pragmatic Play",
+          "rawVendor": "PP",
+          "note": ""
+        }
       ]
     },
     "BP": {
       "rankings": [
-        {"name": "Charge Buffalo", "vendor": "JILI", "rawVendor": "JILI", "note": ""},
-        {"name": "Golden Genie", "vendor": "FA CHAI", "rawVendor": "FACHAI", "note": ""},
-        {"name": "Lucky Fortunes", "vendor": "FA CHAI", "rawVendor": "FACHAI", "note": ""},
-        {"name": "Da Fu Gui", "vendor": "Playstar", "rawVendor": "PLAYSTAR", "note": ""},
-        {"name": "Master Haha", "vendor": "Playstar", "rawVendor": "PLAYSTAR", "note": ""},
-        {"name": "Hot Chilli", "vendor": "JILI", "rawVendor": "JILI", "note": ""},
-        {"name": "Fish Prawn Crab", "vendor": "Playstar", "rawVendor": "PLAYSTAR", "note": ""},
-        {"name": "Tuk Tuk Thailand", "vendor": "Habanero", "rawVendor": "HBN", "note": ""},
-        {"name": "What The Fa", "vendor": "Playstar", "rawVendor": "PLAYSTAR", "note": ""},
-        {"name": "Burlesque 2", "vendor": "Playstar", "rawVendor": "PLAYSTAR", "note": ""},
-        {"name": "Lucky Poker 2", "vendor": "Playstar", "rawVendor": "PLAYSTAR", "note": ""},
-        {"name": "Golden Zongzi", "vendor": "Playstar", "rawVendor": "PLAYSTAR", "note": ""},
-        {"name": "Diao Chan Fa Da Cai", "vendor": "Playstar", "rawVendor": "PLAYSTAR", "note": ""},
-        {"name": "Golden Jade", "vendor": "Playstar", "rawVendor": "PLAYSTAR", "note": ""},
-        {"name": "Taiko Beats", "vendor": "Habanero", "rawVendor": "HBN", "note": ""},
-        {"name": "Fantasy Southeast Asia", "vendor": "Playstar", "rawVendor": "PLAYSTAR", "note": ""},
-        {"name": "Crazy 777", "vendor": "Playstar", "rawVendor": "PLAYSTAR", "note": ""},
-        {"name": "Coin Maniac", "vendor": "Playstar", "rawVendor": "PLAYSTAR", "note": ""},
-        {"name": "Challenge·Mayan Calendar", "vendor": "Playstar", "rawVendor": "PLAYSTAR", "note": ""},
-        {"name": "My Lord", "vendor": "Playstar", "rawVendor": "PLAYSTAR", "note": ""}
+        {
+          "name": "Charge Buffalo",
+          "vendor": "JILI",
+          "rawVendor": "JILI",
+          "note": ""
+        },
+        {
+          "name": "Golden Genie",
+          "vendor": "FA CHAI",
+          "rawVendor": "FACHAI",
+          "note": ""
+        },
+        {
+          "name": "Lucky Fortunes",
+          "vendor": "FA CHAI",
+          "rawVendor": "FACHAI",
+          "note": ""
+        },
+        {
+          "name": "Da Fu Gui",
+          "vendor": "Playstar",
+          "rawVendor": "PLAYSTAR",
+          "note": ""
+        },
+        {
+          "name": "Master Haha",
+          "vendor": "Playstar",
+          "rawVendor": "PLAYSTAR",
+          "note": ""
+        },
+        {
+          "name": "Hot Chilli",
+          "vendor": "JILI",
+          "rawVendor": "JILI",
+          "note": ""
+        },
+        {
+          "name": "Fish Prawn Crab",
+          "vendor": "Playstar",
+          "rawVendor": "PLAYSTAR",
+          "note": ""
+        },
+        {
+          "name": "Tuk Tuk Thailand",
+          "vendor": "Habanero",
+          "rawVendor": "HBN",
+          "note": ""
+        },
+        {
+          "name": "What The Fa",
+          "vendor": "Playstar",
+          "rawVendor": "PLAYSTAR",
+          "note": ""
+        },
+        {
+          "name": "Burlesque 2",
+          "vendor": "Playstar",
+          "rawVendor": "PLAYSTAR",
+          "note": ""
+        },
+        {
+          "name": "Lucky Poker 2",
+          "vendor": "Playstar",
+          "rawVendor": "PLAYSTAR",
+          "note": ""
+        },
+        {
+          "name": "Golden Zongzi",
+          "vendor": "Playstar",
+          "rawVendor": "PLAYSTAR",
+          "note": ""
+        },
+        {
+          "name": "Diao Chan Fa Da Cai",
+          "vendor": "Playstar",
+          "rawVendor": "PLAYSTAR",
+          "note": ""
+        },
+        {
+          "name": "Golden Jade",
+          "vendor": "Playstar",
+          "rawVendor": "PLAYSTAR",
+          "note": ""
+        },
+        {
+          "name": "Taiko Beats",
+          "vendor": "Habanero",
+          "rawVendor": "HBN",
+          "note": ""
+        },
+        {
+          "name": "Fantasy Southeast Asia",
+          "vendor": "Playstar",
+          "rawVendor": "PLAYSTAR",
+          "note": ""
+        },
+        {
+          "name": "Crazy 777",
+          "vendor": "Playstar",
+          "rawVendor": "PLAYSTAR",
+          "note": ""
+        },
+        {
+          "name": "Coin Maniac",
+          "vendor": "Playstar",
+          "rawVendor": "PLAYSTAR",
+          "note": ""
+        },
+        {
+          "name": "Challenge·Mayan Calendar",
+          "vendor": "Playstar",
+          "rawVendor": "PLAYSTAR",
+          "note": ""
+        },
+        {
+          "name": "My Lord",
+          "vendor": "Playstar",
+          "rawVendor": "PLAYSTAR",
+          "note": ""
+        }
       ]
     },
     "CP": {
       "rankings": [
-        {"name": "Sweet Bonanza 2500", "vendor": "Pragmatic Play", "rawVendor": "", "note": ""},
-        {"name": "Super Ace", "vendor": "JILI", "rawVendor": "", "note": ""},
-        {"name": "Super Ace 2", "vendor": "JILI", "rawVendor": "", "note": ""},
-        {"name": "Super Ace Jackpot", "vendor": "JILI", "rawVendor": "", "note": ""},
-        {"name": "Super Ace Deluxe", "vendor": "JILI", "rawVendor": "", "note": ""},
-        {"name": "Fortune Gems", "vendor": "JILI", "rawVendor": "", "note": ""},
-        {"name": "Fortune Gems 2", "vendor": "JILI", "rawVendor": "", "note": ""},
-        {"name": "Sugar Bang Bang", "vendor": "FA CHAI", "rawVendor": "", "note": ""},
-        {"name": "Jackpot Fishing", "vendor": "JILI", "rawVendor": "", "note": ""},
-        {"name": "Mines", "vendor": "JILI", "rawVendor": "", "note": ""},
-        {"name": "Poker Win", "vendor": "FA CHAI", "rawVendor": "", "note": ""},
-        {"name": "Lucky Fortunes", "vendor": "FA CHAI", "rawVendor": "", "note": ""},
-        {"name": "Fortune Coins", "vendor": "JILI", "rawVendor": "", "note": ""},
-        {"name": "Golden Empire", "vendor": "JILI", "rawVendor": "", "note": ""},
-        {"name": "Wanted Dead Or A Wild", "vendor": "HACKSAW", "rawVendor": "", "note": ""},
-        {"name": "Cloud Princess", "vendor": "HACKSAW", "rawVendor": "", "note": ""},
-        {"name": "Rise Of Ymir", "vendor": "HACKSAW", "rawVendor": "", "note": ""},
-        {"name": "Mines Dare2Win", "vendor": "HACKSAW", "rawVendor": "", "note": ""},
-        {"name": "Le Pharaoh", "vendor": "HACKSAW", "rawVendor": "", "note": ""},
-        {"name": "Ze Zeus", "vendor": "HACKSAW", "rawVendor": "", "note": ""}
+        {
+          "name": "Sweet Bonanza 2500",
+          "vendor": "Pragmatic Play",
+          "rawVendor": "",
+          "note": ""
+        },
+        {
+          "name": "Super Ace",
+          "vendor": "JILI",
+          "rawVendor": "",
+          "note": ""
+        },
+        {
+          "name": "Super Ace 2",
+          "vendor": "JILI",
+          "rawVendor": "",
+          "note": ""
+        },
+        {
+          "name": "Super Ace Jackpot",
+          "vendor": "JILI",
+          "rawVendor": "",
+          "note": ""
+        },
+        {
+          "name": "Super Ace Deluxe",
+          "vendor": "JILI",
+          "rawVendor": "",
+          "note": ""
+        },
+        {
+          "name": "Fortune Gems",
+          "vendor": "JILI",
+          "rawVendor": "",
+          "note": ""
+        },
+        {
+          "name": "Fortune Gems 2",
+          "vendor": "JILI",
+          "rawVendor": "",
+          "note": ""
+        },
+        {
+          "name": "Sugar Bang Bang",
+          "vendor": "FA CHAI",
+          "rawVendor": "",
+          "note": ""
+        },
+        {
+          "name": "Jackpot Fishing",
+          "vendor": "JILI",
+          "rawVendor": "",
+          "note": ""
+        },
+        {
+          "name": "Mines",
+          "vendor": "JILI",
+          "rawVendor": "",
+          "note": ""
+        },
+        {
+          "name": "Poker Win",
+          "vendor": "FA CHAI",
+          "rawVendor": "",
+          "note": ""
+        },
+        {
+          "name": "Lucky Fortunes",
+          "vendor": "FA CHAI",
+          "rawVendor": "",
+          "note": ""
+        },
+        {
+          "name": "Fortune Coins",
+          "vendor": "JILI",
+          "rawVendor": "",
+          "note": ""
+        },
+        {
+          "name": "Golden Empire",
+          "vendor": "JILI",
+          "rawVendor": "",
+          "note": ""
+        },
+        {
+          "name": "Wanted Dead Or A Wild",
+          "vendor": "HACKSAW",
+          "rawVendor": "",
+          "note": ""
+        },
+        {
+          "name": "Cloud Princess",
+          "vendor": "HACKSAW",
+          "rawVendor": "",
+          "note": ""
+        },
+        {
+          "name": "Rise Of Ymir",
+          "vendor": "HACKSAW",
+          "rawVendor": "",
+          "note": ""
+        },
+        {
+          "name": "Mines Dare2Win",
+          "vendor": "HACKSAW",
+          "rawVendor": "",
+          "note": ""
+        },
+        {
+          "name": "Le Pharaoh",
+          "vendor": "HACKSAW",
+          "rawVendor": "",
+          "note": ""
+        },
+        {
+          "name": "Ze Zeus",
+          "vendor": "HACKSAW",
+          "rawVendor": "",
+          "note": ""
+        }
       ]
     },
     "TCG": {
       "rankings": [
-        {"name": "Super Ace", "vendor": "JILI", "rawVendor": "JILI", "note": ""},
-        {"name": "Pinata Wins", "vendor": "PG Soft", "rawVendor": "PG SOFT", "note": ""},
-        {"name": "Wild Bounty Showdown", "vendor": "PG Soft", "rawVendor": "PG SOFT", "note": ""},
-        {"name": "Sweet Bonanza 1000", "vendor": "Pragmatic Play", "rawVendor": "PRAGMATIC PLAY", "note": ""},
-        {"name": "Super Ace Deluxe", "vendor": "JILI", "rawVendor": "JILI", "note": ""},
-        {"name": "Sugar Rush 1000", "vendor": "Pragmatic Play", "rawVendor": "PRAGMATIC PLAY", "note": ""},
-        {"name": "Wild Ape #3258", "vendor": "PG Soft", "rawVendor": "PG SOFT", "note": ""},
-        {"name": "Sweet Bonanza 2500", "vendor": "Pragmatic Play", "rawVendor": "PRAGMATIC PLAY", "note": ""},
-        {"name": "Sugar Bang Bang 2", "vendor": "FA CHAI", "rawVendor": "FA CHAI", "note": ""},
-        {"name": "Fortune Gems 3", "vendor": "JILI", "rawVendor": "JILI", "note": ""},
-        {"name": "Gates of Olympus Super Scatter", "vendor": "Pragmatic Play", "rawVendor": "PRAGMATIC PLAY", "note": ""},
-        {"name": "Chinese New Year Moreways", "vendor": "FA CHAI", "rawVendor": "FA CHAI", "note": ""},
-        {"name": "Wild Bandito", "vendor": "PG Soft", "rawVendor": "PG SOFT", "note": ""},
-        {"name": "Golden Empire", "vendor": "JILI", "rawVendor": "JILI", "note": ""},
-        {"name": "Poker Win", "vendor": "FA CHAI", "rawVendor": "FA CHAI", "note": ""},
-        {"name": "Sweet Rush Bonanza", "vendor": "Pragmatic Play", "rawVendor": "PRAGMATIC PLAY", "note": ""},
-        {"name": "Lucky Neko", "vendor": "PG Soft", "rawVendor": "PG SOFT", "note": ""},
-        {"name": "Anubis Wrath", "vendor": "PG Soft", "rawVendor": "PG SOFT", "note": ""},
-        {"name": "Treasures of Aztec", "vendor": "PG Soft", "rawVendor": "PG SOFT", "note": ""},
-        {"name": "Viking Forge™", "vendor": "Pragmatic Play", "rawVendor": "PRAGMATIC PLAY", "note": ""}
+        {
+          "name": "Super Ace",
+          "vendor": "JILI",
+          "rawVendor": "JILI",
+          "note": ""
+        },
+        {
+          "name": "Pinata Wins",
+          "vendor": "PG Soft",
+          "rawVendor": "PG SOFT",
+          "note": ""
+        },
+        {
+          "name": "Wild Bounty Showdown",
+          "vendor": "PG Soft",
+          "rawVendor": "PG SOFT",
+          "note": ""
+        },
+        {
+          "name": "Sweet Bonanza 1000",
+          "vendor": "Pragmatic Play",
+          "rawVendor": "PRAGMATIC PLAY",
+          "note": ""
+        },
+        {
+          "name": "Super Ace Deluxe",
+          "vendor": "JILI",
+          "rawVendor": "JILI",
+          "note": ""
+        },
+        {
+          "name": "Sugar Rush 1000",
+          "vendor": "Pragmatic Play",
+          "rawVendor": "PRAGMATIC PLAY",
+          "note": ""
+        },
+        {
+          "name": "Wild Ape #3258",
+          "vendor": "PG Soft",
+          "rawVendor": "PG SOFT",
+          "note": ""
+        },
+        {
+          "name": "Sweet Bonanza 2500",
+          "vendor": "Pragmatic Play",
+          "rawVendor": "PRAGMATIC PLAY",
+          "note": ""
+        },
+        {
+          "name": "Sugar Bang Bang 2",
+          "vendor": "FA CHAI",
+          "rawVendor": "FA CHAI",
+          "note": ""
+        },
+        {
+          "name": "Fortune Gems 3",
+          "vendor": "JILI",
+          "rawVendor": "JILI",
+          "note": ""
+        },
+        {
+          "name": "Gates of Olympus Super Scatter",
+          "vendor": "Pragmatic Play",
+          "rawVendor": "PRAGMATIC PLAY",
+          "note": ""
+        },
+        {
+          "name": "Chinese New Year Moreways",
+          "vendor": "FA CHAI",
+          "rawVendor": "FA CHAI",
+          "note": ""
+        },
+        {
+          "name": "Wild Bandito",
+          "vendor": "PG Soft",
+          "rawVendor": "PG SOFT",
+          "note": ""
+        },
+        {
+          "name": "Golden Empire",
+          "vendor": "JILI",
+          "rawVendor": "JILI",
+          "note": ""
+        },
+        {
+          "name": "Poker Win",
+          "vendor": "FA CHAI",
+          "rawVendor": "FA CHAI",
+          "note": ""
+        },
+        {
+          "name": "Sweet Rush Bonanza",
+          "vendor": "Pragmatic Play",
+          "rawVendor": "PRAGMATIC PLAY",
+          "note": ""
+        },
+        {
+          "name": "Lucky Neko",
+          "vendor": "PG Soft",
+          "rawVendor": "PG SOFT",
+          "note": ""
+        },
+        {
+          "name": "Anubis Wrath",
+          "vendor": "PG Soft",
+          "rawVendor": "PG SOFT",
+          "note": ""
+        },
+        {
+          "name": "Treasures of Aztec",
+          "vendor": "PG Soft",
+          "rawVendor": "PG SOFT",
+          "note": ""
+        },
+        {
+          "name": "Viking Forge™",
+          "vendor": "Pragmatic Play",
+          "rawVendor": "PRAGMATIC PLAY",
+          "note": ""
+        }
       ],
       "newGames": [
-        {"name": "Mighty Mania", "vendor": "PG Soft", "rawVendor": "PG SOFT", "gameId": "PG2081892", "note": ""},
-        {"name": "Candy Rush", "vendor": "Pragmatic Play", "rawVendor": "PRAGMATIC PLAY", "gameId": "vs20candyia", "note": ""},
-        {"name": "Wild Bounty Queen 2048", "vendor": "Victory Ark", "rawVendor": "VICTORY ARK", "gameId": "VA1008", "note": ""},
-        {"name": "Super Wildrix", "vendor": "PG Soft", "rawVendor": "PG SOFT", "gameId": "PG2040102", "note": ""},
-        {"name": "Coin Strike XXL Hold and Win", "vendor": "BNG", "rawVendor": "BOOONGO", "gameId": "BNG949", "note": ""},
-        {"name": "The Big Dog House", "vendor": "Pragmatic Play", "rawVendor": "PRAGMATIC PLAY", "gameId": "vs20bgdoghouse", "note": ""},
-        {"name": "Caishen's Cash Pots", "vendor": "Pragmatic Play", "rawVendor": "PRAGMATIC PLAY", "gameId": "vsways4ptgld", "note": ""},
-        {"name": "3 Super Hungry Pandas: Hold and Win", "vendor": "BNG", "rawVendor": "BOOONGO", "gameId": "BNG950", "note": ""},
-        {"name": "Meow Riches", "vendor": "Victory Ark", "rawVendor": "VICTORY ARK", "gameId": "VA486", "note": ""},
-        {"name": "Sanatorium Secrets", "vendor": "Pragmatic Play", "rawVendor": "PRAGMATIC PLAY", "gameId": "vswayssanator", "note": ""},
-        {"name": "Rainbow Jackpot", "vendor": "Red Tiger", "rawVendor": "RED TIGER", "gameId": "PH-rainbowjackpots0", "note": ""},
-        {"name": "Big Bass Football Bonanza", "vendor": "Pragmatic Play", "rawVendor": "PRAGMATIC PLAY", "gameId": "vs10bbwcup", "note": ""},
-        {"name": "Wild Hot Chilli Reels", "vendor": "Red Tiger", "rawVendor": "RED TIGER", "gameId": "PH-wildhotchilliree", "note": ""},
-        {"name": "Dragon's Gate Bonus Choice", "vendor": "Pragmatic Play", "rawVendor": "PRAGMATIC PLAY", "gameId": "vs50dragatebch", "note": ""},
-        {"name": "Jingle Bells", "vendor": "Red Tiger", "rawVendor": "RED TIGER", "gameId": "PH-jinglebells00000", "note": ""},
-        {"name": "Gems Gone Wild", "vendor": "Red Tiger", "rawVendor": "RED TIGER", "gameId": "PH-gemsgonewild0000", "note": ""},
-        {"name": "Pirates' Plenty", "vendor": "Red Tiger", "rawVendor": "RED TIGER", "gameId": "PH-piratesplenty000", "note": ""}
+        {
+          "name": "Mighty Mania",
+          "vendor": "PG Soft",
+          "rawVendor": "PG SOFT",
+          "gameId": "PG2081892",
+          "note": ""
+        },
+        {
+          "name": "Candy Rush",
+          "vendor": "Pragmatic Play",
+          "rawVendor": "PRAGMATIC PLAY",
+          "gameId": "vs20candyia",
+          "note": ""
+        },
+        {
+          "name": "Wild Bounty Queen 2048",
+          "vendor": "Victory Ark",
+          "rawVendor": "VICTORY ARK",
+          "gameId": "VA1008",
+          "note": ""
+        },
+        {
+          "name": "Super Wildrix",
+          "vendor": "PG Soft",
+          "rawVendor": "PG SOFT",
+          "gameId": "PG2040102",
+          "note": ""
+        },
+        {
+          "name": "Coin Strike XXL Hold and Win",
+          "vendor": "BNG",
+          "rawVendor": "BOOONGO",
+          "gameId": "BNG949",
+          "note": ""
+        },
+        {
+          "name": "The Big Dog House",
+          "vendor": "Pragmatic Play",
+          "rawVendor": "PRAGMATIC PLAY",
+          "gameId": "vs20bgdoghouse",
+          "note": ""
+        },
+        {
+          "name": "Caishen's Cash Pots",
+          "vendor": "Pragmatic Play",
+          "rawVendor": "PRAGMATIC PLAY",
+          "gameId": "vsways4ptgld",
+          "note": ""
+        },
+        {
+          "name": "3 Super Hungry Pandas: Hold and Win",
+          "vendor": "BNG",
+          "rawVendor": "BOOONGO",
+          "gameId": "BNG950",
+          "note": ""
+        },
+        {
+          "name": "Meow Riches",
+          "vendor": "Victory Ark",
+          "rawVendor": "VICTORY ARK",
+          "gameId": "VA486",
+          "note": ""
+        },
+        {
+          "name": "Sanatorium Secrets",
+          "vendor": "Pragmatic Play",
+          "rawVendor": "PRAGMATIC PLAY",
+          "gameId": "vswayssanator",
+          "note": ""
+        },
+        {
+          "name": "Rainbow Jackpot",
+          "vendor": "Red Tiger",
+          "rawVendor": "RED TIGER",
+          "gameId": "PH-rainbowjackpots0",
+          "note": ""
+        },
+        {
+          "name": "Big Bass Football Bonanza",
+          "vendor": "Pragmatic Play",
+          "rawVendor": "PRAGMATIC PLAY",
+          "gameId": "vs10bbwcup",
+          "note": ""
+        },
+        {
+          "name": "Wild Hot Chilli Reels",
+          "vendor": "Red Tiger",
+          "rawVendor": "RED TIGER",
+          "gameId": "PH-wildhotchilliree",
+          "note": ""
+        },
+        {
+          "name": "Dragon's Gate Bonus Choice",
+          "vendor": "Pragmatic Play",
+          "rawVendor": "PRAGMATIC PLAY",
+          "gameId": "vs50dragatebch",
+          "note": ""
+        },
+        {
+          "name": "Jingle Bells",
+          "vendor": "Red Tiger",
+          "rawVendor": "RED TIGER",
+          "gameId": "PH-jinglebells00000",
+          "note": ""
+        },
+        {
+          "name": "Gems Gone Wild",
+          "vendor": "Red Tiger",
+          "rawVendor": "RED TIGER",
+          "gameId": "PH-gemsgonewild0000",
+          "note": ""
+        },
+        {
+          "name": "Pirates' Plenty",
+          "vendor": "Red Tiger",
+          "rawVendor": "RED TIGER",
+          "gameId": "PH-piratesplenty000",
+          "note": ""
+        }
       ]
     },
     "BAJI": {
       "rankings": [
-        {"name": "Aladdin", "vendor": "CREATIVE GAMING", "rawVendor": "CREATIVE GAMING", "note": ""},
-        {"name": "Super Elements", "vendor": "FA CHAI", "rawVendor": "FA CHAI", "note": "BAJI聯名版本"},
-        {"name": "CashKing", "vendor": "ACEWIN", "rawVendor": "ACEWIN", "note": ""},
-        {"name": "Diva's Ace", "vendor": "YesBingo", "rawVendor": "YELLOW BAT", "note": ""},
-        {"name": "Fiery Sevens", "vendor": "SPADEGAMING", "rawVendor": "SPADEGAMING", "note": ""},
-        {"name": "Fortune Ace Super Scatter", "vendor": "Pragmatic Play", "rawVendor": "PRAGMATIC PLAY", "note": ""},
-        {"name": "Happy Dragon", "vendor": "YesBingo", "rawVendor": "YELLOW BAT", "note": ""},
-        {"name": "Money Wheel", "vendor": "JDB", "rawVendor": "JDB", "note": ""},
-        {"name": "Super Ace", "vendor": "JILI", "rawVendor": "JILI", "note": ""},
-        {"name": "Wild Bounty Showdown", "vendor": "PG Soft", "rawVendor": "PG Soft", "note": ""},
-        {"name": "50 Lions", "vendor": "CREATIVE GAMING", "rawVendor": "CREATIVE GAMING", "note": ""},
-        {"name": "Olympus 1000", "vendor": "Pragmatic Play", "rawVendor": "PRAGMATIC PLAY", "note": ""},
-        {"name": "Fiery Sevens Exclusive", "vendor": "SPADEGAMING", "rawVendor": "SPADEGAMING", "note": ""},
-        {"name": "Fortune Garuda 500", "vendor": "JILI", "rawVendor": "JILI", "note": ""},
-        {"name": "Magic Ace Wild Lock", "vendor": "JDB", "rawVendor": "JDB", "note": ""},
-        {"name": "Super Elements", "vendor": "FA CHAI", "rawVendor": "FA CHAI", "note": ""},
-        {"name": "Super AceWin", "vendor": "ACEWIN", "rawVendor": "ACEWIN", "note": ""},
-        {"name": "Super Tiger", "vendor": "YesBingo", "rawVendor": "YELLOW BAT", "note": ""},
-        {"name": "Treasures of Aztec", "vendor": "PG Soft", "rawVendor": "PG SOFT", "note": ""},
-        {"name": "Chinese New Year Moreways", "vendor": "FA CHAI", "rawVendor": "FA CHAI", "note": ""}
+        {
+          "name": "Aladdin",
+          "vendor": "CREATIVE GAMING",
+          "rawVendor": "CREATIVE GAMING",
+          "note": ""
+        },
+        {
+          "name": "Super Elements",
+          "vendor": "FA CHAI",
+          "rawVendor": "FA CHAI",
+          "note": "BAJI聯名版本"
+        },
+        {
+          "name": "CashKing",
+          "vendor": "ACEWIN",
+          "rawVendor": "ACEWIN",
+          "note": ""
+        },
+        {
+          "name": "Diva's Ace",
+          "vendor": "YELLOW BAT",
+          "rawVendor": "YELLOW BAT",
+          "note": ""
+        },
+        {
+          "name": "Fiery Sevens",
+          "vendor": "SPADEGAMING",
+          "rawVendor": "SPADEGAMING",
+          "note": ""
+        },
+        {
+          "name": "Fortune Ace Super Scatter",
+          "vendor": "Pragmatic Play",
+          "rawVendor": "PRAGMATIC PLAY",
+          "note": ""
+        },
+        {
+          "name": "Happy Dragon",
+          "vendor": "YELLOW BAT",
+          "rawVendor": "YELLOW BAT",
+          "note": ""
+        },
+        {
+          "name": "Money Wheel",
+          "vendor": "JDB",
+          "rawVendor": "JDB",
+          "note": ""
+        },
+        {
+          "name": "Super Ace",
+          "vendor": "JILI",
+          "rawVendor": "JILI",
+          "note": ""
+        },
+        {
+          "name": "Wild Bounty Showdown",
+          "vendor": "PG Soft",
+          "rawVendor": "PG Soft",
+          "note": ""
+        },
+        {
+          "name": "50 Lions",
+          "vendor": "CREATIVE GAMING",
+          "rawVendor": "CREATIVE GAMING",
+          "note": ""
+        },
+        {
+          "name": "Olympus 1000",
+          "vendor": "Pragmatic Play",
+          "rawVendor": "PRAGMATIC PLAY",
+          "note": ""
+        },
+        {
+          "name": "Fiery Sevens Exclusive",
+          "vendor": "SPADEGAMING",
+          "rawVendor": "SPADEGAMING",
+          "note": ""
+        },
+        {
+          "name": "Fortune Garuda 500",
+          "vendor": "JILI",
+          "rawVendor": "JILI",
+          "note": ""
+        },
+        {
+          "name": "Magic Ace Wild Lock",
+          "vendor": "JDB",
+          "rawVendor": "JDB",
+          "note": ""
+        },
+        {
+          "name": "Super Elements",
+          "vendor": "FA CHAI",
+          "rawVendor": "FA CHAI",
+          "note": ""
+        },
+        {
+          "name": "Super AceWin",
+          "vendor": "ACEWIN",
+          "rawVendor": "ACEWIN",
+          "note": ""
+        },
+        {
+          "name": "Super Tiger",
+          "vendor": "YELLOW BAT",
+          "rawVendor": "YELLOW BAT",
+          "note": ""
+        },
+        {
+          "name": "Treasures of Aztec",
+          "vendor": "PG Soft",
+          "rawVendor": "PG SOFT",
+          "note": ""
+        },
+        {
+          "name": "Chinese New Year Moreways",
+          "vendor": "FA CHAI",
+          "rawVendor": "FA CHAI",
+          "note": ""
+        }
       ],
       "newGames": [
-        {"name": "Happy Dragon", "vendor": "YesBingo", "rawVendor": "YELLOW BAT", "gameId": "", "note": "gameId 無法從 BAJI 頁面取得"},
-        {"name": "Candy Rush", "vendor": "Pragmatic Play", "rawVendor": "PRAGMATIC PLAY", "gameId": "", "note": "gameId 無法從 BAJI 頁面取得"},
-        {"name": "Super Ace Plus", "vendor": "Lucky365", "rawVendor": "LUCKY365", "gameId": "", "note": "gameId 無法從 BAJI 頁面取得"},
-        {"name": "Treasure Hunt Golden City", "vendor": "RICH88", "rawVendor": "RICH88", "gameId": "", "note": "gameId 無法從 BAJI 頁面取得"},
-        {"name": "Supernova", "vendor": "JILI", "rawVendor": "JILI", "gameId": "", "note": "gameId 無法從 BAJI 頁面取得"},
-        {"name": "Tombstone Begins", "vendor": "NOLIMIT CITY", "rawVendor": "NOLIMIT CITY", "gameId": "", "note": "gameId 無法從 BAJI 頁面取得"},
-        {"name": "The Big Dog House", "vendor": "Pragmatic Play", "rawVendor": "PRAGMATIC PLAY", "gameId": "", "note": "gameId 無法從 BAJI 頁面取得"},
-        {"name": "Dragon's Gate", "vendor": "Pragmatic Play", "rawVendor": "PRAGMATIC PLAY", "gameId": "", "note": "gameId 無法從 BAJI 頁面取得"},
-        {"name": "Big Game Fishing Rapid Riches", "vendor": "YGGDRASIL", "rawVendor": "YGGDRASIL", "gameId": "", "note": "gameId 無法從 BAJI 頁面取得"},
-        {"name": "Gunslinger Glory", "vendor": "YGGDRASIL", "rawVendor": "YGGDRASIL", "gameId": "", "note": "gameId 無法從 BAJI 頁面取得"},
-        {"name": "Banana Twist", "vendor": "YGGDRASIL", "rawVendor": "YGGDRASIL", "gameId": "", "note": "gameId 無法從 BAJI 頁面取得"},
-        {"name": "Attack on Toys", "vendor": "WORLD MATCH", "rawVendor": "WORLD MATCH", "gameId": "", "note": "gameId 無法從 BAJI 頁面取得"},
-        {"name": "Steel Greezly", "vendor": "WORLD MATCH", "rawVendor": "WORLD MATCH", "gameId": "", "note": "gameId 無法從 BAJI 頁面取得"},
-        {"name": "Vault Keeper", "vendor": "WORLD MATCH", "rawVendor": "WORLD MATCH", "gameId": "", "note": "gameId 無法從 BAJI 頁面取得"},
-        {"name": "Loki's Descendants", "vendor": "Red Tiger", "rawVendor": "RED TIGER", "gameId": "", "note": "gameId 無法從 BAJI 頁面取得"},
-        {"name": "Aztec Tribute", "vendor": "Red Tiger", "rawVendor": "RED TIGER", "gameId": "", "note": "gameId 無法從 BAJI 頁面取得"},
-        {"name": "Golden Express", "vendor": "ACEWIN", "rawVendor": "ACEWIN", "gameId": "", "note": "gameId 無法從 BAJI 頁面取得"},
-        {"name": "Wrath of Seth Split", "vendor": "MICROGAMING", "rawVendor": "MICROGAMING", "gameId": "", "note": "gameId 無法從 BAJI 頁面取得"},
-        {"name": "Ultimate Goal Blitz", "vendor": "MICROGAMING", "rawVendor": "MICROGAMING", "gameId": "", "note": "gameId 無法從 BAJI 頁面取得"},
-        {"name": "Toy Pop", "vendor": "DRAGOONSOFT", "rawVendor": "DRAGOONSOFT", "gameId": "", "note": "gameId 無法從 BAJI 頁面取得"}
+        {
+          "name": "Happy Dragon",
+          "vendor": "YELLOW BAT",
+          "rawVendor": "YELLOW BAT",
+          "gameId": "",
+          "note": "gameId 無法從 BAJI 頁面取得"
+        },
+        {
+          "name": "Candy Rush",
+          "vendor": "Pragmatic Play",
+          "rawVendor": "PRAGMATIC PLAY",
+          "gameId": "",
+          "note": "gameId 無法從 BAJI 頁面取得"
+        },
+        {
+          "name": "Super Ace Plus",
+          "vendor": "Lucky365",
+          "rawVendor": "LUCKY365",
+          "gameId": "",
+          "note": "gameId 無法從 BAJI 頁面取得"
+        },
+        {
+          "name": "Treasure Hunt Golden City",
+          "vendor": "RICH88",
+          "rawVendor": "RICH88",
+          "gameId": "",
+          "note": "gameId 無法從 BAJI 頁面取得"
+        },
+        {
+          "name": "Supernova",
+          "vendor": "JILI",
+          "rawVendor": "JILI",
+          "gameId": "",
+          "note": "gameId 無法從 BAJI 頁面取得"
+        },
+        {
+          "name": "Tombstone Begins",
+          "vendor": "NOLIMIT CITY",
+          "rawVendor": "NOLIMIT CITY",
+          "gameId": "",
+          "note": "gameId 無法從 BAJI 頁面取得"
+        },
+        {
+          "name": "The Big Dog House",
+          "vendor": "Pragmatic Play",
+          "rawVendor": "PRAGMATIC PLAY",
+          "gameId": "",
+          "note": "gameId 無法從 BAJI 頁面取得"
+        },
+        {
+          "name": "Dragon's Gate",
+          "vendor": "Pragmatic Play",
+          "rawVendor": "PRAGMATIC PLAY",
+          "gameId": "",
+          "note": "gameId 無法從 BAJI 頁面取得"
+        },
+        {
+          "name": "Big Game Fishing Rapid Riches",
+          "vendor": "YGGDRASIL",
+          "rawVendor": "YGGDRASIL",
+          "gameId": "",
+          "note": "gameId 無法從 BAJI 頁面取得"
+        },
+        {
+          "name": "Gunslinger Glory",
+          "vendor": "YGGDRASIL",
+          "rawVendor": "YGGDRASIL",
+          "gameId": "",
+          "note": "gameId 無法從 BAJI 頁面取得"
+        },
+        {
+          "name": "Banana Twist",
+          "vendor": "YGGDRASIL",
+          "rawVendor": "YGGDRASIL",
+          "gameId": "",
+          "note": "gameId 無法從 BAJI 頁面取得"
+        },
+        {
+          "name": "Attack on Toys",
+          "vendor": "WORLD MATCH",
+          "rawVendor": "WORLD MATCH",
+          "gameId": "",
+          "note": "gameId 無法從 BAJI 頁面取得"
+        },
+        {
+          "name": "Steel Greezly",
+          "vendor": "WORLD MATCH",
+          "rawVendor": "WORLD MATCH",
+          "gameId": "",
+          "note": "gameId 無法從 BAJI 頁面取得"
+        },
+        {
+          "name": "Vault Keeper",
+          "vendor": "WORLD MATCH",
+          "rawVendor": "WORLD MATCH",
+          "gameId": "",
+          "note": "gameId 無法從 BAJI 頁面取得"
+        },
+        {
+          "name": "Loki's Descendants",
+          "vendor": "Red Tiger",
+          "rawVendor": "RED TIGER",
+          "gameId": "",
+          "note": "gameId 無法從 BAJI 頁面取得"
+        },
+        {
+          "name": "Aztec Tribute",
+          "vendor": "Red Tiger",
+          "rawVendor": "RED TIGER",
+          "gameId": "",
+          "note": "gameId 無法從 BAJI 頁面取得"
+        },
+        {
+          "name": "Golden Express",
+          "vendor": "ACEWIN",
+          "rawVendor": "ACEWIN",
+          "gameId": "",
+          "note": "gameId 無法從 BAJI 頁面取得"
+        },
+        {
+          "name": "Wrath of Seth Split",
+          "vendor": "MICROGAMING",
+          "rawVendor": "MICROGAMING",
+          "gameId": "",
+          "note": "gameId 無法從 BAJI 頁面取得"
+        },
+        {
+          "name": "Ultimate Goal Blitz",
+          "vendor": "MICROGAMING",
+          "rawVendor": "MICROGAMING",
+          "gameId": "",
+          "note": "gameId 無法從 BAJI 頁面取得"
+        },
+        {
+          "name": "Toy Pop",
+          "vendor": "DRAGOONSOFT",
+          "rawVendor": "DRAGOONSOFT",
+          "gameId": "",
+          "note": "gameId 無法從 BAJI 頁面取得"
+        }
       ]
     }
   }

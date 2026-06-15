@@ -169,7 +169,8 @@ CP 平台的排行頁面沒有廠家資訊。處理方式：
 | OmniPlay | OP |
 | Playstar | PLAYSTAR |
 | KingMidas | KingMidas、KINGMIDAS |
-| YesBingo | YESBINGO、YELLOW BAT、YB |
+| YesBingo | YESBINGO |
+| YELLOW BAT | YELLOW BAT、YB |
 | Lucky365 | LUCKY365 |
 | SPADEGAMING | SPADEGAMING |
 | RICH88 | RICH88 |
